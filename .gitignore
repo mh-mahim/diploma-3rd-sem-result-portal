@@ -1,0 +1,10 @@
+.DS_Store
+Thumbs.db
+node_modules/
+.vscode/
+.idea/
+*.log
+
+# Security safeguards added by GitHub Manager
+.env
+.git-credentials

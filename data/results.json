@@ -1,0 +1,3022 @@
+{
+  "metadata": {
+    "curriculum": "Diploma in Engineering",
+    "regulation": 2022,
+    "targetSemester": 3,
+    "publishedDate": "2026-11-10",
+    "rollRange": "214083-214185",
+    "generatedAt": "2026-11-10"
+  },
+  "statistics": {
+    "totalStudentsWithSem3": 33,
+    "passed": 17,
+    "referredTotal": 16,
+    "referred1Sub": 2,
+    "referred2Sub": 2,
+    "referred3Sub": 1,
+    "referred4Sub": 3,
+    "dropOutTotal": 11,
+    "highestGpa": 3.88,
+    "averageGpa": 3.43
+  },
+  "students": [
+    {
+      "roll": 214083,
+      "semester": 3,
+      "status": "DROP_OUT",
+      "statusLabel": "ড্রপ আউট (10 বিষয়ে রেফার্ড)",
+      "badgeType": "danger",
+      "gpa": null,
+      "failedCount": 10,
+      "isDropOut": true,
+      "failedSubjects": [
+        {
+          "subCode": 25911,
+          "subName": "Mathematics -I"
+        },
+        {
+          "subCode": 25912,
+          "subName": "Physics -I"
+        },
+        {
+          "subCode": 25913,
+          "subName": "Chemistry"
+        },
+        {
+          "subCode": 25921,
+          "subName": "Mathematics-II"
+        },
+        {
+          "subCode": 25922,
+          "subName": "Physics-II"
+        },
+        {
+          "subCode": 25931,
+          "subName": "Mathematics-III"
+        },
+        {
+          "subCode": 26731,
+          "subName": "Electrical Circuits-II"
+        },
+        {
+          "subCode": 26811,
+          "subName": "Basic Electronics"
+        },
+        {
+          "subCode": 26821,
+          "subName": "Electronic Devices and Circuits"
+        },
+        {
+          "subCode": 26831,
+          "subName": "Digital Electronics-I"
+        }
+      ],
+      "history": [
+        {
+          "semester": 1,
+          "date": "2025-10-26",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 25911,
+              "subName": "Mathematics -I"
+            },
+            {
+              "subCode": 25912,
+              "subName": "Physics -I"
+            },
+            {
+              "subCode": 26811,
+              "subName": "Basic Electronics"
+            }
+          ]
+        },
+        {
+          "semester": 2,
+          "date": "2026-04-28",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 25911,
+              "subName": "Mathematics -I"
+            },
+            {
+              "subCode": 25912,
+              "subName": "Physics -I"
+            },
+            {
+              "subCode": 25913,
+              "subName": "Chemistry"
+            },
+            {
+              "subCode": 25921,
+              "subName": "Mathematics-II"
+            },
+            {
+              "subCode": 26811,
+              "subName": "Basic Electronics"
+            },
+            {
+              "subCode": 26821,
+              "subName": "Electronic Devices and Circuits"
+            }
+          ]
+        },
+        {
+          "semester": 3,
+          "date": "2026-11-10",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 25911,
+              "subName": "Mathematics -I"
+            },
+            {
+              "subCode": 25912,
+              "subName": "Physics -I"
+            },
+            {
+              "subCode": 25913,
+              "subName": "Chemistry"
+            },
+            {
+              "subCode": 25921,
+              "subName": "Mathematics-II"
+            },
+            {
+              "subCode": 25922,
+              "subName": "Physics-II"
+            },
+            {
+              "subCode": 25931,
+              "subName": "Mathematics-III"
+            },
+            {
+              "subCode": 26731,
+              "subName": "Electrical Circuits-II"
+            },
+            {
+              "subCode": 26811,
+              "subName": "Basic Electronics"
+            },
+            {
+              "subCode": 26821,
+              "subName": "Electronic Devices and Circuits"
+            },
+            {
+              "subCode": 26831,
+              "subName": "Digital Electronics-I"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "roll": 214084,
+      "semester": 3,
+      "status": "DROP_OUT",
+      "statusLabel": "ড্রপ আউট (7 বিষয়ে রেফার্ড)",
+      "badgeType": "danger",
+      "gpa": null,
+      "failedCount": 7,
+      "isDropOut": true,
+      "failedSubjects": [
+        {
+          "subCode": 25911,
+          "subName": "Mathematics -I"
+        },
+        {
+          "subCode": 25912,
+          "subName": "Physics -I"
+        },
+        {
+          "subCode": 25913,
+          "subName": "Chemistry"
+        },
+        {
+          "subCode": 25921,
+          "subName": "Mathematics-II"
+        },
+        {
+          "subCode": 25931,
+          "subName": "Mathematics-III"
+        },
+        {
+          "subCode": 26731,
+          "subName": "Electrical Circuits-II"
+        },
+        {
+          "subCode": 26831,
+          "subName": "Digital Electronics-I"
+        }
+      ],
+      "history": [
+        {
+          "semester": 1,
+          "date": "2025-10-26",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 25911,
+              "subName": "Mathematics -I"
+            },
+            {
+              "subCode": 25912,
+              "subName": "Physics -I"
+            },
+            {
+              "subCode": 26811,
+              "subName": "Basic Electronics"
+            }
+          ]
+        },
+        {
+          "semester": 2,
+          "date": "2026-04-28",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 25911,
+              "subName": "Mathematics -I"
+            },
+            {
+              "subCode": 25912,
+              "subName": "Physics -I"
+            },
+            {
+              "subCode": 25913,
+              "subName": "Chemistry"
+            },
+            {
+              "subCode": 25921,
+              "subName": "Mathematics-II"
+            }
+          ]
+        },
+        {
+          "semester": 3,
+          "date": "2026-11-10",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 25911,
+              "subName": "Mathematics -I"
+            },
+            {
+              "subCode": 25912,
+              "subName": "Physics -I"
+            },
+            {
+              "subCode": 25913,
+              "subName": "Chemistry"
+            },
+            {
+              "subCode": 25921,
+              "subName": "Mathematics-II"
+            },
+            {
+              "subCode": 25931,
+              "subName": "Mathematics-III"
+            },
+            {
+              "subCode": 26731,
+              "subName": "Electrical Circuits-II"
+            },
+            {
+              "subCode": 26831,
+              "subName": "Digital Electronics-I"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "roll": 214087,
+      "semester": 3,
+      "status": "REFERRED",
+      "statusLabel": "রেফার্ড (3 বিষয়)",
+      "badgeType": "warning",
+      "gpa": null,
+      "failedCount": 3,
+      "isDropOut": false,
+      "failedSubjects": [
+        {
+          "subCode": 25921,
+          "subName": "Mathematics-II"
+        },
+        {
+          "subCode": 25931,
+          "subName": "Mathematics-III"
+        },
+        {
+          "subCode": 26821,
+          "subName": "Electronic Devices and Circuits"
+        }
+      ],
+      "history": [
+        {
+          "semester": 1,
+          "date": "2025-10-26",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 25912,
+              "subName": "Physics -I"
+            },
+            {
+              "subCode": 26711,
+              "subName": "Basic Electricity"
+            },
+            {
+              "subCode": 26811,
+              "subName": "Basic Electronics"
+            }
+          ]
+        },
+        {
+          "semester": 2,
+          "date": "2026-05-23",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 25921,
+              "subName": "Mathematics-II"
+            },
+            {
+              "subCode": 26711,
+              "subName": "Basic Electricity"
+            },
+            {
+              "subCode": 26821,
+              "subName": "Electronic Devices and Circuits"
+            }
+          ]
+        },
+        {
+          "semester": 2,
+          "date": "2026-04-28",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 25913,
+              "subName": "Chemistry"
+            },
+            {
+              "subCode": 25921,
+              "subName": "Mathematics-II"
+            },
+            {
+              "subCode": 26711,
+              "subName": "Basic Electricity"
+            },
+            {
+              "subCode": 26821,
+              "subName": "Electronic Devices and Circuits"
+            }
+          ]
+        },
+        {
+          "semester": 3,
+          "date": "2026-11-10",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 25921,
+              "subName": "Mathematics-II"
+            },
+            {
+              "subCode": 25931,
+              "subName": "Mathematics-III"
+            },
+            {
+              "subCode": 26821,
+              "subName": "Electronic Devices and Circuits"
+            }
+          ]
+        },
+        {
+          "semester": 1,
+          "date": "2026-11-10",
+          "gpa": 2.54,
+          "passed": true,
+          "failedSubjects": []
+        }
+      ]
+    },
+    {
+      "roll": 214089,
+      "semester": 3,
+      "status": "PASSED",
+      "statusLabel": "পাস (Passed)",
+      "badgeType": "success",
+      "gpa": 3.88,
+      "failedCount": 0,
+      "isDropOut": false,
+      "failedSubjects": [],
+      "history": [
+        {
+          "semester": 1,
+          "date": "2025-10-26",
+          "gpa": 3.32,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 2,
+          "date": "2026-04-28",
+          "gpa": 3.61,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 1,
+          "date": "2026-04-28",
+          "gpa": 3.32,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 3,
+          "date": "2026-11-10",
+          "gpa": 3.88,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 2,
+          "date": "2026-11-10",
+          "gpa": 3.61,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 1,
+          "date": "2026-11-10",
+          "gpa": 3.32,
+          "passed": true,
+          "failedSubjects": []
+        }
+      ]
+    },
+    {
+      "roll": 214090,
+      "semester": 3,
+      "status": "PASSED",
+      "statusLabel": "পাস (Passed)",
+      "badgeType": "success",
+      "gpa": 2.93,
+      "failedCount": 0,
+      "isDropOut": false,
+      "failedSubjects": [],
+      "history": [
+        {
+          "semester": 1,
+          "date": "2025-10-26",
+          "gpa": 3.26,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 2,
+          "date": "2026-04-28",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 25913,
+              "subName": "Chemistry"
+            }
+          ]
+        },
+        {
+          "semester": 1,
+          "date": "2026-04-28",
+          "gpa": 3.26,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 3,
+          "date": "2026-11-10",
+          "gpa": 2.93,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 2,
+          "date": "2026-11-10",
+          "gpa": 2.91,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 1,
+          "date": "2026-11-10",
+          "gpa": 3.26,
+          "passed": true,
+          "failedSubjects": []
+        }
+      ]
+    },
+    {
+      "roll": 214091,
+      "semester": 3,
+      "status": "REFERRED",
+      "statusLabel": "রেফার্ড (1 বিষয়)",
+      "badgeType": "warning",
+      "gpa": null,
+      "failedCount": 1,
+      "isDropOut": false,
+      "failedSubjects": [
+        {
+          "subCode": 25931,
+          "subName": "Mathematics-III"
+        }
+      ],
+      "history": [
+        {
+          "semester": 1,
+          "date": "2025-10-26",
+          "gpa": 3.35,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 2,
+          "date": "2026-04-28",
+          "gpa": 3.07,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 1,
+          "date": "2026-04-28",
+          "gpa": 3.35,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 3,
+          "date": "2026-11-10",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 25931,
+              "subName": "Mathematics-III"
+            }
+          ]
+        },
+        {
+          "semester": 2,
+          "date": "2026-11-10",
+          "gpa": 3.07,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 1,
+          "date": "2026-11-10",
+          "gpa": 3.35,
+          "passed": true,
+          "failedSubjects": []
+        }
+      ]
+    },
+    {
+      "roll": 214093,
+      "semester": 3,
+      "status": "PASSED",
+      "statusLabel": "পাস (Passed)",
+      "badgeType": "success",
+      "gpa": 3.21,
+      "failedCount": 0,
+      "isDropOut": false,
+      "failedSubjects": [],
+      "history": [
+        {
+          "semester": 1,
+          "date": "2025-10-26",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 25911,
+              "subName": "Mathematics -I"
+            },
+            {
+              "subCode": 25912,
+              "subName": "Physics -I"
+            },
+            {
+              "subCode": 26811,
+              "subName": "Basic Electronics"
+            }
+          ]
+        },
+        {
+          "semester": 1,
+          "date": "2025-11-24",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 25912,
+              "subName": "Physics -I"
+            },
+            {
+              "subCode": 26811,
+              "subName": "Basic Electronics"
+            }
+          ]
+        },
+        {
+          "semester": 2,
+          "date": "2026-04-28",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 25912,
+              "subName": "Physics -I"
+            },
+            {
+              "subCode": 25913,
+              "subName": "Chemistry"
+            },
+            {
+              "subCode": 25921,
+              "subName": "Mathematics-II"
+            },
+            {
+              "subCode": 26821,
+              "subName": "Electronic Devices and Circuits"
+            }
+          ]
+        },
+        {
+          "semester": 3,
+          "date": "2026-11-10",
+          "gpa": 3.21,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 2,
+          "date": "2026-11-10",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 25912,
+              "subName": "Physics -I"
+            },
+            {
+              "subCode": 25913,
+              "subName": "Chemistry"
+            },
+            {
+              "subCode": 26821,
+              "subName": "Electronic Devices and Circuits"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "roll": 214095,
+      "semester": 3,
+      "status": "PASSED",
+      "statusLabel": "পাস (Passed)",
+      "badgeType": "success",
+      "gpa": 3.63,
+      "failedCount": 0,
+      "isDropOut": false,
+      "failedSubjects": [],
+      "history": [
+        {
+          "semester": 1,
+          "date": "2025-10-26",
+          "gpa": 3.7,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 2,
+          "date": "2026-04-28",
+          "gpa": 3.7,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 1,
+          "date": "2026-04-28",
+          "gpa": 3.7,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 3,
+          "date": "2026-11-10",
+          "gpa": 3.63,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 2,
+          "date": "2026-11-10",
+          "gpa": 3.7,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 1,
+          "date": "2026-11-10",
+          "gpa": 3.7,
+          "passed": true,
+          "failedSubjects": []
+        }
+      ]
+    },
+    {
+      "roll": 214101,
+      "semester": 3,
+      "status": "DROP_OUT",
+      "statusLabel": "ড্রপ আউট (10 বিষয়ে রেফার্ড)",
+      "badgeType": "danger",
+      "gpa": null,
+      "failedCount": 10,
+      "isDropOut": true,
+      "failedSubjects": [
+        {
+          "subCode": 25911,
+          "subName": "Mathematics -I"
+        },
+        {
+          "subCode": 25913,
+          "subName": "Chemistry"
+        },
+        {
+          "subCode": 25921,
+          "subName": "Mathematics-II"
+        },
+        {
+          "subCode": 25922,
+          "subName": "Physics-II"
+        },
+        {
+          "subCode": 25931,
+          "subName": "Mathematics-III"
+        },
+        {
+          "subCode": 26731,
+          "subName": "Electrical Circuits-II"
+        },
+        {
+          "subCode": 26821,
+          "subName": "Electronic Devices and Circuits"
+        },
+        {
+          "subCode": 26831,
+          "subName": "Digital Electronics-I"
+        },
+        {
+          "subCode": 26832,
+          "subName": "Power Electronics"
+        },
+        {
+          "subCode": 28511,
+          "subName": "Computer Office Application"
+        }
+      ],
+      "history": [
+        {
+          "semester": 1,
+          "date": "2025-10-26",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 25911,
+              "subName": "Mathematics -I"
+            },
+            {
+              "subCode": 25912,
+              "subName": "Physics -I"
+            },
+            {
+              "subCode": 26811,
+              "subName": "Basic Electronics"
+            }
+          ]
+        },
+        {
+          "semester": 2,
+          "date": "2026-04-28",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 25911,
+              "subName": "Mathematics -I"
+            },
+            {
+              "subCode": 25913,
+              "subName": "Chemistry"
+            },
+            {
+              "subCode": 25921,
+              "subName": "Mathematics-II"
+            },
+            {
+              "subCode": 26821,
+              "subName": "Electronic Devices and Circuits"
+            }
+          ]
+        },
+        {
+          "semester": 3,
+          "date": "2026-11-10",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 25911,
+              "subName": "Mathematics -I"
+            },
+            {
+              "subCode": 25913,
+              "subName": "Chemistry"
+            },
+            {
+              "subCode": 25921,
+              "subName": "Mathematics-II"
+            },
+            {
+              "subCode": 25922,
+              "subName": "Physics-II"
+            },
+            {
+              "subCode": 25931,
+              "subName": "Mathematics-III"
+            },
+            {
+              "subCode": 26731,
+              "subName": "Electrical Circuits-II"
+            },
+            {
+              "subCode": 26821,
+              "subName": "Electronic Devices and Circuits"
+            },
+            {
+              "subCode": 26831,
+              "subName": "Digital Electronics-I"
+            },
+            {
+              "subCode": 26832,
+              "subName": "Power Electronics"
+            },
+            {
+              "subCode": 28511,
+              "subName": "Computer Office Application"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "roll": 214107,
+      "semester": 3,
+      "status": "PASSED",
+      "statusLabel": "পাস (Passed)",
+      "badgeType": "success",
+      "gpa": 3.78,
+      "failedCount": 0,
+      "isDropOut": false,
+      "failedSubjects": [],
+      "history": [
+        {
+          "semester": 1,
+          "date": "2025-10-26",
+          "gpa": 3.44,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 2,
+          "date": "2026-04-28",
+          "gpa": 3.2,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 1,
+          "date": "2026-04-28",
+          "gpa": 3.44,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 3,
+          "date": "2026-11-10",
+          "gpa": 3.78,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 2,
+          "date": "2026-11-10",
+          "gpa": 3.2,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 1,
+          "date": "2026-11-10",
+          "gpa": 3.44,
+          "passed": true,
+          "failedSubjects": []
+        }
+      ]
+    },
+    {
+      "roll": 214109,
+      "semester": 3,
+      "status": "DROP_OUT",
+      "statusLabel": "ড্রপ আউট (5 বিষয়ে রেফার্ড)",
+      "badgeType": "danger",
+      "gpa": null,
+      "failedCount": 5,
+      "isDropOut": true,
+      "failedSubjects": [
+        {
+          "subCode": 25913,
+          "subName": "Chemistry"
+        },
+        {
+          "subCode": 26721,
+          "subName": "Electrical Circuits-I"
+        },
+        {
+          "subCode": 26811,
+          "subName": "Basic Electronics"
+        },
+        {
+          "subCode": 26821,
+          "subName": "Electronic Devices and Circuits"
+        },
+        {
+          "subCode": 26832,
+          "subName": "Power Electronics"
+        }
+      ],
+      "history": [
+        {
+          "semester": 1,
+          "date": "2025-10-26",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 26811,
+              "subName": "Basic Electronics"
+            }
+          ]
+        },
+        {
+          "semester": 2,
+          "date": "2026-04-28",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 25913,
+              "subName": "Chemistry"
+            },
+            {
+              "subCode": 26721,
+              "subName": "Electrical Circuits-I"
+            },
+            {
+              "subCode": 26811,
+              "subName": "Basic Electronics"
+            },
+            {
+              "subCode": 26821,
+              "subName": "Electronic Devices and Circuits"
+            }
+          ]
+        },
+        {
+          "semester": 3,
+          "date": "2026-11-10",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 25913,
+              "subName": "Chemistry"
+            },
+            {
+              "subCode": 26721,
+              "subName": "Electrical Circuits-I"
+            },
+            {
+              "subCode": 26811,
+              "subName": "Basic Electronics"
+            },
+            {
+              "subCode": 26821,
+              "subName": "Electronic Devices and Circuits"
+            },
+            {
+              "subCode": 26832,
+              "subName": "Power Electronics"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "roll": 214110,
+      "semester": 3,
+      "status": "DROP_OUT",
+      "statusLabel": "ড্রপ আউট (4 বিষয়ে রেফার্ড)",
+      "badgeType": "danger",
+      "gpa": null,
+      "failedCount": 4,
+      "isDropOut": true,
+      "failedSubjects": [
+        {
+          "subCode": 25931,
+          "subName": "Mathematics-III"
+        },
+        {
+          "subCode": 26731,
+          "subName": "Electrical Circuits-II"
+        },
+        {
+          "subCode": 26821,
+          "subName": "Electronic Devices and Circuits"
+        },
+        {
+          "subCode": 26831,
+          "subName": "Digital Electronics-I"
+        }
+      ],
+      "history": [
+        {
+          "semester": 1,
+          "date": "2025-10-26",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 26811,
+              "subName": "Basic Electronics"
+            }
+          ]
+        },
+        {
+          "semester": 2,
+          "date": "2026-04-28",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 25921,
+              "subName": "Mathematics-II"
+            },
+            {
+              "subCode": 26821,
+              "subName": "Electronic Devices and Circuits"
+            }
+          ]
+        },
+        {
+          "semester": 1,
+          "date": "2026-04-28",
+          "gpa": 2.63,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 3,
+          "date": "2026-11-10",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 25931,
+              "subName": "Mathematics-III"
+            },
+            {
+              "subCode": 26731,
+              "subName": "Electrical Circuits-II"
+            },
+            {
+              "subCode": 26821,
+              "subName": "Electronic Devices and Circuits"
+            },
+            {
+              "subCode": 26831,
+              "subName": "Digital Electronics-I"
+            }
+          ]
+        },
+        {
+          "semester": 1,
+          "date": "2026-11-10",
+          "gpa": 2.63,
+          "passed": true,
+          "failedSubjects": []
+        }
+      ]
+    },
+    {
+      "roll": 214114,
+      "semester": 3,
+      "status": "PASSED",
+      "statusLabel": "পাস (Passed)",
+      "badgeType": "success",
+      "gpa": 2.95,
+      "failedCount": 0,
+      "isDropOut": false,
+      "failedSubjects": [],
+      "history": [
+        {
+          "semester": 1,
+          "date": "2025-10-26",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 25911,
+              "subName": "Mathematics -I"
+            },
+            {
+              "subCode": 25912,
+              "subName": "Physics -I"
+            },
+            {
+              "subCode": 26811,
+              "subName": "Basic Electronics"
+            }
+          ]
+        },
+        {
+          "semester": 2,
+          "date": "2026-04-28",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 25911,
+              "subName": "Mathematics -I"
+            },
+            {
+              "subCode": 25912,
+              "subName": "Physics -I"
+            },
+            {
+              "subCode": 25913,
+              "subName": "Chemistry"
+            },
+            {
+              "subCode": 26721,
+              "subName": "Electrical Circuits-I"
+            },
+            {
+              "subCode": 26811,
+              "subName": "Basic Electronics"
+            },
+            {
+              "subCode": 26821,
+              "subName": "Electronic Devices and Circuits"
+            }
+          ]
+        },
+        {
+          "semester": 3,
+          "date": "2026-11-10",
+          "gpa": 2.95,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 2,
+          "date": "2026-11-10",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 25911,
+              "subName": "Mathematics -I"
+            },
+            {
+              "subCode": 25912,
+              "subName": "Physics -I"
+            },
+            {
+              "subCode": 26721,
+              "subName": "Electrical Circuits-I"
+            },
+            {
+              "subCode": 26811,
+              "subName": "Basic Electronics"
+            },
+            {
+              "subCode": 26821,
+              "subName": "Electronic Devices and Circuits"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "roll": 214118,
+      "semester": 3,
+      "status": "REFERRED",
+      "statusLabel": "রেফার্ড (1 বিষয়)",
+      "badgeType": "warning",
+      "gpa": null,
+      "failedCount": 1,
+      "isDropOut": false,
+      "failedSubjects": [
+        {
+          "subCode": 26831,
+          "subName": "Digital Electronics-I"
+        }
+      ],
+      "history": [
+        {
+          "semester": 1,
+          "date": "2025-10-26",
+          "gpa": 3.39,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 2,
+          "date": "2026-04-28",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 26721,
+              "subName": "Electrical Circuits-I"
+            }
+          ]
+        },
+        {
+          "semester": 1,
+          "date": "2026-04-28",
+          "gpa": 3.39,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 3,
+          "date": "2026-11-10",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 26831,
+              "subName": "Digital Electronics-I"
+            }
+          ]
+        },
+        {
+          "semester": 2,
+          "date": "2026-11-10",
+          "gpa": 3.46,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 1,
+          "date": "2026-11-10",
+          "gpa": 3.39,
+          "passed": true,
+          "failedSubjects": []
+        }
+      ]
+    },
+    {
+      "roll": 214121,
+      "semester": 3,
+      "status": "PASSED",
+      "statusLabel": "পাস (Passed)",
+      "badgeType": "success",
+      "gpa": 3.79,
+      "failedCount": 0,
+      "isDropOut": false,
+      "failedSubjects": [],
+      "history": [
+        {
+          "semester": 1,
+          "date": "2025-10-26",
+          "gpa": 3.32,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 2,
+          "date": "2026-04-28",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 26721,
+              "subName": "Electrical Circuits-I"
+            }
+          ]
+        },
+        {
+          "semester": 1,
+          "date": "2026-04-28",
+          "gpa": 3.32,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 3,
+          "date": "2026-11-10",
+          "gpa": 3.79,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 2,
+          "date": "2026-11-10",
+          "gpa": 3.59,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 1,
+          "date": "2026-11-10",
+          "gpa": 3.32,
+          "passed": true,
+          "failedSubjects": []
+        }
+      ]
+    },
+    {
+      "roll": 214124,
+      "semester": 3,
+      "status": "REFERRED",
+      "statusLabel": "রেফার্ড (2 বিষয়)",
+      "badgeType": "warning",
+      "gpa": null,
+      "failedCount": 2,
+      "isDropOut": false,
+      "failedSubjects": [
+        {
+          "subCode": 26721,
+          "subName": "Electrical Circuits-I"
+        },
+        {
+          "subCode": 26831,
+          "subName": "Digital Electronics-I"
+        }
+      ],
+      "history": [
+        {
+          "semester": 1,
+          "date": "2025-10-26",
+          "gpa": 3.46,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 2,
+          "date": "2026-04-28",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 25913,
+              "subName": "Chemistry"
+            },
+            {
+              "subCode": 26721,
+              "subName": "Electrical Circuits-I"
+            },
+            {
+              "subCode": 26821,
+              "subName": "Electronic Devices and Circuits"
+            }
+          ]
+        },
+        {
+          "semester": 1,
+          "date": "2026-04-28",
+          "gpa": 3.46,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 3,
+          "date": "2026-11-10",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 26721,
+              "subName": "Electrical Circuits-I"
+            },
+            {
+              "subCode": 26831,
+              "subName": "Digital Electronics-I"
+            }
+          ]
+        },
+        {
+          "semester": 1,
+          "date": "2026-11-10",
+          "gpa": 3.46,
+          "passed": true,
+          "failedSubjects": []
+        }
+      ]
+    },
+    {
+      "roll": 214126,
+      "semester": 3,
+      "status": "DROP_OUT",
+      "statusLabel": "ড্রপ আউট (4 বিষয়ে রেফার্ড)",
+      "badgeType": "danger",
+      "gpa": null,
+      "failedCount": 4,
+      "isDropOut": true,
+      "failedSubjects": [
+        {
+          "subCode": 25913,
+          "subName": "Chemistry"
+        },
+        {
+          "subCode": 25931,
+          "subName": "Mathematics-III"
+        },
+        {
+          "subCode": 26721,
+          "subName": "Electrical Circuits-I"
+        },
+        {
+          "subCode": 26731,
+          "subName": "Electrical Circuits-II"
+        }
+      ],
+      "history": [
+        {
+          "semester": 1,
+          "date": "2025-10-26",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 25912,
+              "subName": "Physics -I"
+            }
+          ]
+        },
+        {
+          "semester": 2,
+          "date": "2026-05-23",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 25913,
+              "subName": "Chemistry"
+            },
+            {
+              "subCode": 26721,
+              "subName": "Electrical Circuits-I"
+            }
+          ]
+        },
+        {
+          "semester": 1,
+          "date": "2026-05-23",
+          "gpa": 3.24,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 2,
+          "date": "2026-04-28",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 25913,
+              "subName": "Chemistry"
+            },
+            {
+              "subCode": 25921,
+              "subName": "Mathematics-II"
+            },
+            {
+              "subCode": 26721,
+              "subName": "Electrical Circuits-I"
+            },
+            {
+              "subCode": 26821,
+              "subName": "Electronic Devices and Circuits"
+            }
+          ]
+        },
+        {
+          "semester": 3,
+          "date": "2026-11-10",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 25913,
+              "subName": "Chemistry"
+            },
+            {
+              "subCode": 25931,
+              "subName": "Mathematics-III"
+            },
+            {
+              "subCode": 26721,
+              "subName": "Electrical Circuits-I"
+            },
+            {
+              "subCode": 26731,
+              "subName": "Electrical Circuits-II"
+            }
+          ]
+        },
+        {
+          "semester": 1,
+          "date": "2026-11-10",
+          "gpa": 3.24,
+          "passed": true,
+          "failedSubjects": []
+        }
+      ]
+    },
+    {
+      "roll": 214129,
+      "semester": 3,
+      "status": "REFERRED",
+      "statusLabel": "রেফার্ড (2 বিষয়)",
+      "badgeType": "warning",
+      "gpa": null,
+      "failedCount": 2,
+      "isDropOut": false,
+      "failedSubjects": [
+        {
+          "subCode": 25931,
+          "subName": "Mathematics-III"
+        },
+        {
+          "subCode": 26721,
+          "subName": "Electrical Circuits-I"
+        }
+      ],
+      "history": [
+        {
+          "semester": 1,
+          "date": "2025-10-26",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 25912,
+              "subName": "Physics -I"
+            }
+          ]
+        },
+        {
+          "semester": 2,
+          "date": "2026-04-28",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 25913,
+              "subName": "Chemistry"
+            },
+            {
+              "subCode": 25921,
+              "subName": "Mathematics-II"
+            },
+            {
+              "subCode": 26721,
+              "subName": "Electrical Circuits-I"
+            }
+          ]
+        },
+        {
+          "semester": 1,
+          "date": "2026-04-28",
+          "gpa": 3.33,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 3,
+          "date": "2026-11-10",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 25931,
+              "subName": "Mathematics-III"
+            },
+            {
+              "subCode": 26721,
+              "subName": "Electrical Circuits-I"
+            }
+          ]
+        },
+        {
+          "semester": 1,
+          "date": "2026-11-10",
+          "gpa": 3.33,
+          "passed": true,
+          "failedSubjects": []
+        }
+      ]
+    },
+    {
+      "roll": 214131,
+      "semester": 3,
+      "status": "DROP_OUT",
+      "statusLabel": "ড্রপ আউট (6 বিষয়ে রেফার্ড)",
+      "badgeType": "danger",
+      "gpa": null,
+      "failedCount": 6,
+      "isDropOut": true,
+      "failedSubjects": [
+        {
+          "subCode": 25911,
+          "subName": "Mathematics -I"
+        },
+        {
+          "subCode": 25921,
+          "subName": "Mathematics-II"
+        },
+        {
+          "subCode": 25922,
+          "subName": "Physics-II"
+        },
+        {
+          "subCode": 25931,
+          "subName": "Mathematics-III"
+        },
+        {
+          "subCode": 26721,
+          "subName": "Electrical Circuits-I"
+        },
+        {
+          "subCode": 26821,
+          "subName": "Electronic Devices and Circuits"
+        }
+      ],
+      "history": [
+        {
+          "semester": 1,
+          "date": "2025-10-26",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 25911,
+              "subName": "Mathematics -I"
+            },
+            {
+              "subCode": 25912,
+              "subName": "Physics -I"
+            },
+            {
+              "subCode": 26811,
+              "subName": "Basic Electronics"
+            }
+          ]
+        },
+        {
+          "semester": 2,
+          "date": "2026-04-28",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 25911,
+              "subName": "Mathematics -I"
+            },
+            {
+              "subCode": 25921,
+              "subName": "Mathematics-II"
+            },
+            {
+              "subCode": 26721,
+              "subName": "Electrical Circuits-I"
+            },
+            {
+              "subCode": 26821,
+              "subName": "Electronic Devices and Circuits"
+            }
+          ]
+        },
+        {
+          "semester": 3,
+          "date": "2026-11-10",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 25911,
+              "subName": "Mathematics -I"
+            },
+            {
+              "subCode": 25921,
+              "subName": "Mathematics-II"
+            },
+            {
+              "subCode": 25922,
+              "subName": "Physics-II"
+            },
+            {
+              "subCode": 25931,
+              "subName": "Mathematics-III"
+            },
+            {
+              "subCode": 26721,
+              "subName": "Electrical Circuits-I"
+            },
+            {
+              "subCode": 26821,
+              "subName": "Electronic Devices and Circuits"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "roll": 214132,
+      "semester": 3,
+      "status": "DROP_OUT",
+      "statusLabel": "ড্রপ আউট (5 বিষয়ে রেফার্ড)",
+      "badgeType": "danger",
+      "gpa": null,
+      "failedCount": 5,
+      "isDropOut": true,
+      "failedSubjects": [
+        {
+          "subCode": 25911,
+          "subName": "Mathematics -I"
+        },
+        {
+          "subCode": 25921,
+          "subName": "Mathematics-II"
+        },
+        {
+          "subCode": 25931,
+          "subName": "Mathematics-III"
+        },
+        {
+          "subCode": 26721,
+          "subName": "Electrical Circuits-I"
+        },
+        {
+          "subCode": 26821,
+          "subName": "Electronic Devices and Circuits"
+        }
+      ],
+      "history": [
+        {
+          "semester": 1,
+          "date": "2025-10-26",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 25911,
+              "subName": "Mathematics -I"
+            },
+            {
+              "subCode": 26811,
+              "subName": "Basic Electronics"
+            }
+          ]
+        },
+        {
+          "semester": 2,
+          "date": "2026-05-23",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 25911,
+              "subName": "Mathematics -I"
+            },
+            {
+              "subCode": 25921,
+              "subName": "Mathematics-II"
+            },
+            {
+              "subCode": 26721,
+              "subName": "Electrical Circuits-I"
+            },
+            {
+              "subCode": 26811,
+              "subName": "Basic Electronics"
+            },
+            {
+              "subCode": 26821,
+              "subName": "Electronic Devices and Circuits"
+            }
+          ]
+        },
+        {
+          "semester": 2,
+          "date": "2026-04-28",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 25911,
+              "subName": "Mathematics -I"
+            },
+            {
+              "subCode": 25913,
+              "subName": "Chemistry"
+            },
+            {
+              "subCode": 25921,
+              "subName": "Mathematics-II"
+            },
+            {
+              "subCode": 26721,
+              "subName": "Electrical Circuits-I"
+            },
+            {
+              "subCode": 26811,
+              "subName": "Basic Electronics"
+            },
+            {
+              "subCode": 26821,
+              "subName": "Electronic Devices and Circuits"
+            }
+          ]
+        },
+        {
+          "semester": 3,
+          "date": "2026-11-10",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 25911,
+              "subName": "Mathematics -I"
+            },
+            {
+              "subCode": 25921,
+              "subName": "Mathematics-II"
+            },
+            {
+              "subCode": 25931,
+              "subName": "Mathematics-III"
+            },
+            {
+              "subCode": 26721,
+              "subName": "Electrical Circuits-I"
+            },
+            {
+              "subCode": 26821,
+              "subName": "Electronic Devices and Circuits"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "roll": 214134,
+      "semester": 3,
+      "status": "PASSED",
+      "statusLabel": "পাস (Passed)",
+      "badgeType": "success",
+      "gpa": 2.88,
+      "failedCount": 0,
+      "isDropOut": false,
+      "failedSubjects": [],
+      "history": [
+        {
+          "semester": 1,
+          "date": "2025-10-26",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 26811,
+              "subName": "Basic Electronics"
+            }
+          ]
+        },
+        {
+          "semester": 2,
+          "date": "2026-04-28",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 25913,
+              "subName": "Chemistry"
+            },
+            {
+              "subCode": 26721,
+              "subName": "Electrical Circuits-I"
+            },
+            {
+              "subCode": 26821,
+              "subName": "Electronic Devices and Circuits"
+            }
+          ]
+        },
+        {
+          "semester": 1,
+          "date": "2026-04-28",
+          "gpa": 3.18,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 3,
+          "date": "2026-11-10",
+          "gpa": 2.88,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 2,
+          "date": "2026-11-10",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 25913,
+              "subName": "Chemistry"
+            },
+            {
+              "subCode": 26721,
+              "subName": "Electrical Circuits-I"
+            },
+            {
+              "subCode": 26821,
+              "subName": "Electronic Devices and Circuits"
+            }
+          ]
+        },
+        {
+          "semester": 1,
+          "date": "2026-11-10",
+          "gpa": 3.18,
+          "passed": true,
+          "failedSubjects": []
+        }
+      ]
+    },
+    {
+      "roll": 214137,
+      "semester": 3,
+      "status": "PASSED",
+      "statusLabel": "পাস (Passed)",
+      "badgeType": "success",
+      "gpa": 3.6,
+      "failedCount": 0,
+      "isDropOut": false,
+      "failedSubjects": [],
+      "history": [
+        {
+          "semester": 1,
+          "date": "2025-10-26",
+          "gpa": 3.44,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 2,
+          "date": "2026-05-23",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 25913,
+              "subName": "Chemistry"
+            }
+          ]
+        },
+        {
+          "semester": 1,
+          "date": "2026-05-23",
+          "gpa": 3.44,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 2,
+          "date": "2026-04-28",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 25913,
+              "subName": "Chemistry"
+            },
+            {
+              "subCode": 26721,
+              "subName": "Electrical Circuits-I"
+            }
+          ]
+        },
+        {
+          "semester": 1,
+          "date": "2026-04-28",
+          "gpa": 3.44,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 3,
+          "date": "2026-11-10",
+          "gpa": 3.6,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 2,
+          "date": "2026-11-10",
+          "gpa": 3.02,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 1,
+          "date": "2026-11-10",
+          "gpa": 3.44,
+          "passed": true,
+          "failedSubjects": []
+        }
+      ]
+    },
+    {
+      "roll": 214144,
+      "semester": 3,
+      "status": "PASSED",
+      "statusLabel": "পাস (Passed)",
+      "badgeType": "success",
+      "gpa": 3.19,
+      "failedCount": 0,
+      "isDropOut": false,
+      "failedSubjects": [],
+      "history": [
+        {
+          "semester": 1,
+          "date": "2025-10-26",
+          "gpa": 2.81,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 2,
+          "date": "2026-05-23",
+          "gpa": 2.8,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 1,
+          "date": "2026-05-23",
+          "gpa": 2.81,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 2,
+          "date": "2026-04-28",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 26821,
+              "subName": "Electronic Devices and Circuits"
+            }
+          ]
+        },
+        {
+          "semester": 1,
+          "date": "2026-04-28",
+          "gpa": 2.81,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 3,
+          "date": "2026-11-10",
+          "gpa": 3.19,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 2,
+          "date": "2026-11-10",
+          "gpa": 2.8,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 1,
+          "date": "2026-11-10",
+          "gpa": 2.81,
+          "passed": true,
+          "failedSubjects": []
+        }
+      ]
+    },
+    {
+      "roll": 214153,
+      "semester": 3,
+      "status": "PASSED",
+      "statusLabel": "পাস (Passed)",
+      "badgeType": "success",
+      "gpa": 3.5,
+      "failedCount": 0,
+      "isDropOut": false,
+      "failedSubjects": [],
+      "history": [
+        {
+          "semester": 1,
+          "date": "2025-10-26",
+          "gpa": 3.29,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 2,
+          "date": "2026-05-23",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 25913,
+              "subName": "Chemistry"
+            },
+            {
+              "subCode": 26721,
+              "subName": "Electrical Circuits-I"
+            }
+          ]
+        },
+        {
+          "semester": 1,
+          "date": "2026-05-23",
+          "gpa": 3.29,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 2,
+          "date": "2026-04-28",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 25913,
+              "subName": "Chemistry"
+            },
+            {
+              "subCode": 26721,
+              "subName": "Electrical Circuits-I"
+            },
+            {
+              "subCode": 26821,
+              "subName": "Electronic Devices and Circuits"
+            }
+          ]
+        },
+        {
+          "semester": 1,
+          "date": "2026-04-28",
+          "gpa": 3.29,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 3,
+          "date": "2026-11-10",
+          "gpa": 3.5,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 2,
+          "date": "2026-11-10",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 25913,
+              "subName": "Chemistry"
+            }
+          ]
+        },
+        {
+          "semester": 1,
+          "date": "2026-11-10",
+          "gpa": 3.29,
+          "passed": true,
+          "failedSubjects": []
+        }
+      ]
+    },
+    {
+      "roll": 214154,
+      "semester": 3,
+      "status": "PASSED",
+      "statusLabel": "পাস (Passed)",
+      "badgeType": "success",
+      "gpa": 3.5,
+      "failedCount": 0,
+      "isDropOut": false,
+      "failedSubjects": [],
+      "history": [
+        {
+          "semester": 1,
+          "date": "2025-10-26",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 25911,
+              "subName": "Mathematics -I"
+            }
+          ]
+        },
+        {
+          "semester": 1,
+          "date": "2025-11-24",
+          "gpa": 3.48,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 2,
+          "date": "2026-04-28",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 26721,
+              "subName": "Electrical Circuits-I"
+            }
+          ]
+        },
+        {
+          "semester": 1,
+          "date": "2026-04-28",
+          "gpa": 3.48,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 3,
+          "date": "2026-11-10",
+          "gpa": 3.5,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 2,
+          "date": "2026-11-10",
+          "gpa": 3.43,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 1,
+          "date": "2026-11-10",
+          "gpa": 3.48,
+          "passed": true,
+          "failedSubjects": []
+        }
+      ]
+    },
+    {
+      "roll": 214155,
+      "semester": 3,
+      "status": "PASSED",
+      "statusLabel": "পাস (Passed)",
+      "badgeType": "success",
+      "gpa": 3.41,
+      "failedCount": 0,
+      "isDropOut": false,
+      "failedSubjects": [],
+      "history": [
+        {
+          "semester": 1,
+          "date": "2025-10-26",
+          "gpa": 3.8,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 2,
+          "date": "2026-04-28",
+          "gpa": 3.35,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 1,
+          "date": "2026-04-28",
+          "gpa": 3.8,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 3,
+          "date": "2026-11-10",
+          "gpa": 3.41,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 2,
+          "date": "2026-11-10",
+          "gpa": 3.35,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 1,
+          "date": "2026-11-10",
+          "gpa": 3.8,
+          "passed": true,
+          "failedSubjects": []
+        }
+      ]
+    },
+    {
+      "roll": 214160,
+      "semester": 3,
+      "status": "PASSED",
+      "statusLabel": "পাস (Passed)",
+      "badgeType": "success",
+      "gpa": 3.41,
+      "failedCount": 0,
+      "isDropOut": false,
+      "failedSubjects": [],
+      "history": [
+        {
+          "semester": 1,
+          "date": "2025-10-26",
+          "gpa": 3.08,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 2,
+          "date": "2026-04-28",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 26721,
+              "subName": "Electrical Circuits-I"
+            }
+          ]
+        },
+        {
+          "semester": 1,
+          "date": "2026-04-28",
+          "gpa": 3.08,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 3,
+          "date": "2026-11-10",
+          "gpa": 3.41,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 2,
+          "date": "2026-11-10",
+          "gpa": 3.15,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 1,
+          "date": "2026-11-10",
+          "gpa": 3.08,
+          "passed": true,
+          "failedSubjects": []
+        }
+      ]
+    },
+    {
+      "roll": 214163,
+      "semester": 3,
+      "status": "PASSED",
+      "statusLabel": "পাস (Passed)",
+      "badgeType": "success",
+      "gpa": 3.43,
+      "failedCount": 0,
+      "isDropOut": false,
+      "failedSubjects": [],
+      "history": [
+        {
+          "semester": 1,
+          "date": "2025-10-26",
+          "gpa": 3.48,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 2,
+          "date": "2026-05-23",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 26721,
+              "subName": "Electrical Circuits-I"
+            }
+          ]
+        },
+        {
+          "semester": 1,
+          "date": "2026-05-23",
+          "gpa": 3.48,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 2,
+          "date": "2026-04-28",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 25921,
+              "subName": "Mathematics-II"
+            },
+            {
+              "subCode": 26721,
+              "subName": "Electrical Circuits-I"
+            }
+          ]
+        },
+        {
+          "semester": 1,
+          "date": "2026-04-28",
+          "gpa": 3.48,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 3,
+          "date": "2026-11-10",
+          "gpa": 3.43,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 2,
+          "date": "2026-11-10",
+          "gpa": 3.35,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 1,
+          "date": "2026-11-10",
+          "gpa": 3.48,
+          "passed": true,
+          "failedSubjects": []
+        }
+      ]
+    },
+    {
+      "roll": 214165,
+      "semester": 3,
+      "status": "PASSED",
+      "statusLabel": "পাস (Passed)",
+      "badgeType": "success",
+      "gpa": 3.49,
+      "failedCount": 0,
+      "isDropOut": false,
+      "failedSubjects": [],
+      "history": [
+        {
+          "semester": 1,
+          "date": "2025-10-26",
+          "gpa": 3.36,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 2,
+          "date": "2026-04-28",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 25921,
+              "subName": "Mathematics-II"
+            },
+            {
+              "subCode": 26721,
+              "subName": "Electrical Circuits-I"
+            }
+          ]
+        },
+        {
+          "semester": 1,
+          "date": "2026-04-28",
+          "gpa": 3.36,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 3,
+          "date": "2026-11-10",
+          "gpa": 3.49,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 2,
+          "date": "2026-11-10",
+          "gpa": 3.02,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 1,
+          "date": "2026-11-10",
+          "gpa": 3.36,
+          "passed": true,
+          "failedSubjects": []
+        }
+      ]
+    },
+    {
+      "roll": 214167,
+      "semester": 3,
+      "status": "DROP_OUT",
+      "statusLabel": "ড্রপ আউট (9 বিষয়ে রেফার্ড)",
+      "badgeType": "danger",
+      "gpa": null,
+      "failedCount": 9,
+      "isDropOut": true,
+      "failedSubjects": [
+        {
+          "subCode": 25921,
+          "subName": "Mathematics-II"
+        },
+        {
+          "subCode": 25922,
+          "subName": "Physics-II"
+        },
+        {
+          "subCode": 25931,
+          "subName": "Mathematics-III"
+        },
+        {
+          "subCode": 26721,
+          "subName": "Electrical Circuits-I"
+        },
+        {
+          "subCode": 26731,
+          "subName": "Electrical Circuits-II"
+        },
+        {
+          "subCode": 26811,
+          "subName": "Basic Electronics"
+        },
+        {
+          "subCode": 26821,
+          "subName": "Electronic Devices and Circuits"
+        },
+        {
+          "subCode": 26831,
+          "subName": "Digital Electronics-I"
+        },
+        {
+          "subCode": 26832,
+          "subName": "Power Electronics"
+        }
+      ],
+      "history": [
+        {
+          "semester": 1,
+          "date": "2025-10-26",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 25711,
+              "subName": "Bangla-I"
+            },
+            {
+              "subCode": 25911,
+              "subName": "Mathematics -I"
+            },
+            {
+              "subCode": 26811,
+              "subName": "Basic Electronics"
+            }
+          ]
+        },
+        {
+          "semester": 2,
+          "date": "2026-04-28",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 25911,
+              "subName": "Mathematics -I"
+            },
+            {
+              "subCode": 25921,
+              "subName": "Mathematics-II"
+            },
+            {
+              "subCode": 26721,
+              "subName": "Electrical Circuits-I"
+            },
+            {
+              "subCode": 26811,
+              "subName": "Basic Electronics"
+            },
+            {
+              "subCode": 26821,
+              "subName": "Electronic Devices and Circuits"
+            }
+          ]
+        },
+        {
+          "semester": 3,
+          "date": "2026-11-10",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 25921,
+              "subName": "Mathematics-II"
+            },
+            {
+              "subCode": 25922,
+              "subName": "Physics-II"
+            },
+            {
+              "subCode": 25931,
+              "subName": "Mathematics-III"
+            },
+            {
+              "subCode": 26721,
+              "subName": "Electrical Circuits-I"
+            },
+            {
+              "subCode": 26731,
+              "subName": "Electrical Circuits-II"
+            },
+            {
+              "subCode": 26811,
+              "subName": "Basic Electronics"
+            },
+            {
+              "subCode": 26821,
+              "subName": "Electronic Devices and Circuits"
+            },
+            {
+              "subCode": 26831,
+              "subName": "Digital Electronics-I"
+            },
+            {
+              "subCode": 26832,
+              "subName": "Power Electronics"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "roll": 214170,
+      "semester": 3,
+      "status": "DROP_OUT",
+      "statusLabel": "ড্রপ আউট (8 বিষয়ে রেফার্ড)",
+      "badgeType": "danger",
+      "gpa": null,
+      "failedCount": 8,
+      "isDropOut": true,
+      "failedSubjects": [
+        {
+          "subCode": 25913,
+          "subName": "Chemistry"
+        },
+        {
+          "subCode": 25922,
+          "subName": "Physics-II"
+        },
+        {
+          "subCode": 25931,
+          "subName": "Mathematics-III"
+        },
+        {
+          "subCode": 26731,
+          "subName": "Electrical Circuits-II"
+        },
+        {
+          "subCode": 26821,
+          "subName": "Electronic Devices and Circuits"
+        },
+        {
+          "subCode": 26831,
+          "subName": "Digital Electronics-I"
+        },
+        {
+          "subCode": 26832,
+          "subName": "Power Electronics"
+        },
+        {
+          "subCode": 28511,
+          "subName": "Computer Office Application"
+        }
+      ],
+      "history": [
+        {
+          "semester": 1,
+          "date": "2025-10-26",
+          "gpa": 3.51,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 2,
+          "date": "2026-04-28",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 25913,
+              "subName": "Chemistry"
+            },
+            {
+              "subCode": 26821,
+              "subName": "Electronic Devices and Circuits"
+            }
+          ]
+        },
+        {
+          "semester": 1,
+          "date": "2026-04-28",
+          "gpa": 3.51,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 3,
+          "date": "2026-11-10",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 25913,
+              "subName": "Chemistry"
+            },
+            {
+              "subCode": 25922,
+              "subName": "Physics-II"
+            },
+            {
+              "subCode": 25931,
+              "subName": "Mathematics-III"
+            },
+            {
+              "subCode": 26731,
+              "subName": "Electrical Circuits-II"
+            },
+            {
+              "subCode": 26821,
+              "subName": "Electronic Devices and Circuits"
+            },
+            {
+              "subCode": 26831,
+              "subName": "Digital Electronics-I"
+            },
+            {
+              "subCode": 26832,
+              "subName": "Power Electronics"
+            },
+            {
+              "subCode": 28511,
+              "subName": "Computer Office Application"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "roll": 214172,
+      "semester": 3,
+      "status": "DROP_OUT",
+      "statusLabel": "ড্রপ আউট (4 বিষয়ে রেফার্ড)",
+      "badgeType": "danger",
+      "gpa": null,
+      "failedCount": 4,
+      "isDropOut": true,
+      "failedSubjects": [
+        {
+          "subCode": 25913,
+          "subName": "Chemistry"
+        },
+        {
+          "subCode": 25931,
+          "subName": "Mathematics-III"
+        },
+        {
+          "subCode": 26721,
+          "subName": "Electrical Circuits-I"
+        },
+        {
+          "subCode": 26831,
+          "subName": "Digital Electronics-I"
+        }
+      ],
+      "history": [
+        {
+          "semester": 1,
+          "date": "2025-10-26",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 25711,
+              "subName": "Bangla-I"
+            }
+          ]
+        },
+        {
+          "semester": 2,
+          "date": "2026-04-28",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 25913,
+              "subName": "Chemistry"
+            },
+            {
+              "subCode": 26721,
+              "subName": "Electrical Circuits-I"
+            }
+          ]
+        },
+        {
+          "semester": 1,
+          "date": "2026-04-28",
+          "gpa": 2.88,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 3,
+          "date": "2026-11-10",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 25913,
+              "subName": "Chemistry"
+            },
+            {
+              "subCode": 25931,
+              "subName": "Mathematics-III"
+            },
+            {
+              "subCode": 26721,
+              "subName": "Electrical Circuits-I"
+            },
+            {
+              "subCode": 26831,
+              "subName": "Digital Electronics-I"
+            }
+          ]
+        },
+        {
+          "semester": 1,
+          "date": "2026-11-10",
+          "gpa": 2.88,
+          "passed": true,
+          "failedSubjects": []
+        }
+      ]
+    },
+    {
+      "roll": 214173,
+      "semester": 3,
+      "status": "PASSED",
+      "statusLabel": "পাস (Passed)",
+      "badgeType": "success",
+      "gpa": 3.7,
+      "failedCount": 0,
+      "isDropOut": false,
+      "failedSubjects": [],
+      "history": [
+        {
+          "semester": 1,
+          "date": "2025-10-26",
+          "gpa": 3.3,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 2,
+          "date": "2026-05-23",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 25913,
+              "subName": "Chemistry"
+            }
+          ]
+        },
+        {
+          "semester": 1,
+          "date": "2026-05-23",
+          "gpa": 3.3,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 2,
+          "date": "2026-04-28",
+          "gpa": null,
+          "passed": false,
+          "failedSubjects": [
+            {
+              "subCode": 25913,
+              "subName": "Chemistry"
+            },
+            {
+              "subCode": 26721,
+              "subName": "Electrical Circuits-I"
+            }
+          ]
+        },
+        {
+          "semester": 1,
+          "date": "2026-04-28",
+          "gpa": 3.3,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 3,
+          "date": "2026-11-10",
+          "gpa": 3.7,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 2,
+          "date": "2026-11-10",
+          "gpa": 3.22,
+          "passed": true,
+          "failedSubjects": []
+        },
+        {
+          "semester": 1,
+          "date": "2026-11-10",
+          "gpa": 3.3,
+          "passed": true,
+          "failedSubjects": []
+        }
+      ]
+    }
+  ]
+}

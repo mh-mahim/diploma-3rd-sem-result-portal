@@ -1,33 +1,21 @@
-# Active Task: Diploma 3rd Semester Result Portal - Data Correction, Sorting & Local Server
+# Active Task: Diploma 3rd Semester Result Portal - Class Roster Matching & Name Integration
 
 ## Status
-- **Current Phase**: Local Execution & Verified
-- **Active Task**: Local Server Running at http://localhost:3000
+- **Current Phase**: Completed & Deployed
+- **Active Task**: Verification of 27 Class Students with Official Names & Default Merit Order
 
 ## Live Checklist
-- [x] Investigate discrepancy in refer subjects and refer counts:
-  - Identified that previously 1st and 2nd semester backlogs (e.g., Math-I, Physics-I, Chemistry, Circuits-I) were erroneously aggregated into 3rd semester referred subject counts.
-  - Corrected originSemester mapping across all 20 syllabus subjects (Regulation 2022).
-  - Explicitly isolated 3rd semester subjects (`25922`, `25931`, `26731`, `26831`, `26832`, `28511`).
-- [x] Recalculate true 3rd semester statistics:
-  - Total 3rd Semester Appeared: 33 students
-  - Passed: 17 students
-  - 1 Subject Referred: 7 students (Rolls: 214087, 214091, 214109, 214118, 214124, 214129, 214132)
-  - 2 Subjects Referred: 3 students (Rolls: 214126, 214131, 214172)
-  - 3 Subjects Referred: 2 students (Rolls: 214084, 214110)
-  - 4 Subjects Referred (Drop Out): 1 student (Roll: 214083)
-  - Total Drop Out (>= 4 subjects in 3rd Sem): 4 students (Rolls: 214083, 214101, 214167, 214170)
-  - Prior semester backlogs displayed separately without corrupting 3rd semester counts.
-- [x] Implement multi-attribute sorting system:
-  - Sort by Roll Number (Ascending / Descending)
-  - Sort by GPA (Highest to Lowest / Lowest to Highest)
-  - Sort by 3rd Sem Referred Subjects Count (Low to High / High to Low)
-  - Sort by Status (Passed first / Drop Out first)
-- [x] Dual Display Modes:
-  - Responsive Card Grid View
-  - Full BTEB Sheet Table View (displaying Sem 1, Sem 2, Sem 3 alongside 3rd sem subjects and prior backlogs)
-  - Scope Toggle: "৩য় সেমিস্টার পরীক্ষার্থী (৩৩)" vs "পুরো ব্যাচের শিক্ষার্থী (৭৯)"
-- [x] Start local server daemon on `http://localhost:3000` (serving directly without GitHub sync as requested).
-
-## Blockers
-- None. Server is actively listening on port 3000.
+- [x] Process official 40-student class roster provided by user.
+- [x] Cross-reference against BTEB 3rd semester results:
+  - Exactly 27 students have active 3rd semester results.
+  - Excluded the 13 students without 3rd semester results (`214106`, `214112`, `214135`, `214136`, `214140`, `214142`, `214145`, `214150`, `214159`, `214164`, `214175`, `214176`, `214185`) and any rolls outside the user's class list.
+- [x] Associate official student names with each roll number.
+- [x] Set default sorting to Best Result first (Merit Order):
+  - 14 Passed students sorted by highest GPA (3.88 down to 2.88).
+  - 5 students with 1 subject referred.
+  - 3 students with 2 subjects referred.
+  - 2 students with 3 subjects referred.
+  - 3 students with Drop Out (>= 4 subjects in 3rd sem).
+- [x] Add search capability by student name as well as roll number.
+- [x] Deploy to GitHub repository and trigger GitHub Pages build.
+- [x] Keep local server running on port 3000.

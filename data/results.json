@@ -2,26 +2,1112 @@
   "metadata": {
     "curriculum": "Diploma in Engineering",
     "regulation": 2022,
-    "rollRange": "214083-214185",
+    "department": "Electronics Technology",
     "publishedDate": "2026-11-10",
-    "verified": true
+    "cohortDescription": "ক্লাসের প্রদত্ত তালিকা অনুসারে ৩য় সেমিস্টার পরীক্ষার্থী (২৭ জন)"
   },
   "statistics": {
-    "totalSem3Students": 33,
-    "passed": 17,
-    "referred1Sub": 7,
+    "totalSem3Students": 27,
+    "passed": 14,
+    "referred1Sub": 5,
     "referred2Sub": 3,
     "referred3Sub": 2,
     "referred4Sub": 1,
-    "dropOutTotal": 4,
-    "totalAllClassStudents": 79,
+    "dropOutTotal": 3,
     "highestGpa": 3.88,
-    "averageGpa": 3.43
+    "averageGpa": 3.48
   },
   "students": [
     {
+      "roll": 214089,
+      "name": "MD. HASANUR ZAMAN",
+      "status": "PASSED",
+      "statusLabel": "পাস (GPA 3.88)",
+      "badgeType": "success",
+      "isDropOut": false,
+      "sem3Gpa": 3.88,
+      "sem3FailedCount": 0,
+      "sem3FailedSubjects": [],
+      "backlogCount": 0,
+      "backlogSubjects": [],
+      "totalFailedInSheet": 0,
+      "sem1": {
+        "status": "PASSED",
+        "gpa": 3.32,
+        "failedCount": 0,
+        "failedSubjects": []
+      },
+      "sem2": {
+        "status": "PASSED",
+        "gpa": 3.61,
+        "failedCount": 0,
+        "failedSubjects": []
+      }
+    },
+    {
+      "roll": 214121,
+      "name": "MD. NADIM AHAMAD",
+      "status": "PASSED",
+      "statusLabel": "পাস (GPA 3.79)",
+      "badgeType": "success",
+      "isDropOut": false,
+      "sem3Gpa": 3.79,
+      "sem3FailedCount": 0,
+      "sem3FailedSubjects": [],
+      "backlogCount": 0,
+      "backlogSubjects": [],
+      "totalFailedInSheet": 0,
+      "sem1": {
+        "status": "PASSED",
+        "gpa": 3.32,
+        "failedCount": 0,
+        "failedSubjects": []
+      },
+      "sem2": {
+        "status": "PASSED",
+        "gpa": 3.59,
+        "failedCount": 0,
+        "failedSubjects": []
+      }
+    },
+    {
+      "roll": 214107,
+      "name": "MD. MAHBUB HASAN MAHIM",
+      "status": "PASSED",
+      "statusLabel": "পাস (GPA 3.78)",
+      "badgeType": "success",
+      "isDropOut": false,
+      "sem3Gpa": 3.78,
+      "sem3FailedCount": 0,
+      "sem3FailedSubjects": [],
+      "backlogCount": 0,
+      "backlogSubjects": [],
+      "totalFailedInSheet": 0,
+      "sem1": {
+        "status": "PASSED",
+        "gpa": 3.44,
+        "failedCount": 0,
+        "failedSubjects": []
+      },
+      "sem2": {
+        "status": "PASSED",
+        "gpa": 3.2,
+        "failedCount": 0,
+        "failedSubjects": []
+      }
+    },
+    {
+      "roll": 214173,
+      "name": "MD. MEHEDI HASAN",
+      "status": "PASSED",
+      "statusLabel": "পাস (GPA 3.70)",
+      "badgeType": "success",
+      "isDropOut": false,
+      "sem3Gpa": 3.7,
+      "sem3FailedCount": 0,
+      "sem3FailedSubjects": [],
+      "backlogCount": 0,
+      "backlogSubjects": [],
+      "totalFailedInSheet": 0,
+      "sem1": {
+        "status": "PASSED",
+        "gpa": 3.3,
+        "failedCount": 0,
+        "failedSubjects": []
+      },
+      "sem2": {
+        "status": "PASSED",
+        "gpa": 3.22,
+        "failedCount": 0,
+        "failedSubjects": []
+      }
+    },
+    {
+      "roll": 214095,
+      "name": "MD. AL AMIN",
+      "status": "PASSED",
+      "statusLabel": "পাস (GPA 3.63)",
+      "badgeType": "success",
+      "isDropOut": false,
+      "sem3Gpa": 3.63,
+      "sem3FailedCount": 0,
+      "sem3FailedSubjects": [],
+      "backlogCount": 0,
+      "backlogSubjects": [],
+      "totalFailedInSheet": 0,
+      "sem1": {
+        "status": "PASSED",
+        "gpa": 3.7,
+        "failedCount": 0,
+        "failedSubjects": []
+      },
+      "sem2": {
+        "status": "PASSED",
+        "gpa": 3.7,
+        "failedCount": 0,
+        "failedSubjects": []
+      }
+    },
+    {
+      "roll": 214137,
+      "name": "MD. MUHIMENUL ISLAM",
+      "status": "PASSED",
+      "statusLabel": "পাস (GPA 3.60)",
+      "badgeType": "success",
+      "isDropOut": false,
+      "sem3Gpa": 3.6,
+      "sem3FailedCount": 0,
+      "sem3FailedSubjects": [],
+      "backlogCount": 0,
+      "backlogSubjects": [],
+      "totalFailedInSheet": 0,
+      "sem1": {
+        "status": "PASSED",
+        "gpa": 3.44,
+        "failedCount": 0,
+        "failedSubjects": []
+      },
+      "sem2": {
+        "status": "PASSED",
+        "gpa": 3.02,
+        "failedCount": 0,
+        "failedSubjects": []
+      }
+    },
+    {
+      "roll": 214153,
+      "name": "MD. AHSAN HABIB",
+      "status": "PASSED",
+      "statusLabel": "পাস (GPA 3.50)",
+      "badgeType": "success",
+      "isDropOut": false,
+      "sem3Gpa": 3.5,
+      "sem3FailedCount": 0,
+      "sem3FailedSubjects": [],
+      "backlogCount": 0,
+      "backlogSubjects": [],
+      "totalFailedInSheet": 0,
+      "sem1": {
+        "status": "PASSED",
+        "gpa": 3.29,
+        "failedCount": 0,
+        "failedSubjects": []
+      },
+      "sem2": {
+        "status": "REFERRED",
+        "gpa": null,
+        "failedCount": 1,
+        "failedSubjects": [
+          {
+            "subCode": 25913,
+            "subName": "Chemistry"
+          }
+        ]
+      }
+    },
+    {
+      "roll": 214154,
+      "name": "MD. RAHMAT ALI HAMIM",
+      "status": "PASSED",
+      "statusLabel": "পাস (GPA 3.50)",
+      "badgeType": "success",
+      "isDropOut": false,
+      "sem3Gpa": 3.5,
+      "sem3FailedCount": 0,
+      "sem3FailedSubjects": [],
+      "backlogCount": 0,
+      "backlogSubjects": [],
+      "totalFailedInSheet": 0,
+      "sem1": {
+        "status": "PASSED",
+        "gpa": 3.48,
+        "failedCount": 0,
+        "failedSubjects": []
+      },
+      "sem2": {
+        "status": "PASSED",
+        "gpa": 3.43,
+        "failedCount": 0,
+        "failedSubjects": []
+      }
+    },
+    {
+      "roll": 214165,
+      "name": "MUSFIKUR RAHAMAN",
+      "status": "PASSED",
+      "statusLabel": "পাস (GPA 3.49)",
+      "badgeType": "success",
+      "isDropOut": false,
+      "sem3Gpa": 3.49,
+      "sem3FailedCount": 0,
+      "sem3FailedSubjects": [],
+      "backlogCount": 0,
+      "backlogSubjects": [],
+      "totalFailedInSheet": 0,
+      "sem1": {
+        "status": "PASSED",
+        "gpa": 3.36,
+        "failedCount": 0,
+        "failedSubjects": []
+      },
+      "sem2": {
+        "status": "PASSED",
+        "gpa": 3.02,
+        "failedCount": 0,
+        "failedSubjects": []
+      }
+    },
+    {
+      "roll": 214163,
+      "name": "SURAJ SARKAR SAGOR",
+      "status": "PASSED",
+      "statusLabel": "পাস (GPA 3.43)",
+      "badgeType": "success",
+      "isDropOut": false,
+      "sem3Gpa": 3.43,
+      "sem3FailedCount": 0,
+      "sem3FailedSubjects": [],
+      "backlogCount": 0,
+      "backlogSubjects": [],
+      "totalFailedInSheet": 0,
+      "sem1": {
+        "status": "PASSED",
+        "gpa": 3.48,
+        "failedCount": 0,
+        "failedSubjects": []
+      },
+      "sem2": {
+        "status": "PASSED",
+        "gpa": 3.35,
+        "failedCount": 0,
+        "failedSubjects": []
+      }
+    },
+    {
+      "roll": 214160,
+      "name": "SHOVON KUMAR DAS",
+      "status": "PASSED",
+      "statusLabel": "পাস (GPA 3.41)",
+      "badgeType": "success",
+      "isDropOut": false,
+      "sem3Gpa": 3.41,
+      "sem3FailedCount": 0,
+      "sem3FailedSubjects": [],
+      "backlogCount": 0,
+      "backlogSubjects": [],
+      "totalFailedInSheet": 0,
+      "sem1": {
+        "status": "PASSED",
+        "gpa": 3.08,
+        "failedCount": 0,
+        "failedSubjects": []
+      },
+      "sem2": {
+        "status": "PASSED",
+        "gpa": 3.15,
+        "failedCount": 0,
+        "failedSubjects": []
+      }
+    },
+    {
+      "roll": 214093,
+      "name": "MD. PAPEL ISLAM",
+      "status": "PASSED",
+      "statusLabel": "পাস (GPA 3.21)",
+      "badgeType": "success",
+      "isDropOut": false,
+      "sem3Gpa": 3.21,
+      "sem3FailedCount": 0,
+      "sem3FailedSubjects": [],
+      "backlogCount": 0,
+      "backlogSubjects": [],
+      "totalFailedInSheet": 0,
+      "sem1": {
+        "status": "REFERRED",
+        "gpa": null,
+        "failedCount": 2,
+        "failedSubjects": [
+          {
+            "subCode": 25912,
+            "subName": "Physics -I"
+          },
+          {
+            "subCode": 26811,
+            "subName": "Basic Electronics"
+          }
+        ]
+      },
+      "sem2": {
+        "status": "REFERRED",
+        "gpa": null,
+        "failedCount": 3,
+        "failedSubjects": [
+          {
+            "subCode": 25912,
+            "subName": "Physics -I"
+          },
+          {
+            "subCode": 25913,
+            "subName": "Chemistry"
+          },
+          {
+            "subCode": 26821,
+            "subName": "Electronic Devices and Circuits"
+          }
+        ]
+      }
+    },
+    {
+      "roll": 214114,
+      "name": "MD. MASUM RAZA",
+      "status": "PASSED",
+      "statusLabel": "পাস (GPA 2.95)",
+      "badgeType": "success",
+      "isDropOut": false,
+      "sem3Gpa": 2.95,
+      "sem3FailedCount": 0,
+      "sem3FailedSubjects": [],
+      "backlogCount": 0,
+      "backlogSubjects": [],
+      "totalFailedInSheet": 0,
+      "sem1": {
+        "status": "REFERRED",
+        "gpa": null,
+        "failedCount": 3,
+        "failedSubjects": [
+          {
+            "subCode": 25911,
+            "subName": "Mathematics -I"
+          },
+          {
+            "subCode": 25912,
+            "subName": "Physics -I"
+          },
+          {
+            "subCode": 26811,
+            "subName": "Basic Electronics"
+          }
+        ]
+      },
+      "sem2": {
+        "status": "REFERRED",
+        "gpa": null,
+        "failedCount": 5,
+        "failedSubjects": [
+          {
+            "subCode": 25911,
+            "subName": "Mathematics -I"
+          },
+          {
+            "subCode": 25912,
+            "subName": "Physics -I"
+          },
+          {
+            "subCode": 26721,
+            "subName": "Electrical Circuits-I"
+          },
+          {
+            "subCode": 26811,
+            "subName": "Basic Electronics"
+          },
+          {
+            "subCode": 26821,
+            "subName": "Electronic Devices and Circuits"
+          }
+        ]
+      }
+    },
+    {
+      "roll": 214134,
+      "name": "Md. Sohan",
+      "status": "PASSED",
+      "statusLabel": "পাস (GPA 2.88)",
+      "badgeType": "success",
+      "isDropOut": false,
+      "sem3Gpa": 2.88,
+      "sem3FailedCount": 0,
+      "sem3FailedSubjects": [],
+      "backlogCount": 0,
+      "backlogSubjects": [],
+      "totalFailedInSheet": 0,
+      "sem1": {
+        "status": "PASSED",
+        "gpa": 3.18,
+        "failedCount": 0,
+        "failedSubjects": []
+      },
+      "sem2": {
+        "status": "REFERRED",
+        "gpa": null,
+        "failedCount": 3,
+        "failedSubjects": [
+          {
+            "subCode": 25913,
+            "subName": "Chemistry"
+          },
+          {
+            "subCode": 26721,
+            "subName": "Electrical Circuits-I"
+          },
+          {
+            "subCode": 26821,
+            "subName": "Electronic Devices and Circuits"
+          }
+        ]
+      }
+    },
+    {
+      "roll": 214118,
+      "name": "MD. KHALID HASAN DIHAN",
+      "status": "REFERRED",
+      "statusLabel": "রেফার্ড (1 বিষয়)",
+      "badgeType": "warning",
+      "isDropOut": false,
+      "sem3Gpa": null,
+      "sem3FailedCount": 1,
+      "sem3FailedSubjects": [
+        {
+          "subCode": 26831,
+          "subName": "Digital Electronics-I",
+          "originSemester": 3
+        }
+      ],
+      "backlogCount": 0,
+      "backlogSubjects": [],
+      "totalFailedInSheet": 1,
+      "sem1": {
+        "status": "PASSED",
+        "gpa": 3.39,
+        "failedCount": 0,
+        "failedSubjects": []
+      },
+      "sem2": {
+        "status": "PASSED",
+        "gpa": 3.46,
+        "failedCount": 0,
+        "failedSubjects": []
+      }
+    },
+    {
+      "roll": 214129,
+      "name": "MD. AZIZUL ISLAM SABID",
+      "status": "REFERRED",
+      "statusLabel": "রেফার্ড (1 বিষয়)",
+      "badgeType": "warning",
+      "isDropOut": false,
+      "sem3Gpa": null,
+      "sem3FailedCount": 1,
+      "sem3FailedSubjects": [
+        {
+          "subCode": 25931,
+          "subName": "Mathematics-III",
+          "originSemester": 3
+        }
+      ],
+      "backlogCount": 1,
+      "backlogSubjects": [
+        {
+          "subCode": 26721,
+          "subName": "Electrical Circuits-I",
+          "originSemester": 2
+        }
+      ],
+      "totalFailedInSheet": 2,
+      "sem1": {
+        "status": "PASSED",
+        "gpa": 3.33,
+        "failedCount": 0,
+        "failedSubjects": []
+      },
+      "sem2": {
+        "status": "REFERRED",
+        "gpa": null,
+        "failedCount": 3,
+        "failedSubjects": [
+          {
+            "subCode": 25913,
+            "subName": "Chemistry"
+          },
+          {
+            "subCode": 25921,
+            "subName": "Mathematics-II"
+          },
+          {
+            "subCode": 26721,
+            "subName": "Electrical Circuits-I"
+          }
+        ]
+      }
+    },
+    {
+      "roll": 214087,
+      "name": "MD. NAZMUL AHAMMED",
+      "status": "REFERRED",
+      "statusLabel": "রেফার্ড (1 বিষয়)",
+      "badgeType": "warning",
+      "isDropOut": false,
+      "sem3Gpa": null,
+      "sem3FailedCount": 1,
+      "sem3FailedSubjects": [
+        {
+          "subCode": 25931,
+          "subName": "Mathematics-III",
+          "originSemester": 3
+        }
+      ],
+      "backlogCount": 2,
+      "backlogSubjects": [
+        {
+          "subCode": 25921,
+          "subName": "Mathematics-II",
+          "originSemester": 2
+        },
+        {
+          "subCode": 26821,
+          "subName": "Electronic Devices and Circuits",
+          "originSemester": 2
+        }
+      ],
+      "totalFailedInSheet": 3,
+      "sem1": {
+        "status": "PASSED",
+        "gpa": 2.54,
+        "failedCount": 0,
+        "failedSubjects": []
+      },
+      "sem2": {
+        "status": "REFERRED",
+        "gpa": null,
+        "failedCount": 3,
+        "failedSubjects": [
+          {
+            "subCode": 25921,
+            "subName": "Mathematics-II"
+          },
+          {
+            "subCode": 26711,
+            "subName": "Basic Electricity"
+          },
+          {
+            "subCode": 26821,
+            "subName": "Electronic Devices and Circuits"
+          }
+        ]
+      }
+    },
+    {
+      "roll": 214109,
+      "name": "MD. AKHTARUZZAMAN",
+      "status": "REFERRED",
+      "statusLabel": "রেফার্ড (1 বিষয়)",
+      "badgeType": "warning",
+      "isDropOut": false,
+      "sem3Gpa": null,
+      "sem3FailedCount": 1,
+      "sem3FailedSubjects": [
+        {
+          "subCode": 26832,
+          "subName": "Power Electronics",
+          "originSemester": 3
+        }
+      ],
+      "backlogCount": 4,
+      "backlogSubjects": [
+        {
+          "subCode": 25913,
+          "subName": "Chemistry",
+          "originSemester": 2
+        },
+        {
+          "subCode": 26721,
+          "subName": "Electrical Circuits-I",
+          "originSemester": 2
+        },
+        {
+          "subCode": 26811,
+          "subName": "Basic Electronics",
+          "originSemester": 1
+        },
+        {
+          "subCode": 26821,
+          "subName": "Electronic Devices and Circuits",
+          "originSemester": 2
+        }
+      ],
+      "totalFailedInSheet": 5,
+      "sem1": {
+        "status": "REFERRED",
+        "gpa": null,
+        "failedCount": 1,
+        "failedSubjects": [
+          {
+            "subCode": 26811,
+            "subName": "Basic Electronics"
+          }
+        ]
+      },
+      "sem2": {
+        "status": "REFERRED",
+        "gpa": null,
+        "failedCount": 4,
+        "failedSubjects": [
+          {
+            "subCode": 25913,
+            "subName": "Chemistry"
+          },
+          {
+            "subCode": 26721,
+            "subName": "Electrical Circuits-I"
+          },
+          {
+            "subCode": 26811,
+            "subName": "Basic Electronics"
+          },
+          {
+            "subCode": 26821,
+            "subName": "Electronic Devices and Circuits"
+          }
+        ]
+      }
+    },
+    {
+      "roll": 214132,
+      "name": "NAFIS AHAMMED",
+      "status": "REFERRED",
+      "statusLabel": "রেফার্ড (1 বিষয়)",
+      "badgeType": "warning",
+      "isDropOut": false,
+      "sem3Gpa": null,
+      "sem3FailedCount": 1,
+      "sem3FailedSubjects": [
+        {
+          "subCode": 25931,
+          "subName": "Mathematics-III",
+          "originSemester": 3
+        }
+      ],
+      "backlogCount": 4,
+      "backlogSubjects": [
+        {
+          "subCode": 25911,
+          "subName": "Mathematics -I",
+          "originSemester": 1
+        },
+        {
+          "subCode": 25921,
+          "subName": "Mathematics-II",
+          "originSemester": 2
+        },
+        {
+          "subCode": 26721,
+          "subName": "Electrical Circuits-I",
+          "originSemester": 2
+        },
+        {
+          "subCode": 26821,
+          "subName": "Electronic Devices and Circuits",
+          "originSemester": 2
+        }
+      ],
+      "totalFailedInSheet": 5,
+      "sem1": {
+        "status": "REFERRED",
+        "gpa": null,
+        "failedCount": 2,
+        "failedSubjects": [
+          {
+            "subCode": 25911,
+            "subName": "Mathematics -I"
+          },
+          {
+            "subCode": 26811,
+            "subName": "Basic Electronics"
+          }
+        ]
+      },
+      "sem2": {
+        "status": "REFERRED",
+        "gpa": null,
+        "failedCount": 5,
+        "failedSubjects": [
+          {
+            "subCode": 25911,
+            "subName": "Mathematics -I"
+          },
+          {
+            "subCode": 25921,
+            "subName": "Mathematics-II"
+          },
+          {
+            "subCode": 26721,
+            "subName": "Electrical Circuits-I"
+          },
+          {
+            "subCode": 26811,
+            "subName": "Basic Electronics"
+          },
+          {
+            "subCode": 26821,
+            "subName": "Electronic Devices and Circuits"
+          }
+        ]
+      }
+    },
+    {
+      "roll": 214126,
+      "name": "GOURAB ROY",
+      "status": "REFERRED",
+      "statusLabel": "রেফার্ড (2 বিষয়)",
+      "badgeType": "warning",
+      "isDropOut": false,
+      "sem3Gpa": null,
+      "sem3FailedCount": 2,
+      "sem3FailedSubjects": [
+        {
+          "subCode": 25931,
+          "subName": "Mathematics-III",
+          "originSemester": 3
+        },
+        {
+          "subCode": 26731,
+          "subName": "Electrical Circuits-II",
+          "originSemester": 3
+        }
+      ],
+      "backlogCount": 2,
+      "backlogSubjects": [
+        {
+          "subCode": 25913,
+          "subName": "Chemistry",
+          "originSemester": 2
+        },
+        {
+          "subCode": 26721,
+          "subName": "Electrical Circuits-I",
+          "originSemester": 2
+        }
+      ],
+      "totalFailedInSheet": 4,
+      "sem1": {
+        "status": "PASSED",
+        "gpa": 3.24,
+        "failedCount": 0,
+        "failedSubjects": []
+      },
+      "sem2": {
+        "status": "REFERRED",
+        "gpa": null,
+        "failedCount": 2,
+        "failedSubjects": [
+          {
+            "subCode": 25913,
+            "subName": "Chemistry"
+          },
+          {
+            "subCode": 26721,
+            "subName": "Electrical Circuits-I"
+          }
+        ]
+      }
+    },
+    {
+      "roll": 214172,
+      "name": "MD. OMOR FARUK",
+      "status": "REFERRED",
+      "statusLabel": "রেফার্ড (2 বিষয়)",
+      "badgeType": "warning",
+      "isDropOut": false,
+      "sem3Gpa": null,
+      "sem3FailedCount": 2,
+      "sem3FailedSubjects": [
+        {
+          "subCode": 25931,
+          "subName": "Mathematics-III",
+          "originSemester": 3
+        },
+        {
+          "subCode": 26831,
+          "subName": "Digital Electronics-I",
+          "originSemester": 3
+        }
+      ],
+      "backlogCount": 2,
+      "backlogSubjects": [
+        {
+          "subCode": 25913,
+          "subName": "Chemistry",
+          "originSemester": 2
+        },
+        {
+          "subCode": 26721,
+          "subName": "Electrical Circuits-I",
+          "originSemester": 2
+        }
+      ],
+      "totalFailedInSheet": 4,
+      "sem1": {
+        "status": "PASSED",
+        "gpa": 2.88,
+        "failedCount": 0,
+        "failedSubjects": []
+      },
+      "sem2": {
+        "status": "REFERRED",
+        "gpa": null,
+        "failedCount": 2,
+        "failedSubjects": [
+          {
+            "subCode": 25913,
+            "subName": "Chemistry"
+          },
+          {
+            "subCode": 26721,
+            "subName": "Electrical Circuits-I"
+          }
+        ]
+      }
+    },
+    {
+      "roll": 214131,
+      "name": "MD. AL ZUBAEER MASRAFI",
+      "status": "REFERRED",
+      "statusLabel": "রেফার্ড (2 বিষয়)",
+      "badgeType": "warning",
+      "isDropOut": false,
+      "sem3Gpa": null,
+      "sem3FailedCount": 2,
+      "sem3FailedSubjects": [
+        {
+          "subCode": 25922,
+          "subName": "Physics-II",
+          "originSemester": 3
+        },
+        {
+          "subCode": 25931,
+          "subName": "Mathematics-III",
+          "originSemester": 3
+        }
+      ],
+      "backlogCount": 4,
+      "backlogSubjects": [
+        {
+          "subCode": 25911,
+          "subName": "Mathematics -I",
+          "originSemester": 1
+        },
+        {
+          "subCode": 25921,
+          "subName": "Mathematics-II",
+          "originSemester": 2
+        },
+        {
+          "subCode": 26721,
+          "subName": "Electrical Circuits-I",
+          "originSemester": 2
+        },
+        {
+          "subCode": 26821,
+          "subName": "Electronic Devices and Circuits",
+          "originSemester": 2
+        }
+      ],
+      "totalFailedInSheet": 6,
+      "sem1": {
+        "status": "REFERRED",
+        "gpa": null,
+        "failedCount": 3,
+        "failedSubjects": [
+          {
+            "subCode": 25911,
+            "subName": "Mathematics -I"
+          },
+          {
+            "subCode": 25912,
+            "subName": "Physics -I"
+          },
+          {
+            "subCode": 26811,
+            "subName": "Basic Electronics"
+          }
+        ]
+      },
+      "sem2": {
+        "status": "REFERRED",
+        "gpa": null,
+        "failedCount": 4,
+        "failedSubjects": [
+          {
+            "subCode": 25911,
+            "subName": "Mathematics -I"
+          },
+          {
+            "subCode": 25921,
+            "subName": "Mathematics-II"
+          },
+          {
+            "subCode": 26721,
+            "subName": "Electrical Circuits-I"
+          },
+          {
+            "subCode": 26821,
+            "subName": "Electronic Devices and Circuits"
+          }
+        ]
+      }
+    },
+    {
+      "roll": 214110,
+      "name": "MD. TANVIR ISLAM",
+      "status": "REFERRED",
+      "statusLabel": "রেফার্ড (3 বিষয়)",
+      "badgeType": "warning",
+      "isDropOut": false,
+      "sem3Gpa": null,
+      "sem3FailedCount": 3,
+      "sem3FailedSubjects": [
+        {
+          "subCode": 25931,
+          "subName": "Mathematics-III",
+          "originSemester": 3
+        },
+        {
+          "subCode": 26731,
+          "subName": "Electrical Circuits-II",
+          "originSemester": 3
+        },
+        {
+          "subCode": 26831,
+          "subName": "Digital Electronics-I",
+          "originSemester": 3
+        }
+      ],
+      "backlogCount": 1,
+      "backlogSubjects": [
+        {
+          "subCode": 26821,
+          "subName": "Electronic Devices and Circuits",
+          "originSemester": 2
+        }
+      ],
+      "totalFailedInSheet": 4,
+      "sem1": {
+        "status": "PASSED",
+        "gpa": 2.63,
+        "failedCount": 0,
+        "failedSubjects": []
+      },
+      "sem2": {
+        "status": "REFERRED",
+        "gpa": null,
+        "failedCount": 2,
+        "failedSubjects": [
+          {
+            "subCode": 25921,
+            "subName": "Mathematics-II"
+          },
+          {
+            "subCode": 26821,
+            "subName": "Electronic Devices and Circuits"
+          }
+        ]
+      }
+    },
+    {
+      "roll": 214084,
+      "name": "SHUHAN SHOWKAT RIMON",
+      "status": "REFERRED",
+      "statusLabel": "রেফার্ড (3 বিষয়)",
+      "badgeType": "warning",
+      "isDropOut": false,
+      "sem3Gpa": null,
+      "sem3FailedCount": 3,
+      "sem3FailedSubjects": [
+        {
+          "subCode": 25931,
+          "subName": "Mathematics-III",
+          "originSemester": 3
+        },
+        {
+          "subCode": 26731,
+          "subName": "Electrical Circuits-II",
+          "originSemester": 3
+        },
+        {
+          "subCode": 26831,
+          "subName": "Digital Electronics-I",
+          "originSemester": 3
+        }
+      ],
+      "backlogCount": 4,
+      "backlogSubjects": [
+        {
+          "subCode": 25911,
+          "subName": "Mathematics -I",
+          "originSemester": 1
+        },
+        {
+          "subCode": 25912,
+          "subName": "Physics -I",
+          "originSemester": 1
+        },
+        {
+          "subCode": 25913,
+          "subName": "Chemistry",
+          "originSemester": 2
+        },
+        {
+          "subCode": 25921,
+          "subName": "Mathematics-II",
+          "originSemester": 2
+        }
+      ],
+      "totalFailedInSheet": 7,
+      "sem1": {
+        "status": "REFERRED",
+        "gpa": null,
+        "failedCount": 3,
+        "failedSubjects": [
+          {
+            "subCode": 25911,
+            "subName": "Mathematics -I"
+          },
+          {
+            "subCode": 25912,
+            "subName": "Physics -I"
+          },
+          {
+            "subCode": 26811,
+            "subName": "Basic Electronics"
+          }
+        ]
+      },
+      "sem2": {
+        "status": "REFERRED",
+        "gpa": null,
+        "failedCount": 4,
+        "failedSubjects": [
+          {
+            "subCode": 25911,
+            "subName": "Mathematics -I"
+          },
+          {
+            "subCode": 25912,
+            "subName": "Physics -I"
+          },
+          {
+            "subCode": 25913,
+            "subName": "Chemistry"
+          },
+          {
+            "subCode": 25921,
+            "subName": "Mathematics-II"
+          }
+        ]
+      }
+    },
+    {
       "roll": 214083,
-      "hasSem3": true,
+      "name": "MD. SAHARIAR ISLAM SAKIB",
       "status": "DROP_OUT",
       "statusLabel": "ড্রপ আউট (4 বিষয়)",
       "badgeType": "danger",
@@ -83,7 +1169,7 @@
           "originSemester": 2
         }
       ],
-      "totalFailedCountInSheet": 10,
+      "totalFailedInSheet": 10,
       "sem1": {
         "status": "REFERRED",
         "gpa": null,
@@ -133,3234 +1219,11 @@
             "subName": "Electronic Devices and Circuits"
           }
         ]
-      },
-      "rawResultsCount": 3
-    },
-    {
-      "roll": 214084,
-      "hasSem3": true,
-      "status": "REFERRED",
-      "statusLabel": "রেফার্ড (3 বিষয়)",
-      "badgeType": "warning",
-      "isDropOut": false,
-      "sem3Gpa": null,
-      "sem3FailedCount": 3,
-      "sem3FailedSubjects": [
-        {
-          "subCode": 25931,
-          "subName": "Mathematics-III",
-          "originSemester": 3
-        },
-        {
-          "subCode": 26731,
-          "subName": "Electrical Circuits-II",
-          "originSemester": 3
-        },
-        {
-          "subCode": 26831,
-          "subName": "Digital Electronics-I",
-          "originSemester": 3
-        }
-      ],
-      "backlogCount": 4,
-      "backlogSubjects": [
-        {
-          "subCode": 25911,
-          "subName": "Mathematics -I",
-          "originSemester": 1
-        },
-        {
-          "subCode": 25912,
-          "subName": "Physics -I",
-          "originSemester": 1
-        },
-        {
-          "subCode": 25913,
-          "subName": "Chemistry",
-          "originSemester": 2
-        },
-        {
-          "subCode": 25921,
-          "subName": "Mathematics-II",
-          "originSemester": 2
-        }
-      ],
-      "totalFailedCountInSheet": 7,
-      "sem1": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 3,
-        "failedSubjects": [
-          {
-            "subCode": 25911,
-            "subName": "Mathematics -I"
-          },
-          {
-            "subCode": 25912,
-            "subName": "Physics -I"
-          },
-          {
-            "subCode": 26811,
-            "subName": "Basic Electronics"
-          }
-        ]
-      },
-      "sem2": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 4,
-        "failedSubjects": [
-          {
-            "subCode": 25911,
-            "subName": "Mathematics -I"
-          },
-          {
-            "subCode": 25912,
-            "subName": "Physics -I"
-          },
-          {
-            "subCode": 25913,
-            "subName": "Chemistry"
-          },
-          {
-            "subCode": 25921,
-            "subName": "Mathematics-II"
-          }
-        ]
-      },
-      "rawResultsCount": 3
-    },
-    {
-      "roll": 214086,
-      "hasSem3": false,
-      "status": "NOT_APPEARED_SEM3",
-      "statusLabel": "৩য় সেমিস্টারে অনুপস্থিত / ড্রপ",
-      "badgeType": "secondary",
-      "isDropOut": false,
-      "sem3Gpa": null,
-      "sem3FailedCount": 0,
-      "sem3FailedSubjects": [],
-      "backlogCount": 0,
-      "backlogSubjects": [],
-      "totalFailedCountInSheet": 0,
-      "sem1": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 4,
-        "failedSubjects": [
-          {
-            "subCode": 25911,
-            "subName": "Mathematics -I"
-          },
-          {
-            "subCode": 25912,
-            "subName": "Physics -I"
-          },
-          {
-            "subCode": 26711,
-            "subName": "Basic Electricity"
-          },
-          {
-            "subCode": 26811,
-            "subName": "Basic Electronics"
-          }
-        ]
-      },
-      "sem2": {
-        "status": "NONE",
-        "gpa": null,
-        "failedCount": 0,
-        "failedSubjects": []
-      },
-      "rawResultsCount": 1
-    },
-    {
-      "roll": 214087,
-      "hasSem3": true,
-      "status": "REFERRED",
-      "statusLabel": "রেফার্ড (1 বিষয়)",
-      "badgeType": "warning",
-      "isDropOut": false,
-      "sem3Gpa": null,
-      "sem3FailedCount": 1,
-      "sem3FailedSubjects": [
-        {
-          "subCode": 25931,
-          "subName": "Mathematics-III",
-          "originSemester": 3
-        }
-      ],
-      "backlogCount": 2,
-      "backlogSubjects": [
-        {
-          "subCode": 25921,
-          "subName": "Mathematics-II",
-          "originSemester": 2
-        },
-        {
-          "subCode": 26821,
-          "subName": "Electronic Devices and Circuits",
-          "originSemester": 2
-        }
-      ],
-      "totalFailedCountInSheet": 3,
-      "sem1": {
-        "status": "PASSED",
-        "gpa": 2.54,
-        "failedCount": 0,
-        "failedSubjects": []
-      },
-      "sem2": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 3,
-        "failedSubjects": [
-          {
-            "subCode": 25921,
-            "subName": "Mathematics-II"
-          },
-          {
-            "subCode": 26711,
-            "subName": "Basic Electricity"
-          },
-          {
-            "subCode": 26821,
-            "subName": "Electronic Devices and Circuits"
-          }
-        ]
-      },
-      "rawResultsCount": 5
-    },
-    {
-      "roll": 214088,
-      "hasSem3": false,
-      "status": "NOT_APPEARED_SEM3",
-      "statusLabel": "৩য় সেমিস্টারে অনুপস্থিত / ড্রপ",
-      "badgeType": "secondary",
-      "isDropOut": false,
-      "sem3Gpa": null,
-      "sem3FailedCount": 0,
-      "sem3FailedSubjects": [],
-      "backlogCount": 0,
-      "backlogSubjects": [],
-      "totalFailedCountInSheet": 0,
-      "sem1": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 4,
-        "failedSubjects": [
-          {
-            "subCode": 25911,
-            "subName": "Mathematics -I"
-          },
-          {
-            "subCode": 25912,
-            "subName": "Physics -I"
-          },
-          {
-            "subCode": 26711,
-            "subName": "Basic Electricity"
-          },
-          {
-            "subCode": 26811,
-            "subName": "Basic Electronics"
-          }
-        ]
-      },
-      "sem2": {
-        "status": "NONE",
-        "gpa": null,
-        "failedCount": 0,
-        "failedSubjects": []
-      },
-      "rawResultsCount": 1
-    },
-    {
-      "roll": 214089,
-      "hasSem3": true,
-      "status": "PASSED",
-      "statusLabel": "পাস (GPA 3.88)",
-      "badgeType": "success",
-      "isDropOut": false,
-      "sem3Gpa": 3.88,
-      "sem3FailedCount": 0,
-      "sem3FailedSubjects": [],
-      "backlogCount": 0,
-      "backlogSubjects": [],
-      "totalFailedCountInSheet": 0,
-      "sem1": {
-        "status": "PASSED",
-        "gpa": 3.32,
-        "failedCount": 0,
-        "failedSubjects": []
-      },
-      "sem2": {
-        "status": "PASSED",
-        "gpa": 3.61,
-        "failedCount": 0,
-        "failedSubjects": []
-      },
-      "rawResultsCount": 6
-    },
-    {
-      "roll": 214090,
-      "hasSem3": true,
-      "status": "PASSED",
-      "statusLabel": "পাস (GPA 2.93)",
-      "badgeType": "success",
-      "isDropOut": false,
-      "sem3Gpa": 2.93,
-      "sem3FailedCount": 0,
-      "sem3FailedSubjects": [],
-      "backlogCount": 0,
-      "backlogSubjects": [],
-      "totalFailedCountInSheet": 0,
-      "sem1": {
-        "status": "PASSED",
-        "gpa": 3.26,
-        "failedCount": 0,
-        "failedSubjects": []
-      },
-      "sem2": {
-        "status": "PASSED",
-        "gpa": 2.91,
-        "failedCount": 0,
-        "failedSubjects": []
-      },
-      "rawResultsCount": 6
-    },
-    {
-      "roll": 214091,
-      "hasSem3": true,
-      "status": "REFERRED",
-      "statusLabel": "রেফার্ড (1 বিষয়)",
-      "badgeType": "warning",
-      "isDropOut": false,
-      "sem3Gpa": null,
-      "sem3FailedCount": 1,
-      "sem3FailedSubjects": [
-        {
-          "subCode": 25931,
-          "subName": "Mathematics-III",
-          "originSemester": 3
-        }
-      ],
-      "backlogCount": 0,
-      "backlogSubjects": [],
-      "totalFailedCountInSheet": 1,
-      "sem1": {
-        "status": "PASSED",
-        "gpa": 3.35,
-        "failedCount": 0,
-        "failedSubjects": []
-      },
-      "sem2": {
-        "status": "PASSED",
-        "gpa": 3.07,
-        "failedCount": 0,
-        "failedSubjects": []
-      },
-      "rawResultsCount": 6
-    },
-    {
-      "roll": 214092,
-      "hasSem3": false,
-      "status": "NOT_APPEARED_SEM3",
-      "statusLabel": "৩য় সেমিস্টারে অনুপস্থিত / ড্রপ",
-      "badgeType": "secondary",
-      "isDropOut": false,
-      "sem3Gpa": null,
-      "sem3FailedCount": 0,
-      "sem3FailedSubjects": [],
-      "backlogCount": 0,
-      "backlogSubjects": [],
-      "totalFailedCountInSheet": 0,
-      "sem1": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 3,
-        "failedSubjects": [
-          {
-            "subCode": 25911,
-            "subName": "Mathematics -I"
-          },
-          {
-            "subCode": 26711,
-            "subName": "Basic Electricity"
-          },
-          {
-            "subCode": 26811,
-            "subName": "Basic Electronics"
-          }
-        ]
-      },
-      "sem2": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 8,
-        "failedSubjects": [
-          {
-            "subCode": 25721,
-            "subName": "Bangla -II"
-          },
-          {
-            "subCode": 25722,
-            "subName": "English-II"
-          },
-          {
-            "subCode": 25913,
-            "subName": "Chemistry"
-          },
-          {
-            "subCode": 25921,
-            "subName": "Mathematics-II"
-          },
-          {
-            "subCode": 26711,
-            "subName": "Basic Electricity"
-          },
-          {
-            "subCode": 26721,
-            "subName": "Electrical Circuits-I"
-          },
-          {
-            "subCode": 26811,
-            "subName": "Basic Electronics"
-          },
-          {
-            "subCode": 26821,
-            "subName": "Electronic Devices and Circuits"
-          }
-        ]
-      },
-      "rawResultsCount": 3
-    },
-    {
-      "roll": 214093,
-      "hasSem3": true,
-      "status": "PASSED",
-      "statusLabel": "পাস (GPA 3.21)",
-      "badgeType": "success",
-      "isDropOut": false,
-      "sem3Gpa": 3.21,
-      "sem3FailedCount": 0,
-      "sem3FailedSubjects": [],
-      "backlogCount": 0,
-      "backlogSubjects": [],
-      "totalFailedCountInSheet": 0,
-      "sem1": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 2,
-        "failedSubjects": [
-          {
-            "subCode": 25912,
-            "subName": "Physics -I"
-          },
-          {
-            "subCode": 26811,
-            "subName": "Basic Electronics"
-          }
-        ]
-      },
-      "sem2": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 3,
-        "failedSubjects": [
-          {
-            "subCode": 25912,
-            "subName": "Physics -I"
-          },
-          {
-            "subCode": 25913,
-            "subName": "Chemistry"
-          },
-          {
-            "subCode": 26821,
-            "subName": "Electronic Devices and Circuits"
-          }
-        ]
-      },
-      "rawResultsCount": 5
-    },
-    {
-      "roll": 214095,
-      "hasSem3": true,
-      "status": "PASSED",
-      "statusLabel": "পাস (GPA 3.63)",
-      "badgeType": "success",
-      "isDropOut": false,
-      "sem3Gpa": 3.63,
-      "sem3FailedCount": 0,
-      "sem3FailedSubjects": [],
-      "backlogCount": 0,
-      "backlogSubjects": [],
-      "totalFailedCountInSheet": 0,
-      "sem1": {
-        "status": "PASSED",
-        "gpa": 3.7,
-        "failedCount": 0,
-        "failedSubjects": []
-      },
-      "sem2": {
-        "status": "PASSED",
-        "gpa": 3.7,
-        "failedCount": 0,
-        "failedSubjects": []
-      },
-      "rawResultsCount": 6
-    },
-    {
-      "roll": 214097,
-      "hasSem3": false,
-      "status": "NOT_APPEARED_SEM3",
-      "statusLabel": "৩য় সেমিস্টারে অনুপস্থিত / ড্রপ",
-      "badgeType": "secondary",
-      "isDropOut": false,
-      "sem3Gpa": null,
-      "sem3FailedCount": 0,
-      "sem3FailedSubjects": [],
-      "backlogCount": 0,
-      "backlogSubjects": [],
-      "totalFailedCountInSheet": 0,
-      "sem1": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 3,
-        "failedSubjects": [
-          {
-            "subCode": 25911,
-            "subName": "Mathematics -I"
-          },
-          {
-            "subCode": 26711,
-            "subName": "Basic Electricity"
-          },
-          {
-            "subCode": 26811,
-            "subName": "Basic Electronics"
-          }
-        ]
-      },
-      "sem2": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 4,
-        "failedSubjects": [
-          {
-            "subCode": 25913,
-            "subName": "Chemistry"
-          },
-          {
-            "subCode": 25921,
-            "subName": "Mathematics-II"
-          },
-          {
-            "subCode": 26721,
-            "subName": "Electrical Circuits-I"
-          },
-          {
-            "subCode": 26811,
-            "subName": "Basic Electronics"
-          }
-        ]
-      },
-      "rawResultsCount": 3
-    },
-    {
-      "roll": 214098,
-      "hasSem3": false,
-      "status": "NOT_APPEARED_SEM3",
-      "statusLabel": "৩য় সেমিস্টারে অনুপস্থিত / ড্রপ",
-      "badgeType": "secondary",
-      "isDropOut": false,
-      "sem3Gpa": null,
-      "sem3FailedCount": 0,
-      "sem3FailedSubjects": [],
-      "backlogCount": 0,
-      "backlogSubjects": [],
-      "totalFailedCountInSheet": 0,
-      "sem1": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 4,
-        "failedSubjects": [
-          {
-            "subCode": 25911,
-            "subName": "Mathematics -I"
-          },
-          {
-            "subCode": 25912,
-            "subName": "Physics -I"
-          },
-          {
-            "subCode": 26711,
-            "subName": "Basic Electricity"
-          },
-          {
-            "subCode": 26811,
-            "subName": "Basic Electronics"
-          }
-        ]
-      },
-      "sem2": {
-        "status": "NONE",
-        "gpa": null,
-        "failedCount": 0,
-        "failedSubjects": []
-      },
-      "rawResultsCount": 1
-    },
-    {
-      "roll": 214099,
-      "hasSem3": false,
-      "status": "NOT_APPEARED_SEM3",
-      "statusLabel": "৩য় সেমিস্টারে অনুপস্থিত / ড্রপ",
-      "badgeType": "secondary",
-      "isDropOut": false,
-      "sem3Gpa": null,
-      "sem3FailedCount": 0,
-      "sem3FailedSubjects": [],
-      "backlogCount": 0,
-      "backlogSubjects": [],
-      "totalFailedCountInSheet": 0,
-      "sem1": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 4,
-        "failedSubjects": [
-          {
-            "subCode": 25911,
-            "subName": "Mathematics -I"
-          },
-          {
-            "subCode": 25912,
-            "subName": "Physics -I"
-          },
-          {
-            "subCode": 26711,
-            "subName": "Basic Electricity"
-          },
-          {
-            "subCode": 26811,
-            "subName": "Basic Electronics"
-          }
-        ]
-      },
-      "sem2": {
-        "status": "NONE",
-        "gpa": null,
-        "failedCount": 0,
-        "failedSubjects": []
-      },
-      "rawResultsCount": 2
-    },
-    {
-      "roll": 214100,
-      "hasSem3": false,
-      "status": "NOT_APPEARED_SEM3",
-      "statusLabel": "৩য় সেমিস্টারে অনুপস্থিত / ড্রপ",
-      "badgeType": "secondary",
-      "isDropOut": false,
-      "sem3Gpa": null,
-      "sem3FailedCount": 0,
-      "sem3FailedSubjects": [],
-      "backlogCount": 0,
-      "backlogSubjects": [],
-      "totalFailedCountInSheet": 0,
-      "sem1": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 5,
-        "failedSubjects": [
-          {
-            "subCode": 25711,
-            "subName": "Bangla-I"
-          },
-          {
-            "subCode": 25911,
-            "subName": "Mathematics -I"
-          },
-          {
-            "subCode": 25912,
-            "subName": "Physics -I"
-          },
-          {
-            "subCode": 26711,
-            "subName": "Basic Electricity"
-          },
-          {
-            "subCode": 26811,
-            "subName": "Basic Electronics"
-          }
-        ]
-      },
-      "sem2": {
-        "status": "NONE",
-        "gpa": null,
-        "failedCount": 0,
-        "failedSubjects": []
-      },
-      "rawResultsCount": 1
-    },
-    {
-      "roll": 214101,
-      "hasSem3": true,
-      "status": "DROP_OUT",
-      "statusLabel": "ড্রপ আউট (6 বিষয়)",
-      "badgeType": "danger",
-      "isDropOut": true,
-      "sem3Gpa": null,
-      "sem3FailedCount": 6,
-      "sem3FailedSubjects": [
-        {
-          "subCode": 25922,
-          "subName": "Physics-II",
-          "originSemester": 3
-        },
-        {
-          "subCode": 25931,
-          "subName": "Mathematics-III",
-          "originSemester": 3
-        },
-        {
-          "subCode": 26731,
-          "subName": "Electrical Circuits-II",
-          "originSemester": 3
-        },
-        {
-          "subCode": 26831,
-          "subName": "Digital Electronics-I",
-          "originSemester": 3
-        },
-        {
-          "subCode": 26832,
-          "subName": "Power Electronics",
-          "originSemester": 3
-        },
-        {
-          "subCode": 28511,
-          "subName": "Computer Office Application",
-          "originSemester": 3
-        }
-      ],
-      "backlogCount": 4,
-      "backlogSubjects": [
-        {
-          "subCode": 25911,
-          "subName": "Mathematics -I",
-          "originSemester": 1
-        },
-        {
-          "subCode": 25913,
-          "subName": "Chemistry",
-          "originSemester": 2
-        },
-        {
-          "subCode": 25921,
-          "subName": "Mathematics-II",
-          "originSemester": 2
-        },
-        {
-          "subCode": 26821,
-          "subName": "Electronic Devices and Circuits",
-          "originSemester": 2
-        }
-      ],
-      "totalFailedCountInSheet": 10,
-      "sem1": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 3,
-        "failedSubjects": [
-          {
-            "subCode": 25911,
-            "subName": "Mathematics -I"
-          },
-          {
-            "subCode": 25912,
-            "subName": "Physics -I"
-          },
-          {
-            "subCode": 26811,
-            "subName": "Basic Electronics"
-          }
-        ]
-      },
-      "sem2": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 4,
-        "failedSubjects": [
-          {
-            "subCode": 25911,
-            "subName": "Mathematics -I"
-          },
-          {
-            "subCode": 25913,
-            "subName": "Chemistry"
-          },
-          {
-            "subCode": 25921,
-            "subName": "Mathematics-II"
-          },
-          {
-            "subCode": 26821,
-            "subName": "Electronic Devices and Circuits"
-          }
-        ]
-      },
-      "rawResultsCount": 3
-    },
-    {
-      "roll": 214103,
-      "hasSem3": false,
-      "status": "NOT_APPEARED_SEM3",
-      "statusLabel": "৩য় সেমিস্টারে অনুপস্থিত / ড্রপ",
-      "badgeType": "secondary",
-      "isDropOut": false,
-      "sem3Gpa": null,
-      "sem3FailedCount": 0,
-      "sem3FailedSubjects": [],
-      "backlogCount": 0,
-      "backlogSubjects": [],
-      "totalFailedCountInSheet": 0,
-      "sem1": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 3,
-        "failedSubjects": [
-          {
-            "subCode": 25911,
-            "subName": "Mathematics -I"
-          },
-          {
-            "subCode": 26711,
-            "subName": "Basic Electricity"
-          },
-          {
-            "subCode": 26811,
-            "subName": "Basic Electronics"
-          }
-        ]
-      },
-      "sem2": {
-        "status": "NONE",
-        "gpa": null,
-        "failedCount": 0,
-        "failedSubjects": []
-      },
-      "rawResultsCount": 2
-    },
-    {
-      "roll": 214104,
-      "hasSem3": false,
-      "status": "NOT_APPEARED_SEM3",
-      "statusLabel": "৩য় সেমিস্টারে অনুপস্থিত / ড্রপ",
-      "badgeType": "secondary",
-      "isDropOut": false,
-      "sem3Gpa": null,
-      "sem3FailedCount": 0,
-      "sem3FailedSubjects": [],
-      "backlogCount": 0,
-      "backlogSubjects": [],
-      "totalFailedCountInSheet": 0,
-      "sem1": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 4,
-        "failedSubjects": [
-          {
-            "subCode": 25911,
-            "subName": "Mathematics -I"
-          },
-          {
-            "subCode": 25912,
-            "subName": "Physics -I"
-          },
-          {
-            "subCode": 26711,
-            "subName": "Basic Electricity"
-          },
-          {
-            "subCode": 26811,
-            "subName": "Basic Electronics"
-          }
-        ]
-      },
-      "sem2": {
-        "status": "NONE",
-        "gpa": null,
-        "failedCount": 0,
-        "failedSubjects": []
-      },
-      "rawResultsCount": 3
-    },
-    {
-      "roll": 214106,
-      "hasSem3": false,
-      "status": "NOT_APPEARED_SEM3",
-      "statusLabel": "৩য় সেমিস্টারে অনুপস্থিত / ড্রপ",
-      "badgeType": "secondary",
-      "isDropOut": false,
-      "sem3Gpa": null,
-      "sem3FailedCount": 0,
-      "sem3FailedSubjects": [],
-      "backlogCount": 0,
-      "backlogSubjects": [],
-      "totalFailedCountInSheet": 0,
-      "sem1": {
-        "status": "PASSED",
-        "gpa": 2.93,
-        "failedCount": 0,
-        "failedSubjects": []
-      },
-      "sem2": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 4,
-        "failedSubjects": [
-          {
-            "subCode": 25913,
-            "subName": "Chemistry"
-          },
-          {
-            "subCode": 25921,
-            "subName": "Mathematics-II"
-          },
-          {
-            "subCode": 26721,
-            "subName": "Electrical Circuits-I"
-          },
-          {
-            "subCode": 26821,
-            "subName": "Electronic Devices and Circuits"
-          }
-        ]
-      },
-      "rawResultsCount": 4
-    },
-    {
-      "roll": 214107,
-      "hasSem3": true,
-      "status": "PASSED",
-      "statusLabel": "পাস (GPA 3.78)",
-      "badgeType": "success",
-      "isDropOut": false,
-      "sem3Gpa": 3.78,
-      "sem3FailedCount": 0,
-      "sem3FailedSubjects": [],
-      "backlogCount": 0,
-      "backlogSubjects": [],
-      "totalFailedCountInSheet": 0,
-      "sem1": {
-        "status": "PASSED",
-        "gpa": 3.44,
-        "failedCount": 0,
-        "failedSubjects": []
-      },
-      "sem2": {
-        "status": "PASSED",
-        "gpa": 3.2,
-        "failedCount": 0,
-        "failedSubjects": []
-      },
-      "rawResultsCount": 6
-    },
-    {
-      "roll": 214109,
-      "hasSem3": true,
-      "status": "REFERRED",
-      "statusLabel": "রেফার্ড (1 বিষয়)",
-      "badgeType": "warning",
-      "isDropOut": false,
-      "sem3Gpa": null,
-      "sem3FailedCount": 1,
-      "sem3FailedSubjects": [
-        {
-          "subCode": 26832,
-          "subName": "Power Electronics",
-          "originSemester": 3
-        }
-      ],
-      "backlogCount": 4,
-      "backlogSubjects": [
-        {
-          "subCode": 25913,
-          "subName": "Chemistry",
-          "originSemester": 2
-        },
-        {
-          "subCode": 26721,
-          "subName": "Electrical Circuits-I",
-          "originSemester": 2
-        },
-        {
-          "subCode": 26811,
-          "subName": "Basic Electronics",
-          "originSemester": 1
-        },
-        {
-          "subCode": 26821,
-          "subName": "Electronic Devices and Circuits",
-          "originSemester": 2
-        }
-      ],
-      "totalFailedCountInSheet": 5,
-      "sem1": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 1,
-        "failedSubjects": [
-          {
-            "subCode": 26811,
-            "subName": "Basic Electronics"
-          }
-        ]
-      },
-      "sem2": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 4,
-        "failedSubjects": [
-          {
-            "subCode": 25913,
-            "subName": "Chemistry"
-          },
-          {
-            "subCode": 26721,
-            "subName": "Electrical Circuits-I"
-          },
-          {
-            "subCode": 26811,
-            "subName": "Basic Electronics"
-          },
-          {
-            "subCode": 26821,
-            "subName": "Electronic Devices and Circuits"
-          }
-        ]
-      },
-      "rawResultsCount": 3
-    },
-    {
-      "roll": 214110,
-      "hasSem3": true,
-      "status": "REFERRED",
-      "statusLabel": "রেফার্ড (3 বিষয়)",
-      "badgeType": "warning",
-      "isDropOut": false,
-      "sem3Gpa": null,
-      "sem3FailedCount": 3,
-      "sem3FailedSubjects": [
-        {
-          "subCode": 25931,
-          "subName": "Mathematics-III",
-          "originSemester": 3
-        },
-        {
-          "subCode": 26731,
-          "subName": "Electrical Circuits-II",
-          "originSemester": 3
-        },
-        {
-          "subCode": 26831,
-          "subName": "Digital Electronics-I",
-          "originSemester": 3
-        }
-      ],
-      "backlogCount": 1,
-      "backlogSubjects": [
-        {
-          "subCode": 26821,
-          "subName": "Electronic Devices and Circuits",
-          "originSemester": 2
-        }
-      ],
-      "totalFailedCountInSheet": 4,
-      "sem1": {
-        "status": "PASSED",
-        "gpa": 2.63,
-        "failedCount": 0,
-        "failedSubjects": []
-      },
-      "sem2": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 2,
-        "failedSubjects": [
-          {
-            "subCode": 25921,
-            "subName": "Mathematics-II"
-          },
-          {
-            "subCode": 26821,
-            "subName": "Electronic Devices and Circuits"
-          }
-        ]
-      },
-      "rawResultsCount": 5
-    },
-    {
-      "roll": 214111,
-      "hasSem3": false,
-      "status": "NOT_APPEARED_SEM3",
-      "statusLabel": "৩য় সেমিস্টারে অনুপস্থিত / ড্রপ",
-      "badgeType": "secondary",
-      "isDropOut": false,
-      "sem3Gpa": null,
-      "sem3FailedCount": 0,
-      "sem3FailedSubjects": [],
-      "backlogCount": 0,
-      "backlogSubjects": [],
-      "totalFailedCountInSheet": 0,
-      "sem1": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 5,
-        "failedSubjects": [
-          {
-            "subCode": 25712,
-            "subName": "English-I"
-          },
-          {
-            "subCode": 25911,
-            "subName": "Mathematics -I"
-          },
-          {
-            "subCode": 25912,
-            "subName": "Physics -I"
-          },
-          {
-            "subCode": 26711,
-            "subName": "Basic Electricity"
-          },
-          {
-            "subCode": 26811,
-            "subName": "Basic Electronics"
-          }
-        ]
-      },
-      "sem2": {
-        "status": "NONE",
-        "gpa": null,
-        "failedCount": 0,
-        "failedSubjects": []
-      },
-      "rawResultsCount": 2
-    },
-    {
-      "roll": 214112,
-      "hasSem3": false,
-      "status": "NOT_APPEARED_SEM3",
-      "statusLabel": "৩য় সেমিস্টারে অনুপস্থিত / ড্রপ",
-      "badgeType": "secondary",
-      "isDropOut": false,
-      "sem3Gpa": null,
-      "sem3FailedCount": 0,
-      "sem3FailedSubjects": [],
-      "backlogCount": 0,
-      "backlogSubjects": [],
-      "totalFailedCountInSheet": 0,
-      "sem1": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 3,
-        "failedSubjects": [
-          {
-            "subCode": 25911,
-            "subName": "Mathematics -I"
-          },
-          {
-            "subCode": 25912,
-            "subName": "Physics -I"
-          },
-          {
-            "subCode": 26811,
-            "subName": "Basic Electronics"
-          }
-        ]
-      },
-      "sem2": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 7,
-        "failedSubjects": [
-          {
-            "subCode": 25721,
-            "subName": "Bangla -II"
-          },
-          {
-            "subCode": 25911,
-            "subName": "Mathematics -I"
-          },
-          {
-            "subCode": 25912,
-            "subName": "Physics -I"
-          },
-          {
-            "subCode": 25913,
-            "subName": "Chemistry"
-          },
-          {
-            "subCode": 25921,
-            "subName": "Mathematics-II"
-          },
-          {
-            "subCode": 26721,
-            "subName": "Electrical Circuits-I"
-          },
-          {
-            "subCode": 26821,
-            "subName": "Electronic Devices and Circuits"
-          }
-        ]
-      },
-      "rawResultsCount": 2
-    },
-    {
-      "roll": 214113,
-      "hasSem3": false,
-      "status": "NOT_APPEARED_SEM3",
-      "statusLabel": "৩য় সেমিস্টারে অনুপস্থিত / ড্রপ",
-      "badgeType": "secondary",
-      "isDropOut": false,
-      "sem3Gpa": null,
-      "sem3FailedCount": 0,
-      "sem3FailedSubjects": [],
-      "backlogCount": 0,
-      "backlogSubjects": [],
-      "totalFailedCountInSheet": 0,
-      "sem1": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 3,
-        "failedSubjects": [
-          {
-            "subCode": 25911,
-            "subName": "Mathematics -I"
-          },
-          {
-            "subCode": 25912,
-            "subName": "Physics -I"
-          },
-          {
-            "subCode": 26811,
-            "subName": "Basic Electronics"
-          }
-        ]
-      },
-      "sem2": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 6,
-        "failedSubjects": [
-          {
-            "subCode": 25911,
-            "subName": "Mathematics -I"
-          },
-          {
-            "subCode": 25912,
-            "subName": "Physics -I"
-          },
-          {
-            "subCode": 25921,
-            "subName": "Mathematics-II"
-          },
-          {
-            "subCode": 26721,
-            "subName": "Electrical Circuits-I"
-          },
-          {
-            "subCode": 26811,
-            "subName": "Basic Electronics"
-          },
-          {
-            "subCode": 26821,
-            "subName": "Electronic Devices and Circuits"
-          }
-        ]
-      },
-      "rawResultsCount": 3
-    },
-    {
-      "roll": 214114,
-      "hasSem3": true,
-      "status": "PASSED",
-      "statusLabel": "পাস (GPA 2.95)",
-      "badgeType": "success",
-      "isDropOut": false,
-      "sem3Gpa": 2.95,
-      "sem3FailedCount": 0,
-      "sem3FailedSubjects": [],
-      "backlogCount": 0,
-      "backlogSubjects": [],
-      "totalFailedCountInSheet": 0,
-      "sem1": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 3,
-        "failedSubjects": [
-          {
-            "subCode": 25911,
-            "subName": "Mathematics -I"
-          },
-          {
-            "subCode": 25912,
-            "subName": "Physics -I"
-          },
-          {
-            "subCode": 26811,
-            "subName": "Basic Electronics"
-          }
-        ]
-      },
-      "sem2": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 5,
-        "failedSubjects": [
-          {
-            "subCode": 25911,
-            "subName": "Mathematics -I"
-          },
-          {
-            "subCode": 25912,
-            "subName": "Physics -I"
-          },
-          {
-            "subCode": 26721,
-            "subName": "Electrical Circuits-I"
-          },
-          {
-            "subCode": 26811,
-            "subName": "Basic Electronics"
-          },
-          {
-            "subCode": 26821,
-            "subName": "Electronic Devices and Circuits"
-          }
-        ]
-      },
-      "rawResultsCount": 4
-    },
-    {
-      "roll": 214115,
-      "hasSem3": false,
-      "status": "NOT_APPEARED_SEM3",
-      "statusLabel": "৩য় সেমিস্টারে অনুপস্থিত / ড্রপ",
-      "badgeType": "secondary",
-      "isDropOut": false,
-      "sem3Gpa": null,
-      "sem3FailedCount": 0,
-      "sem3FailedSubjects": [],
-      "backlogCount": 0,
-      "backlogSubjects": [],
-      "totalFailedCountInSheet": 0,
-      "sem1": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 5,
-        "failedSubjects": [
-          {
-            "subCode": 25712,
-            "subName": "English-I"
-          },
-          {
-            "subCode": 25911,
-            "subName": "Mathematics -I"
-          },
-          {
-            "subCode": 25912,
-            "subName": "Physics -I"
-          },
-          {
-            "subCode": 26711,
-            "subName": "Basic Electricity"
-          },
-          {
-            "subCode": 26811,
-            "subName": "Basic Electronics"
-          }
-        ]
-      },
-      "sem2": {
-        "status": "NONE",
-        "gpa": null,
-        "failedCount": 0,
-        "failedSubjects": []
-      },
-      "rawResultsCount": 1
-    },
-    {
-      "roll": 214116,
-      "hasSem3": false,
-      "status": "NOT_APPEARED_SEM3",
-      "statusLabel": "৩য় সেমিস্টারে অনুপস্থিত / ড্রপ",
-      "badgeType": "secondary",
-      "isDropOut": false,
-      "sem3Gpa": null,
-      "sem3FailedCount": 0,
-      "sem3FailedSubjects": [],
-      "backlogCount": 0,
-      "backlogSubjects": [],
-      "totalFailedCountInSheet": 0,
-      "sem1": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 5,
-        "failedSubjects": [
-          {
-            "subCode": 25712,
-            "subName": "English-I"
-          },
-          {
-            "subCode": 25911,
-            "subName": "Mathematics -I"
-          },
-          {
-            "subCode": 25912,
-            "subName": "Physics -I"
-          },
-          {
-            "subCode": 26711,
-            "subName": "Basic Electricity"
-          },
-          {
-            "subCode": 26811,
-            "subName": "Basic Electronics"
-          }
-        ]
-      },
-      "sem2": {
-        "status": "NONE",
-        "gpa": null,
-        "failedCount": 0,
-        "failedSubjects": []
-      },
-      "rawResultsCount": 3
-    },
-    {
-      "roll": 214117,
-      "hasSem3": false,
-      "status": "NOT_APPEARED_SEM3",
-      "statusLabel": "৩য় সেমিস্টারে অনুপস্থিত / ড্রপ",
-      "badgeType": "secondary",
-      "isDropOut": false,
-      "sem3Gpa": null,
-      "sem3FailedCount": 0,
-      "sem3FailedSubjects": [],
-      "backlogCount": 0,
-      "backlogSubjects": [],
-      "totalFailedCountInSheet": 0,
-      "sem1": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 5,
-        "failedSubjects": [
-          {
-            "subCode": 25712,
-            "subName": "English-I"
-          },
-          {
-            "subCode": 25911,
-            "subName": "Mathematics -I"
-          },
-          {
-            "subCode": 25912,
-            "subName": "Physics -I"
-          },
-          {
-            "subCode": 26711,
-            "subName": "Basic Electricity"
-          },
-          {
-            "subCode": 26811,
-            "subName": "Basic Electronics"
-          }
-        ]
-      },
-      "sem2": {
-        "status": "NONE",
-        "gpa": null,
-        "failedCount": 0,
-        "failedSubjects": []
-      },
-      "rawResultsCount": 2
-    },
-    {
-      "roll": 214118,
-      "hasSem3": true,
-      "status": "REFERRED",
-      "statusLabel": "রেফার্ড (1 বিষয়)",
-      "badgeType": "warning",
-      "isDropOut": false,
-      "sem3Gpa": null,
-      "sem3FailedCount": 1,
-      "sem3FailedSubjects": [
-        {
-          "subCode": 26831,
-          "subName": "Digital Electronics-I",
-          "originSemester": 3
-        }
-      ],
-      "backlogCount": 0,
-      "backlogSubjects": [],
-      "totalFailedCountInSheet": 1,
-      "sem1": {
-        "status": "PASSED",
-        "gpa": 3.39,
-        "failedCount": 0,
-        "failedSubjects": []
-      },
-      "sem2": {
-        "status": "PASSED",
-        "gpa": 3.46,
-        "failedCount": 0,
-        "failedSubjects": []
-      },
-      "rawResultsCount": 6
-    },
-    {
-      "roll": 214119,
-      "hasSem3": false,
-      "status": "NOT_APPEARED_SEM3",
-      "statusLabel": "৩য় সেমিস্টারে অনুপস্থিত / ড্রপ",
-      "badgeType": "secondary",
-      "isDropOut": false,
-      "sem3Gpa": null,
-      "sem3FailedCount": 0,
-      "sem3FailedSubjects": [],
-      "backlogCount": 0,
-      "backlogSubjects": [],
-      "totalFailedCountInSheet": 0,
-      "sem1": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 4,
-        "failedSubjects": [
-          {
-            "subCode": 25712,
-            "subName": "English-I"
-          },
-          {
-            "subCode": 25911,
-            "subName": "Mathematics -I"
-          },
-          {
-            "subCode": 25912,
-            "subName": "Physics -I"
-          },
-          {
-            "subCode": 26811,
-            "subName": "Basic Electronics"
-          }
-        ]
-      },
-      "sem2": {
-        "status": "NONE",
-        "gpa": null,
-        "failedCount": 0,
-        "failedSubjects": []
-      },
-      "rawResultsCount": 2
-    },
-    {
-      "roll": 214121,
-      "hasSem3": true,
-      "status": "PASSED",
-      "statusLabel": "পাস (GPA 3.79)",
-      "badgeType": "success",
-      "isDropOut": false,
-      "sem3Gpa": 3.79,
-      "sem3FailedCount": 0,
-      "sem3FailedSubjects": [],
-      "backlogCount": 0,
-      "backlogSubjects": [],
-      "totalFailedCountInSheet": 0,
-      "sem1": {
-        "status": "PASSED",
-        "gpa": 3.32,
-        "failedCount": 0,
-        "failedSubjects": []
-      },
-      "sem2": {
-        "status": "PASSED",
-        "gpa": 3.59,
-        "failedCount": 0,
-        "failedSubjects": []
-      },
-      "rawResultsCount": 6
-    },
-    {
-      "roll": 214122,
-      "hasSem3": false,
-      "status": "NOT_APPEARED_SEM3",
-      "statusLabel": "৩য় সেমিস্টারে অনুপস্থিত / ড্রপ",
-      "badgeType": "secondary",
-      "isDropOut": false,
-      "sem3Gpa": null,
-      "sem3FailedCount": 0,
-      "sem3FailedSubjects": [],
-      "backlogCount": 0,
-      "backlogSubjects": [],
-      "totalFailedCountInSheet": 0,
-      "sem1": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 2,
-        "failedSubjects": [
-          {
-            "subCode": 25911,
-            "subName": "Mathematics -I"
-          },
-          {
-            "subCode": 25912,
-            "subName": "Physics -I"
-          }
-        ]
-      },
-      "sem2": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 6,
-        "failedSubjects": [
-          {
-            "subCode": 25811,
-            "subName": "Social Science"
-          },
-          {
-            "subCode": 25911,
-            "subName": "Mathematics -I"
-          },
-          {
-            "subCode": 25912,
-            "subName": "Physics -I"
-          },
-          {
-            "subCode": 25921,
-            "subName": "Mathematics-II"
-          },
-          {
-            "subCode": 26721,
-            "subName": "Electrical Circuits-I"
-          },
-          {
-            "subCode": 26821,
-            "subName": "Electronic Devices and Circuits"
-          }
-        ]
-      },
-      "rawResultsCount": 3
-    },
-    {
-      "roll": 214123,
-      "hasSem3": false,
-      "status": "NOT_APPEARED_SEM3",
-      "statusLabel": "৩য় সেমিস্টারে অনুপস্থিত / ড্রপ",
-      "badgeType": "secondary",
-      "isDropOut": false,
-      "sem3Gpa": null,
-      "sem3FailedCount": 0,
-      "sem3FailedSubjects": [],
-      "backlogCount": 0,
-      "backlogSubjects": [],
-      "totalFailedCountInSheet": 0,
-      "sem1": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 5,
-        "failedSubjects": [
-          {
-            "subCode": 25712,
-            "subName": "English-I"
-          },
-          {
-            "subCode": 25911,
-            "subName": "Mathematics -I"
-          },
-          {
-            "subCode": 25912,
-            "subName": "Physics -I"
-          },
-          {
-            "subCode": 26711,
-            "subName": "Basic Electricity"
-          },
-          {
-            "subCode": 26811,
-            "subName": "Basic Electronics"
-          }
-        ]
-      },
-      "sem2": {
-        "status": "NONE",
-        "gpa": null,
-        "failedCount": 0,
-        "failedSubjects": []
-      },
-      "rawResultsCount": 1
-    },
-    {
-      "roll": 214124,
-      "hasSem3": true,
-      "status": "REFERRED",
-      "statusLabel": "রেফার্ড (1 বিষয়)",
-      "badgeType": "warning",
-      "isDropOut": false,
-      "sem3Gpa": null,
-      "sem3FailedCount": 1,
-      "sem3FailedSubjects": [
-        {
-          "subCode": 26831,
-          "subName": "Digital Electronics-I",
-          "originSemester": 3
-        }
-      ],
-      "backlogCount": 1,
-      "backlogSubjects": [
-        {
-          "subCode": 26721,
-          "subName": "Electrical Circuits-I",
-          "originSemester": 2
-        }
-      ],
-      "totalFailedCountInSheet": 2,
-      "sem1": {
-        "status": "PASSED",
-        "gpa": 3.46,
-        "failedCount": 0,
-        "failedSubjects": []
-      },
-      "sem2": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 3,
-        "failedSubjects": [
-          {
-            "subCode": 25913,
-            "subName": "Chemistry"
-          },
-          {
-            "subCode": 26721,
-            "subName": "Electrical Circuits-I"
-          },
-          {
-            "subCode": 26821,
-            "subName": "Electronic Devices and Circuits"
-          }
-        ]
-      },
-      "rawResultsCount": 5
-    },
-    {
-      "roll": 214126,
-      "hasSem3": true,
-      "status": "REFERRED",
-      "statusLabel": "রেফার্ড (2 বিষয়)",
-      "badgeType": "warning",
-      "isDropOut": false,
-      "sem3Gpa": null,
-      "sem3FailedCount": 2,
-      "sem3FailedSubjects": [
-        {
-          "subCode": 25931,
-          "subName": "Mathematics-III",
-          "originSemester": 3
-        },
-        {
-          "subCode": 26731,
-          "subName": "Electrical Circuits-II",
-          "originSemester": 3
-        }
-      ],
-      "backlogCount": 2,
-      "backlogSubjects": [
-        {
-          "subCode": 25913,
-          "subName": "Chemistry",
-          "originSemester": 2
-        },
-        {
-          "subCode": 26721,
-          "subName": "Electrical Circuits-I",
-          "originSemester": 2
-        }
-      ],
-      "totalFailedCountInSheet": 4,
-      "sem1": {
-        "status": "PASSED",
-        "gpa": 3.24,
-        "failedCount": 0,
-        "failedSubjects": []
-      },
-      "sem2": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 2,
-        "failedSubjects": [
-          {
-            "subCode": 25913,
-            "subName": "Chemistry"
-          },
-          {
-            "subCode": 26721,
-            "subName": "Electrical Circuits-I"
-          }
-        ]
-      },
-      "rawResultsCount": 6
-    },
-    {
-      "roll": 214129,
-      "hasSem3": true,
-      "status": "REFERRED",
-      "statusLabel": "রেফার্ড (1 বিষয়)",
-      "badgeType": "warning",
-      "isDropOut": false,
-      "sem3Gpa": null,
-      "sem3FailedCount": 1,
-      "sem3FailedSubjects": [
-        {
-          "subCode": 25931,
-          "subName": "Mathematics-III",
-          "originSemester": 3
-        }
-      ],
-      "backlogCount": 1,
-      "backlogSubjects": [
-        {
-          "subCode": 26721,
-          "subName": "Electrical Circuits-I",
-          "originSemester": 2
-        }
-      ],
-      "totalFailedCountInSheet": 2,
-      "sem1": {
-        "status": "PASSED",
-        "gpa": 3.33,
-        "failedCount": 0,
-        "failedSubjects": []
-      },
-      "sem2": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 3,
-        "failedSubjects": [
-          {
-            "subCode": 25913,
-            "subName": "Chemistry"
-          },
-          {
-            "subCode": 25921,
-            "subName": "Mathematics-II"
-          },
-          {
-            "subCode": 26721,
-            "subName": "Electrical Circuits-I"
-          }
-        ]
-      },
-      "rawResultsCount": 5
-    },
-    {
-      "roll": 214131,
-      "hasSem3": true,
-      "status": "REFERRED",
-      "statusLabel": "রেফার্ড (2 বিষয়)",
-      "badgeType": "warning",
-      "isDropOut": false,
-      "sem3Gpa": null,
-      "sem3FailedCount": 2,
-      "sem3FailedSubjects": [
-        {
-          "subCode": 25922,
-          "subName": "Physics-II",
-          "originSemester": 3
-        },
-        {
-          "subCode": 25931,
-          "subName": "Mathematics-III",
-          "originSemester": 3
-        }
-      ],
-      "backlogCount": 4,
-      "backlogSubjects": [
-        {
-          "subCode": 25911,
-          "subName": "Mathematics -I",
-          "originSemester": 1
-        },
-        {
-          "subCode": 25921,
-          "subName": "Mathematics-II",
-          "originSemester": 2
-        },
-        {
-          "subCode": 26721,
-          "subName": "Electrical Circuits-I",
-          "originSemester": 2
-        },
-        {
-          "subCode": 26821,
-          "subName": "Electronic Devices and Circuits",
-          "originSemester": 2
-        }
-      ],
-      "totalFailedCountInSheet": 6,
-      "sem1": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 3,
-        "failedSubjects": [
-          {
-            "subCode": 25911,
-            "subName": "Mathematics -I"
-          },
-          {
-            "subCode": 25912,
-            "subName": "Physics -I"
-          },
-          {
-            "subCode": 26811,
-            "subName": "Basic Electronics"
-          }
-        ]
-      },
-      "sem2": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 4,
-        "failedSubjects": [
-          {
-            "subCode": 25911,
-            "subName": "Mathematics -I"
-          },
-          {
-            "subCode": 25921,
-            "subName": "Mathematics-II"
-          },
-          {
-            "subCode": 26721,
-            "subName": "Electrical Circuits-I"
-          },
-          {
-            "subCode": 26821,
-            "subName": "Electronic Devices and Circuits"
-          }
-        ]
-      },
-      "rawResultsCount": 3
-    },
-    {
-      "roll": 214132,
-      "hasSem3": true,
-      "status": "REFERRED",
-      "statusLabel": "রেফার্ড (1 বিষয়)",
-      "badgeType": "warning",
-      "isDropOut": false,
-      "sem3Gpa": null,
-      "sem3FailedCount": 1,
-      "sem3FailedSubjects": [
-        {
-          "subCode": 25931,
-          "subName": "Mathematics-III",
-          "originSemester": 3
-        }
-      ],
-      "backlogCount": 4,
-      "backlogSubjects": [
-        {
-          "subCode": 25911,
-          "subName": "Mathematics -I",
-          "originSemester": 1
-        },
-        {
-          "subCode": 25921,
-          "subName": "Mathematics-II",
-          "originSemester": 2
-        },
-        {
-          "subCode": 26721,
-          "subName": "Electrical Circuits-I",
-          "originSemester": 2
-        },
-        {
-          "subCode": 26821,
-          "subName": "Electronic Devices and Circuits",
-          "originSemester": 2
-        }
-      ],
-      "totalFailedCountInSheet": 5,
-      "sem1": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 2,
-        "failedSubjects": [
-          {
-            "subCode": 25911,
-            "subName": "Mathematics -I"
-          },
-          {
-            "subCode": 26811,
-            "subName": "Basic Electronics"
-          }
-        ]
-      },
-      "sem2": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 5,
-        "failedSubjects": [
-          {
-            "subCode": 25911,
-            "subName": "Mathematics -I"
-          },
-          {
-            "subCode": 25921,
-            "subName": "Mathematics-II"
-          },
-          {
-            "subCode": 26721,
-            "subName": "Electrical Circuits-I"
-          },
-          {
-            "subCode": 26811,
-            "subName": "Basic Electronics"
-          },
-          {
-            "subCode": 26821,
-            "subName": "Electronic Devices and Circuits"
-          }
-        ]
-      },
-      "rawResultsCount": 4
-    },
-    {
-      "roll": 214134,
-      "hasSem3": true,
-      "status": "PASSED",
-      "statusLabel": "পাস (GPA 2.88)",
-      "badgeType": "success",
-      "isDropOut": false,
-      "sem3Gpa": 2.88,
-      "sem3FailedCount": 0,
-      "sem3FailedSubjects": [],
-      "backlogCount": 0,
-      "backlogSubjects": [],
-      "totalFailedCountInSheet": 0,
-      "sem1": {
-        "status": "PASSED",
-        "gpa": 3.18,
-        "failedCount": 0,
-        "failedSubjects": []
-      },
-      "sem2": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 3,
-        "failedSubjects": [
-          {
-            "subCode": 25913,
-            "subName": "Chemistry"
-          },
-          {
-            "subCode": 26721,
-            "subName": "Electrical Circuits-I"
-          },
-          {
-            "subCode": 26821,
-            "subName": "Electronic Devices and Circuits"
-          }
-        ]
-      },
-      "rawResultsCount": 6
-    },
-    {
-      "roll": 214135,
-      "hasSem3": false,
-      "status": "NOT_APPEARED_SEM3",
-      "statusLabel": "৩য় সেমিস্টারে অনুপস্থিত / ড্রপ",
-      "badgeType": "secondary",
-      "isDropOut": false,
-      "sem3Gpa": null,
-      "sem3FailedCount": 0,
-      "sem3FailedSubjects": [],
-      "backlogCount": 0,
-      "backlogSubjects": [],
-      "totalFailedCountInSheet": 0,
-      "sem1": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 2,
-        "failedSubjects": [
-          {
-            "subCode": 25911,
-            "subName": "Mathematics -I"
-          },
-          {
-            "subCode": 25912,
-            "subName": "Physics -I"
-          }
-        ]
-      },
-      "sem2": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 5,
-        "failedSubjects": [
-          {
-            "subCode": 25911,
-            "subName": "Mathematics -I"
-          },
-          {
-            "subCode": 25913,
-            "subName": "Chemistry"
-          },
-          {
-            "subCode": 25921,
-            "subName": "Mathematics-II"
-          },
-          {
-            "subCode": 26721,
-            "subName": "Electrical Circuits-I"
-          },
-          {
-            "subCode": 26821,
-            "subName": "Electronic Devices and Circuits"
-          }
-        ]
-      },
-      "rawResultsCount": 2
-    },
-    {
-      "roll": 214136,
-      "hasSem3": false,
-      "status": "NOT_APPEARED_SEM3",
-      "statusLabel": "৩য় সেমিস্টারে অনুপস্থিত / ড্রপ",
-      "badgeType": "secondary",
-      "isDropOut": false,
-      "sem3Gpa": null,
-      "sem3FailedCount": 0,
-      "sem3FailedSubjects": [],
-      "backlogCount": 0,
-      "backlogSubjects": [],
-      "totalFailedCountInSheet": 0,
-      "sem1": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 3,
-        "failedSubjects": [
-          {
-            "subCode": 25911,
-            "subName": "Mathematics -I"
-          },
-          {
-            "subCode": 26711,
-            "subName": "Basic Electricity"
-          },
-          {
-            "subCode": 26811,
-            "subName": "Basic Electronics"
-          }
-        ]
-      },
-      "sem2": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 7,
-        "failedSubjects": [
-          {
-            "subCode": 25722,
-            "subName": "English-II"
-          },
-          {
-            "subCode": 25911,
-            "subName": "Mathematics -I"
-          },
-          {
-            "subCode": 25913,
-            "subName": "Chemistry"
-          },
-          {
-            "subCode": 26711,
-            "subName": "Basic Electricity"
-          },
-          {
-            "subCode": 26721,
-            "subName": "Electrical Circuits-I"
-          },
-          {
-            "subCode": 26811,
-            "subName": "Basic Electronics"
-          },
-          {
-            "subCode": 26821,
-            "subName": "Electronic Devices and Circuits"
-          }
-        ]
-      },
-      "rawResultsCount": 3
-    },
-    {
-      "roll": 214137,
-      "hasSem3": true,
-      "status": "PASSED",
-      "statusLabel": "পাস (GPA 3.60)",
-      "badgeType": "success",
-      "isDropOut": false,
-      "sem3Gpa": 3.6,
-      "sem3FailedCount": 0,
-      "sem3FailedSubjects": [],
-      "backlogCount": 0,
-      "backlogSubjects": [],
-      "totalFailedCountInSheet": 0,
-      "sem1": {
-        "status": "PASSED",
-        "gpa": 3.44,
-        "failedCount": 0,
-        "failedSubjects": []
-      },
-      "sem2": {
-        "status": "PASSED",
-        "gpa": 3.02,
-        "failedCount": 0,
-        "failedSubjects": []
-      },
-      "rawResultsCount": 8
-    },
-    {
-      "roll": 214138,
-      "hasSem3": false,
-      "status": "NOT_APPEARED_SEM3",
-      "statusLabel": "৩য় সেমিস্টারে অনুপস্থিত / ড্রপ",
-      "badgeType": "secondary",
-      "isDropOut": false,
-      "sem3Gpa": null,
-      "sem3FailedCount": 0,
-      "sem3FailedSubjects": [],
-      "backlogCount": 0,
-      "backlogSubjects": [],
-      "totalFailedCountInSheet": 0,
-      "sem1": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 5,
-        "failedSubjects": [
-          {
-            "subCode": 25711,
-            "subName": "Bangla-I"
-          },
-          {
-            "subCode": 25911,
-            "subName": "Mathematics -I"
-          },
-          {
-            "subCode": 25912,
-            "subName": "Physics -I"
-          },
-          {
-            "subCode": 26711,
-            "subName": "Basic Electricity"
-          },
-          {
-            "subCode": 26811,
-            "subName": "Basic Electronics"
-          }
-        ]
-      },
-      "sem2": {
-        "status": "NONE",
-        "gpa": null,
-        "failedCount": 0,
-        "failedSubjects": []
-      },
-      "rawResultsCount": 1
-    },
-    {
-      "roll": 214140,
-      "hasSem3": false,
-      "status": "NOT_APPEARED_SEM3",
-      "statusLabel": "৩য় সেমিস্টারে অনুপস্থিত / ড্রপ",
-      "badgeType": "secondary",
-      "isDropOut": false,
-      "sem3Gpa": null,
-      "sem3FailedCount": 0,
-      "sem3FailedSubjects": [],
-      "backlogCount": 0,
-      "backlogSubjects": [],
-      "totalFailedCountInSheet": 0,
-      "sem1": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 3,
-        "failedSubjects": [
-          {
-            "subCode": 25911,
-            "subName": "Mathematics -I"
-          },
-          {
-            "subCode": 26711,
-            "subName": "Basic Electricity"
-          },
-          {
-            "subCode": 26811,
-            "subName": "Basic Electronics"
-          }
-        ]
-      },
-      "sem2": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 7,
-        "failedSubjects": [
-          {
-            "subCode": 25911,
-            "subName": "Mathematics -I"
-          },
-          {
-            "subCode": 25913,
-            "subName": "Chemistry"
-          },
-          {
-            "subCode": 25921,
-            "subName": "Mathematics-II"
-          },
-          {
-            "subCode": 26711,
-            "subName": "Basic Electricity"
-          },
-          {
-            "subCode": 26721,
-            "subName": "Electrical Circuits-I"
-          },
-          {
-            "subCode": 26811,
-            "subName": "Basic Electronics"
-          },
-          {
-            "subCode": 26821,
-            "subName": "Electronic Devices and Circuits"
-          }
-        ]
-      },
-      "rawResultsCount": 2
-    },
-    {
-      "roll": 214142,
-      "hasSem3": false,
-      "status": "NOT_APPEARED_SEM3",
-      "statusLabel": "৩য় সেমিস্টারে অনুপস্থিত / ড্রপ",
-      "badgeType": "secondary",
-      "isDropOut": false,
-      "sem3Gpa": null,
-      "sem3FailedCount": 0,
-      "sem3FailedSubjects": [],
-      "backlogCount": 0,
-      "backlogSubjects": [],
-      "totalFailedCountInSheet": 0,
-      "sem1": {
-        "status": "PASSED",
-        "gpa": 3.32,
-        "failedCount": 0,
-        "failedSubjects": []
-      },
-      "sem2": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 1,
-        "failedSubjects": [
-          {
-            "subCode": 26821,
-            "subName": "Electronic Devices and Circuits"
-          }
-        ]
-      },
-      "rawResultsCount": 4
-    },
-    {
-      "roll": 214143,
-      "hasSem3": false,
-      "status": "NOT_APPEARED_SEM3",
-      "statusLabel": "৩য় সেমিস্টারে অনুপস্থিত / ড্রপ",
-      "badgeType": "secondary",
-      "isDropOut": false,
-      "sem3Gpa": null,
-      "sem3FailedCount": 0,
-      "sem3FailedSubjects": [],
-      "backlogCount": 0,
-      "backlogSubjects": [],
-      "totalFailedCountInSheet": 0,
-      "sem1": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 5,
-        "failedSubjects": [
-          {
-            "subCode": 25712,
-            "subName": "English-I"
-          },
-          {
-            "subCode": 25911,
-            "subName": "Mathematics -I"
-          },
-          {
-            "subCode": 25912,
-            "subName": "Physics -I"
-          },
-          {
-            "subCode": 26711,
-            "subName": "Basic Electricity"
-          },
-          {
-            "subCode": 26811,
-            "subName": "Basic Electronics"
-          }
-        ]
-      },
-      "sem2": {
-        "status": "NONE",
-        "gpa": null,
-        "failedCount": 0,
-        "failedSubjects": []
-      },
-      "rawResultsCount": 1
-    },
-    {
-      "roll": 214144,
-      "hasSem3": true,
-      "status": "PASSED",
-      "statusLabel": "পাস (GPA 3.19)",
-      "badgeType": "success",
-      "isDropOut": false,
-      "sem3Gpa": 3.19,
-      "sem3FailedCount": 0,
-      "sem3FailedSubjects": [],
-      "backlogCount": 0,
-      "backlogSubjects": [],
-      "totalFailedCountInSheet": 0,
-      "sem1": {
-        "status": "PASSED",
-        "gpa": 2.81,
-        "failedCount": 0,
-        "failedSubjects": []
-      },
-      "sem2": {
-        "status": "PASSED",
-        "gpa": 2.8,
-        "failedCount": 0,
-        "failedSubjects": []
-      },
-      "rawResultsCount": 8
-    },
-    {
-      "roll": 214145,
-      "hasSem3": false,
-      "status": "NOT_APPEARED_SEM3",
-      "statusLabel": "৩য় সেমিস্টারে অনুপস্থিত / ড্রপ",
-      "badgeType": "secondary",
-      "isDropOut": false,
-      "sem3Gpa": null,
-      "sem3FailedCount": 0,
-      "sem3FailedSubjects": [],
-      "backlogCount": 0,
-      "backlogSubjects": [],
-      "totalFailedCountInSheet": 0,
-      "sem1": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 2,
-        "failedSubjects": [
-          {
-            "subCode": 26711,
-            "subName": "Basic Electricity"
-          },
-          {
-            "subCode": 26811,
-            "subName": "Basic Electronics"
-          }
-        ]
-      },
-      "sem2": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 8,
-        "failedSubjects": [
-          {
-            "subCode": 25721,
-            "subName": "Bangla -II"
-          },
-          {
-            "subCode": 25722,
-            "subName": "English-II"
-          },
-          {
-            "subCode": 25913,
-            "subName": "Chemistry"
-          },
-          {
-            "subCode": 25921,
-            "subName": "Mathematics-II"
-          },
-          {
-            "subCode": 26711,
-            "subName": "Basic Electricity"
-          },
-          {
-            "subCode": 26721,
-            "subName": "Electrical Circuits-I"
-          },
-          {
-            "subCode": 26811,
-            "subName": "Basic Electronics"
-          },
-          {
-            "subCode": 26821,
-            "subName": "Electronic Devices and Circuits"
-          }
-        ]
-      },
-      "rawResultsCount": 3
-    },
-    {
-      "roll": 214147,
-      "hasSem3": false,
-      "status": "NOT_APPEARED_SEM3",
-      "statusLabel": "৩য় সেমিস্টারে অনুপস্থিত / ড্রপ",
-      "badgeType": "secondary",
-      "isDropOut": false,
-      "sem3Gpa": null,
-      "sem3FailedCount": 0,
-      "sem3FailedSubjects": [],
-      "backlogCount": 0,
-      "backlogSubjects": [],
-      "totalFailedCountInSheet": 0,
-      "sem1": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 4,
-        "failedSubjects": [
-          {
-            "subCode": 25911,
-            "subName": "Mathematics -I"
-          },
-          {
-            "subCode": 25912,
-            "subName": "Physics -I"
-          },
-          {
-            "subCode": 26711,
-            "subName": "Basic Electricity"
-          },
-          {
-            "subCode": 26811,
-            "subName": "Basic Electronics"
-          }
-        ]
-      },
-      "sem2": {
-        "status": "NONE",
-        "gpa": null,
-        "failedCount": 0,
-        "failedSubjects": []
-      },
-      "rawResultsCount": 3
-    },
-    {
-      "roll": 214148,
-      "hasSem3": false,
-      "status": "NOT_APPEARED_SEM3",
-      "statusLabel": "৩য় সেমিস্টারে অনুপস্থিত / ড্রপ",
-      "badgeType": "secondary",
-      "isDropOut": false,
-      "sem3Gpa": null,
-      "sem3FailedCount": 0,
-      "sem3FailedSubjects": [],
-      "backlogCount": 0,
-      "backlogSubjects": [],
-      "totalFailedCountInSheet": 0,
-      "sem1": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 3,
-        "failedSubjects": [
-          {
-            "subCode": 25911,
-            "subName": "Mathematics -I"
-          },
-          {
-            "subCode": 26711,
-            "subName": "Basic Electricity"
-          },
-          {
-            "subCode": 26811,
-            "subName": "Basic Electronics"
-          }
-        ]
-      },
-      "sem2": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 7,
-        "failedSubjects": [
-          {
-            "subCode": 25722,
-            "subName": "English-II"
-          },
-          {
-            "subCode": 25911,
-            "subName": "Mathematics -I"
-          },
-          {
-            "subCode": 25913,
-            "subName": "Chemistry"
-          },
-          {
-            "subCode": 25921,
-            "subName": "Mathematics-II"
-          },
-          {
-            "subCode": 26721,
-            "subName": "Electrical Circuits-I"
-          },
-          {
-            "subCode": 26811,
-            "subName": "Basic Electronics"
-          },
-          {
-            "subCode": 26821,
-            "subName": "Electronic Devices and Circuits"
-          }
-        ]
-      },
-      "rawResultsCount": 3
-    },
-    {
-      "roll": 214149,
-      "hasSem3": false,
-      "status": "NOT_APPEARED_SEM3",
-      "statusLabel": "৩য় সেমিস্টারে অনুপস্থিত / ড্রপ",
-      "badgeType": "secondary",
-      "isDropOut": false,
-      "sem3Gpa": null,
-      "sem3FailedCount": 0,
-      "sem3FailedSubjects": [],
-      "backlogCount": 0,
-      "backlogSubjects": [],
-      "totalFailedCountInSheet": 0,
-      "sem1": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 6,
-        "failedSubjects": [
-          {
-            "subCode": 25711,
-            "subName": "Bangla-I"
-          },
-          {
-            "subCode": 25712,
-            "subName": "English-I"
-          },
-          {
-            "subCode": 25911,
-            "subName": "Mathematics -I"
-          },
-          {
-            "subCode": 25912,
-            "subName": "Physics -I"
-          },
-          {
-            "subCode": 26711,
-            "subName": "Basic Electricity"
-          },
-          {
-            "subCode": 26811,
-            "subName": "Basic Electronics"
-          }
-        ]
-      },
-      "sem2": {
-        "status": "NONE",
-        "gpa": null,
-        "failedCount": 0,
-        "failedSubjects": []
-      },
-      "rawResultsCount": 1
-    },
-    {
-      "roll": 214150,
-      "hasSem3": false,
-      "status": "NOT_APPEARED_SEM3",
-      "statusLabel": "৩য় সেমিস্টারে অনুপস্থিত / ড্রপ",
-      "badgeType": "secondary",
-      "isDropOut": false,
-      "sem3Gpa": null,
-      "sem3FailedCount": 0,
-      "sem3FailedSubjects": [],
-      "backlogCount": 0,
-      "backlogSubjects": [],
-      "totalFailedCountInSheet": 0,
-      "sem1": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 2,
-        "failedSubjects": [
-          {
-            "subCode": 25911,
-            "subName": "Mathematics -I"
-          },
-          {
-            "subCode": 26811,
-            "subName": "Basic Electronics"
-          }
-        ]
-      },
-      "sem2": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 5,
-        "failedSubjects": [
-          {
-            "subCode": 25911,
-            "subName": "Mathematics -I"
-          },
-          {
-            "subCode": 25913,
-            "subName": "Chemistry"
-          },
-          {
-            "subCode": 25921,
-            "subName": "Mathematics-II"
-          },
-          {
-            "subCode": 26721,
-            "subName": "Electrical Circuits-I"
-          },
-          {
-            "subCode": 26821,
-            "subName": "Electronic Devices and Circuits"
-          }
-        ]
-      },
-      "rawResultsCount": 3
-    },
-    {
-      "roll": 214153,
-      "hasSem3": true,
-      "status": "PASSED",
-      "statusLabel": "পাস (GPA 3.50)",
-      "badgeType": "success",
-      "isDropOut": false,
-      "sem3Gpa": 3.5,
-      "sem3FailedCount": 0,
-      "sem3FailedSubjects": [],
-      "backlogCount": 0,
-      "backlogSubjects": [],
-      "totalFailedCountInSheet": 0,
-      "sem1": {
-        "status": "PASSED",
-        "gpa": 3.29,
-        "failedCount": 0,
-        "failedSubjects": []
-      },
-      "sem2": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 1,
-        "failedSubjects": [
-          {
-            "subCode": 25913,
-            "subName": "Chemistry"
-          }
-        ]
-      },
-      "rawResultsCount": 8
-    },
-    {
-      "roll": 214154,
-      "hasSem3": true,
-      "status": "PASSED",
-      "statusLabel": "পাস (GPA 3.50)",
-      "badgeType": "success",
-      "isDropOut": false,
-      "sem3Gpa": 3.5,
-      "sem3FailedCount": 0,
-      "sem3FailedSubjects": [],
-      "backlogCount": 0,
-      "backlogSubjects": [],
-      "totalFailedCountInSheet": 0,
-      "sem1": {
-        "status": "PASSED",
-        "gpa": 3.48,
-        "failedCount": 0,
-        "failedSubjects": []
-      },
-      "sem2": {
-        "status": "PASSED",
-        "gpa": 3.43,
-        "failedCount": 0,
-        "failedSubjects": []
-      },
-      "rawResultsCount": 7
-    },
-    {
-      "roll": 214155,
-      "hasSem3": true,
-      "status": "PASSED",
-      "statusLabel": "পাস (GPA 3.41)",
-      "badgeType": "success",
-      "isDropOut": false,
-      "sem3Gpa": 3.41,
-      "sem3FailedCount": 0,
-      "sem3FailedSubjects": [],
-      "backlogCount": 0,
-      "backlogSubjects": [],
-      "totalFailedCountInSheet": 0,
-      "sem1": {
-        "status": "PASSED",
-        "gpa": 3.8,
-        "failedCount": 0,
-        "failedSubjects": []
-      },
-      "sem2": {
-        "status": "PASSED",
-        "gpa": 3.35,
-        "failedCount": 0,
-        "failedSubjects": []
-      },
-      "rawResultsCount": 6
-    },
-    {
-      "roll": 214156,
-      "hasSem3": false,
-      "status": "NOT_APPEARED_SEM3",
-      "statusLabel": "৩য় সেমিস্টারে অনুপস্থিত / ড্রপ",
-      "badgeType": "secondary",
-      "isDropOut": false,
-      "sem3Gpa": null,
-      "sem3FailedCount": 0,
-      "sem3FailedSubjects": [],
-      "backlogCount": 0,
-      "backlogSubjects": [],
-      "totalFailedCountInSheet": 0,
-      "sem1": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 4,
-        "failedSubjects": [
-          {
-            "subCode": 25711,
-            "subName": "Bangla-I"
-          },
-          {
-            "subCode": 25911,
-            "subName": "Mathematics -I"
-          },
-          {
-            "subCode": 26711,
-            "subName": "Basic Electricity"
-          },
-          {
-            "subCode": 26811,
-            "subName": "Basic Electronics"
-          }
-        ]
-      },
-      "sem2": {
-        "status": "NONE",
-        "gpa": null,
-        "failedCount": 0,
-        "failedSubjects": []
-      },
-      "rawResultsCount": 1
-    },
-    {
-      "roll": 214157,
-      "hasSem3": false,
-      "status": "NOT_APPEARED_SEM3",
-      "statusLabel": "৩য় সেমিস্টারে অনুপস্থিত / ড্রপ",
-      "badgeType": "secondary",
-      "isDropOut": false,
-      "sem3Gpa": null,
-      "sem3FailedCount": 0,
-      "sem3FailedSubjects": [],
-      "backlogCount": 0,
-      "backlogSubjects": [],
-      "totalFailedCountInSheet": 0,
-      "sem1": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 4,
-        "failedSubjects": [
-          {
-            "subCode": 25911,
-            "subName": "Mathematics -I"
-          },
-          {
-            "subCode": 25912,
-            "subName": "Physics -I"
-          },
-          {
-            "subCode": 26711,
-            "subName": "Basic Electricity"
-          },
-          {
-            "subCode": 26811,
-            "subName": "Basic Electronics"
-          }
-        ]
-      },
-      "sem2": {
-        "status": "NONE",
-        "gpa": null,
-        "failedCount": 0,
-        "failedSubjects": []
-      },
-      "rawResultsCount": 3
-    },
-    {
-      "roll": 214158,
-      "hasSem3": false,
-      "status": "NOT_APPEARED_SEM3",
-      "statusLabel": "৩য় সেমিস্টারে অনুপস্থিত / ড্রপ",
-      "badgeType": "secondary",
-      "isDropOut": false,
-      "sem3Gpa": null,
-      "sem3FailedCount": 0,
-      "sem3FailedSubjects": [],
-      "backlogCount": 0,
-      "backlogSubjects": [],
-      "totalFailedCountInSheet": 0,
-      "sem1": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 1,
-        "failedSubjects": [
-          {
-            "subCode": 25911,
-            "subName": "Mathematics -I"
-          }
-        ]
-      },
-      "sem2": {
-        "status": "NONE",
-        "gpa": null,
-        "failedCount": 0,
-        "failedSubjects": []
-      },
-      "rawResultsCount": 1
-    },
-    {
-      "roll": 214159,
-      "hasSem3": false,
-      "status": "NOT_APPEARED_SEM3",
-      "statusLabel": "৩য় সেমিস্টারে অনুপস্থিত / ড্রপ",
-      "badgeType": "secondary",
-      "isDropOut": false,
-      "sem3Gpa": null,
-      "sem3FailedCount": 0,
-      "sem3FailedSubjects": [],
-      "backlogCount": 0,
-      "backlogSubjects": [],
-      "totalFailedCountInSheet": 0,
-      "sem1": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 2,
-        "failedSubjects": [
-          {
-            "subCode": 25911,
-            "subName": "Mathematics -I"
-          },
-          {
-            "subCode": 26811,
-            "subName": "Basic Electronics"
-          }
-        ]
-      },
-      "sem2": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 9,
-        "failedSubjects": [
-          {
-            "subCode": 25721,
-            "subName": "Bangla -II"
-          },
-          {
-            "subCode": 25722,
-            "subName": "English-II"
-          },
-          {
-            "subCode": 25811,
-            "subName": "Social Science"
-          },
-          {
-            "subCode": 25911,
-            "subName": "Mathematics -I"
-          },
-          {
-            "subCode": 25913,
-            "subName": "Chemistry"
-          },
-          {
-            "subCode": 25921,
-            "subName": "Mathematics-II"
-          },
-          {
-            "subCode": 26721,
-            "subName": "Electrical Circuits-I"
-          },
-          {
-            "subCode": 26811,
-            "subName": "Basic Electronics"
-          },
-          {
-            "subCode": 26821,
-            "subName": "Electronic Devices and Circuits"
-          }
-        ]
-      },
-      "rawResultsCount": 2
-    },
-    {
-      "roll": 214160,
-      "hasSem3": true,
-      "status": "PASSED",
-      "statusLabel": "পাস (GPA 3.41)",
-      "badgeType": "success",
-      "isDropOut": false,
-      "sem3Gpa": 3.41,
-      "sem3FailedCount": 0,
-      "sem3FailedSubjects": [],
-      "backlogCount": 0,
-      "backlogSubjects": [],
-      "totalFailedCountInSheet": 0,
-      "sem1": {
-        "status": "PASSED",
-        "gpa": 3.08,
-        "failedCount": 0,
-        "failedSubjects": []
-      },
-      "sem2": {
-        "status": "PASSED",
-        "gpa": 3.15,
-        "failedCount": 0,
-        "failedSubjects": []
-      },
-      "rawResultsCount": 6
-    },
-    {
-      "roll": 214161,
-      "hasSem3": false,
-      "status": "NOT_APPEARED_SEM3",
-      "statusLabel": "৩য় সেমিস্টারে অনুপস্থিত / ড্রপ",
-      "badgeType": "secondary",
-      "isDropOut": false,
-      "sem3Gpa": null,
-      "sem3FailedCount": 0,
-      "sem3FailedSubjects": [],
-      "backlogCount": 0,
-      "backlogSubjects": [],
-      "totalFailedCountInSheet": 0,
-      "sem1": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 4,
-        "failedSubjects": [
-          {
-            "subCode": 25911,
-            "subName": "Mathematics -I"
-          },
-          {
-            "subCode": 25912,
-            "subName": "Physics -I"
-          },
-          {
-            "subCode": 26711,
-            "subName": "Basic Electricity"
-          },
-          {
-            "subCode": 26811,
-            "subName": "Basic Electronics"
-          }
-        ]
-      },
-      "sem2": {
-        "status": "NONE",
-        "gpa": null,
-        "failedCount": 0,
-        "failedSubjects": []
-      },
-      "rawResultsCount": 2
-    },
-    {
-      "roll": 214162,
-      "hasSem3": false,
-      "status": "NOT_APPEARED_SEM3",
-      "statusLabel": "৩য় সেমিস্টারে অনুপস্থিত / ড্রপ",
-      "badgeType": "secondary",
-      "isDropOut": false,
-      "sem3Gpa": null,
-      "sem3FailedCount": 0,
-      "sem3FailedSubjects": [],
-      "backlogCount": 0,
-      "backlogSubjects": [],
-      "totalFailedCountInSheet": 0,
-      "sem1": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 6,
-        "failedSubjects": [
-          {
-            "subCode": 21011,
-            "subName": "Engineering Drawing"
-          },
-          {
-            "subCode": 25711,
-            "subName": "Bangla-I"
-          },
-          {
-            "subCode": 25911,
-            "subName": "Mathematics -I"
-          },
-          {
-            "subCode": 25912,
-            "subName": "Physics -I"
-          },
-          {
-            "subCode": 26711,
-            "subName": "Basic Electricity"
-          },
-          {
-            "subCode": 26811,
-            "subName": "Basic Electronics"
-          }
-        ]
-      },
-      "sem2": {
-        "status": "NONE",
-        "gpa": null,
-        "failedCount": 0,
-        "failedSubjects": []
-      },
-      "rawResultsCount": 1
-    },
-    {
-      "roll": 214163,
-      "hasSem3": true,
-      "status": "PASSED",
-      "statusLabel": "পাস (GPA 3.43)",
-      "badgeType": "success",
-      "isDropOut": false,
-      "sem3Gpa": 3.43,
-      "sem3FailedCount": 0,
-      "sem3FailedSubjects": [],
-      "backlogCount": 0,
-      "backlogSubjects": [],
-      "totalFailedCountInSheet": 0,
-      "sem1": {
-        "status": "PASSED",
-        "gpa": 3.48,
-        "failedCount": 0,
-        "failedSubjects": []
-      },
-      "sem2": {
-        "status": "PASSED",
-        "gpa": 3.35,
-        "failedCount": 0,
-        "failedSubjects": []
-      },
-      "rawResultsCount": 8
-    },
-    {
-      "roll": 214164,
-      "hasSem3": false,
-      "status": "NOT_APPEARED_SEM3",
-      "statusLabel": "৩য় সেমিস্টারে অনুপস্থিত / ড্রপ",
-      "badgeType": "secondary",
-      "isDropOut": false,
-      "sem3Gpa": null,
-      "sem3FailedCount": 0,
-      "sem3FailedSubjects": [],
-      "backlogCount": 0,
-      "backlogSubjects": [],
-      "totalFailedCountInSheet": 0,
-      "sem1": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 2,
-        "failedSubjects": [
-          {
-            "subCode": 25911,
-            "subName": "Mathematics -I"
-          },
-          {
-            "subCode": 26811,
-            "subName": "Basic Electronics"
-          }
-        ]
-      },
-      "sem2": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 5,
-        "failedSubjects": [
-          {
-            "subCode": 25911,
-            "subName": "Mathematics -I"
-          },
-          {
-            "subCode": 25913,
-            "subName": "Chemistry"
-          },
-          {
-            "subCode": 25921,
-            "subName": "Mathematics-II"
-          },
-          {
-            "subCode": 26721,
-            "subName": "Electrical Circuits-I"
-          },
-          {
-            "subCode": 26821,
-            "subName": "Electronic Devices and Circuits"
-          }
-        ]
-      },
-      "rawResultsCount": 3
-    },
-    {
-      "roll": 214165,
-      "hasSem3": true,
-      "status": "PASSED",
-      "statusLabel": "পাস (GPA 3.49)",
-      "badgeType": "success",
-      "isDropOut": false,
-      "sem3Gpa": 3.49,
-      "sem3FailedCount": 0,
-      "sem3FailedSubjects": [],
-      "backlogCount": 0,
-      "backlogSubjects": [],
-      "totalFailedCountInSheet": 0,
-      "sem1": {
-        "status": "PASSED",
-        "gpa": 3.36,
-        "failedCount": 0,
-        "failedSubjects": []
-      },
-      "sem2": {
-        "status": "PASSED",
-        "gpa": 3.02,
-        "failedCount": 0,
-        "failedSubjects": []
-      },
-      "rawResultsCount": 6
+      }
     },
     {
       "roll": 214167,
-      "hasSem3": true,
+      "name": "ASIF SHAHRIAR",
       "status": "DROP_OUT",
       "statusLabel": "ড্রপ আউট (5 বিষয়)",
       "badgeType": "danger",
@@ -3417,7 +1280,7 @@
           "originSemester": 2
         }
       ],
-      "totalFailedCountInSheet": 9,
+      "totalFailedInSheet": 9,
       "sem1": {
         "status": "REFERRED",
         "gpa": null,
@@ -3463,56 +1326,11 @@
             "subName": "Electronic Devices and Circuits"
           }
         ]
-      },
-      "rawResultsCount": 3
+      }
     },
     {
-      "roll": 214169,
-      "hasSem3": false,
-      "status": "NOT_APPEARED_SEM3",
-      "statusLabel": "৩য় সেমিস্টারে অনুপস্থিত / ড্রপ",
-      "badgeType": "secondary",
-      "isDropOut": false,
-      "sem3Gpa": null,
-      "sem3FailedCount": 0,
-      "sem3FailedSubjects": [],
-      "backlogCount": 0,
-      "backlogSubjects": [],
-      "totalFailedCountInSheet": 0,
-      "sem1": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 4,
-        "failedSubjects": [
-          {
-            "subCode": 25911,
-            "subName": "Mathematics -I"
-          },
-          {
-            "subCode": 25912,
-            "subName": "Physics -I"
-          },
-          {
-            "subCode": 26711,
-            "subName": "Basic Electricity"
-          },
-          {
-            "subCode": 26811,
-            "subName": "Basic Electronics"
-          }
-        ]
-      },
-      "sem2": {
-        "status": "NONE",
-        "gpa": null,
-        "failedCount": 0,
-        "failedSubjects": []
-      },
-      "rawResultsCount": 2
-    },
-    {
-      "roll": 214170,
-      "hasSem3": true,
+      "roll": 214101,
+      "name": "MD. MOMIN ALI",
       "status": "DROP_OUT",
       "statusLabel": "ড্রপ আউট (6 বিষয়)",
       "badgeType": "danger",
@@ -3551,11 +1369,21 @@
           "originSemester": 3
         }
       ],
-      "backlogCount": 2,
+      "backlogCount": 4,
       "backlogSubjects": [
+        {
+          "subCode": 25911,
+          "subName": "Mathematics -I",
+          "originSemester": 1
+        },
         {
           "subCode": 25913,
           "subName": "Chemistry",
+          "originSemester": 2
+        },
+        {
+          "subCode": 25921,
+          "subName": "Mathematics-II",
           "originSemester": 2
         },
         {
@@ -3564,358 +1392,7 @@
           "originSemester": 2
         }
       ],
-      "totalFailedCountInSheet": 8,
-      "sem1": {
-        "status": "PASSED",
-        "gpa": 3.51,
-        "failedCount": 0,
-        "failedSubjects": []
-      },
-      "sem2": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 2,
-        "failedSubjects": [
-          {
-            "subCode": 25913,
-            "subName": "Chemistry"
-          },
-          {
-            "subCode": 26821,
-            "subName": "Electronic Devices and Circuits"
-          }
-        ]
-      },
-      "rawResultsCount": 4
-    },
-    {
-      "roll": 214172,
-      "hasSem3": true,
-      "status": "REFERRED",
-      "statusLabel": "রেফার্ড (2 বিষয়)",
-      "badgeType": "warning",
-      "isDropOut": false,
-      "sem3Gpa": null,
-      "sem3FailedCount": 2,
-      "sem3FailedSubjects": [
-        {
-          "subCode": 25931,
-          "subName": "Mathematics-III",
-          "originSemester": 3
-        },
-        {
-          "subCode": 26831,
-          "subName": "Digital Electronics-I",
-          "originSemester": 3
-        }
-      ],
-      "backlogCount": 2,
-      "backlogSubjects": [
-        {
-          "subCode": 25913,
-          "subName": "Chemistry",
-          "originSemester": 2
-        },
-        {
-          "subCode": 26721,
-          "subName": "Electrical Circuits-I",
-          "originSemester": 2
-        }
-      ],
-      "totalFailedCountInSheet": 4,
-      "sem1": {
-        "status": "PASSED",
-        "gpa": 2.88,
-        "failedCount": 0,
-        "failedSubjects": []
-      },
-      "sem2": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 2,
-        "failedSubjects": [
-          {
-            "subCode": 25913,
-            "subName": "Chemistry"
-          },
-          {
-            "subCode": 26721,
-            "subName": "Electrical Circuits-I"
-          }
-        ]
-      },
-      "rawResultsCount": 5
-    },
-    {
-      "roll": 214173,
-      "hasSem3": true,
-      "status": "PASSED",
-      "statusLabel": "পাস (GPA 3.70)",
-      "badgeType": "success",
-      "isDropOut": false,
-      "sem3Gpa": 3.7,
-      "sem3FailedCount": 0,
-      "sem3FailedSubjects": [],
-      "backlogCount": 0,
-      "backlogSubjects": [],
-      "totalFailedCountInSheet": 0,
-      "sem1": {
-        "status": "PASSED",
-        "gpa": 3.3,
-        "failedCount": 0,
-        "failedSubjects": []
-      },
-      "sem2": {
-        "status": "PASSED",
-        "gpa": 3.22,
-        "failedCount": 0,
-        "failedSubjects": []
-      },
-      "rawResultsCount": 8
-    },
-    {
-      "roll": 214175,
-      "hasSem3": false,
-      "status": "NOT_APPEARED_SEM3",
-      "statusLabel": "৩য় সেমিস্টারে অনুপস্থিত / ড্রপ",
-      "badgeType": "secondary",
-      "isDropOut": false,
-      "sem3Gpa": null,
-      "sem3FailedCount": 0,
-      "sem3FailedSubjects": [],
-      "backlogCount": 0,
-      "backlogSubjects": [],
-      "totalFailedCountInSheet": 0,
-      "sem1": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 1,
-        "failedSubjects": [
-          {
-            "subCode": 26811,
-            "subName": "Basic Electronics"
-          }
-        ]
-      },
-      "sem2": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 5,
-        "failedSubjects": [
-          {
-            "subCode": 25913,
-            "subName": "Chemistry"
-          },
-          {
-            "subCode": 25921,
-            "subName": "Mathematics-II"
-          },
-          {
-            "subCode": 26721,
-            "subName": "Electrical Circuits-I"
-          },
-          {
-            "subCode": 26811,
-            "subName": "Basic Electronics"
-          },
-          {
-            "subCode": 26821,
-            "subName": "Electronic Devices and Circuits"
-          }
-        ]
-      },
-      "rawResultsCount": 3
-    },
-    {
-      "roll": 214176,
-      "hasSem3": false,
-      "status": "NOT_APPEARED_SEM3",
-      "statusLabel": "৩য় সেমিস্টারে অনুপস্থিত / ড্রপ",
-      "badgeType": "secondary",
-      "isDropOut": false,
-      "sem3Gpa": null,
-      "sem3FailedCount": 0,
-      "sem3FailedSubjects": [],
-      "backlogCount": 0,
-      "backlogSubjects": [],
-      "totalFailedCountInSheet": 0,
-      "sem1": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 1,
-        "failedSubjects": [
-          {
-            "subCode": 25911,
-            "subName": "Mathematics -I"
-          }
-        ]
-      },
-      "sem2": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 2,
-        "failedSubjects": [
-          {
-            "subCode": 25911,
-            "subName": "Mathematics -I"
-          },
-          {
-            "subCode": 25913,
-            "subName": "Chemistry"
-          }
-        ]
-      },
-      "rawResultsCount": 2
-    },
-    {
-      "roll": 214178,
-      "hasSem3": false,
-      "status": "NOT_APPEARED_SEM3",
-      "statusLabel": "৩য় সেমিস্টারে অনুপস্থিত / ড্রপ",
-      "badgeType": "secondary",
-      "isDropOut": false,
-      "sem3Gpa": null,
-      "sem3FailedCount": 0,
-      "sem3FailedSubjects": [],
-      "backlogCount": 0,
-      "backlogSubjects": [],
-      "totalFailedCountInSheet": 0,
-      "sem1": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 4,
-        "failedSubjects": [
-          {
-            "subCode": 25911,
-            "subName": "Mathematics -I"
-          },
-          {
-            "subCode": 25912,
-            "subName": "Physics -I"
-          },
-          {
-            "subCode": 26711,
-            "subName": "Basic Electricity"
-          },
-          {
-            "subCode": 26811,
-            "subName": "Basic Electronics"
-          }
-        ]
-      },
-      "sem2": {
-        "status": "NONE",
-        "gpa": null,
-        "failedCount": 0,
-        "failedSubjects": []
-      },
-      "rawResultsCount": 1
-    },
-    {
-      "roll": 214179,
-      "hasSem3": false,
-      "status": "NOT_APPEARED_SEM3",
-      "statusLabel": "৩য় সেমিস্টারে অনুপস্থিত / ড্রপ",
-      "badgeType": "secondary",
-      "isDropOut": false,
-      "sem3Gpa": null,
-      "sem3FailedCount": 0,
-      "sem3FailedSubjects": [],
-      "backlogCount": 0,
-      "backlogSubjects": [],
-      "totalFailedCountInSheet": 0,
-      "sem1": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 4,
-        "failedSubjects": [
-          {
-            "subCode": 25911,
-            "subName": "Mathematics -I"
-          },
-          {
-            "subCode": 25912,
-            "subName": "Physics -I"
-          },
-          {
-            "subCode": 26711,
-            "subName": "Basic Electricity"
-          },
-          {
-            "subCode": 26811,
-            "subName": "Basic Electronics"
-          }
-        ]
-      },
-      "sem2": {
-        "status": "NONE",
-        "gpa": null,
-        "failedCount": 0,
-        "failedSubjects": []
-      },
-      "rawResultsCount": 2
-    },
-    {
-      "roll": 214180,
-      "hasSem3": false,
-      "status": "NOT_APPEARED_SEM3",
-      "statusLabel": "৩য় সেমিস্টারে অনুপস্থিত / ড্রপ",
-      "badgeType": "secondary",
-      "isDropOut": false,
-      "sem3Gpa": null,
-      "sem3FailedCount": 0,
-      "sem3FailedSubjects": [],
-      "backlogCount": 0,
-      "backlogSubjects": [],
-      "totalFailedCountInSheet": 0,
-      "sem1": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 5,
-        "failedSubjects": [
-          {
-            "subCode": 25712,
-            "subName": "English-I"
-          },
-          {
-            "subCode": 25911,
-            "subName": "Mathematics -I"
-          },
-          {
-            "subCode": 25912,
-            "subName": "Physics -I"
-          },
-          {
-            "subCode": 26711,
-            "subName": "Basic Electricity"
-          },
-          {
-            "subCode": 26811,
-            "subName": "Basic Electronics"
-          }
-        ]
-      },
-      "sem2": {
-        "status": "NONE",
-        "gpa": null,
-        "failedCount": 0,
-        "failedSubjects": []
-      },
-      "rawResultsCount": 1
-    },
-    {
-      "roll": 214181,
-      "hasSem3": false,
-      "status": "NOT_APPEARED_SEM3",
-      "statusLabel": "৩য় সেমিস্টারে অনুপস্থিত / ড্রপ",
-      "badgeType": "secondary",
-      "isDropOut": false,
-      "sem3Gpa": null,
-      "sem3FailedCount": 0,
-      "sem3FailedSubjects": [],
-      "backlogCount": 0,
-      "backlogSubjects": [],
-      "totalFailedCountInSheet": 0,
+      "totalFailedInSheet": 10,
       "sem1": {
         "status": "REFERRED",
         "gpa": null,
@@ -3926,8 +1403,8 @@
             "subName": "Mathematics -I"
           },
           {
-            "subCode": 26711,
-            "subName": "Basic Electricity"
+            "subCode": 25912,
+            "subName": "Physics -I"
           },
           {
             "subCode": 26811,
@@ -3938,7 +1415,7 @@
       "sem2": {
         "status": "REFERRED",
         "gpa": null,
-        "failedCount": 6,
+        "failedCount": 4,
         "failedSubjects": [
           {
             "subCode": 25911,
@@ -3953,109 +1430,11 @@
             "subName": "Mathematics-II"
           },
           {
-            "subCode": 26721,
-            "subName": "Electrical Circuits-I"
-          },
-          {
-            "subCode": 26811,
-            "subName": "Basic Electronics"
-          },
-          {
             "subCode": 26821,
             "subName": "Electronic Devices and Circuits"
           }
         ]
-      },
-      "rawResultsCount": 3
-    },
-    {
-      "roll": 214183,
-      "hasSem3": false,
-      "status": "NOT_APPEARED_SEM3",
-      "statusLabel": "৩য় সেমিস্টারে অনুপস্থিত / ড্রপ",
-      "badgeType": "secondary",
-      "isDropOut": false,
-      "sem3Gpa": null,
-      "sem3FailedCount": 0,
-      "sem3FailedSubjects": [],
-      "backlogCount": 0,
-      "backlogSubjects": [],
-      "totalFailedCountInSheet": 0,
-      "sem1": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 2,
-        "failedSubjects": [
-          {
-            "subCode": 26711,
-            "subName": "Basic Electricity"
-          },
-          {
-            "subCode": 26811,
-            "subName": "Basic Electronics"
-          }
-        ]
-      },
-      "sem2": {
-        "status": "NONE",
-        "gpa": null,
-        "failedCount": 0,
-        "failedSubjects": []
-      },
-      "rawResultsCount": 1
-    },
-    {
-      "roll": 214185,
-      "hasSem3": false,
-      "status": "NOT_APPEARED_SEM3",
-      "statusLabel": "৩য় সেমিস্টারে অনুপস্থিত / ড্রপ",
-      "badgeType": "secondary",
-      "isDropOut": false,
-      "sem3Gpa": null,
-      "sem3FailedCount": 0,
-      "sem3FailedSubjects": [],
-      "backlogCount": 0,
-      "backlogSubjects": [],
-      "totalFailedCountInSheet": 0,
-      "sem1": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 1,
-        "failedSubjects": [
-          {
-            "subCode": 26811,
-            "subName": "Basic Electronics"
-          }
-        ]
-      },
-      "sem2": {
-        "status": "REFERRED",
-        "gpa": null,
-        "failedCount": 5,
-        "failedSubjects": [
-          {
-            "subCode": 25722,
-            "subName": "English-II"
-          },
-          {
-            "subCode": 25913,
-            "subName": "Chemistry"
-          },
-          {
-            "subCode": 26721,
-            "subName": "Electrical Circuits-I"
-          },
-          {
-            "subCode": 26811,
-            "subName": "Basic Electronics"
-          },
-          {
-            "subCode": 26821,
-            "subName": "Electronic Devices and Circuits"
-          }
-        ]
-      },
-      "rawResultsCount": 3
+      }
     }
   ]
 }

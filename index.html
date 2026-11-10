@@ -343,14 +343,17 @@
       <!-- Modal Header -->
       <div class="p-5 border-b border-slate-800 flex items-center justify-between sticky top-0 bg-slate-900/95 backdrop-blur z-10">
         <div class="flex items-center gap-3">
-          <div class="w-10 h-10 rounded-xl bg-indigo-500/20 text-indigo-400 flex items-center justify-center">
-            <i data-lucide="user" class="w-5 h-5"></i>
+          <div class="w-12 h-12 rounded-xl bg-indigo-500/20 text-indigo-400 flex items-center justify-center shrink-0">
+            <i data-lucide="graduation-cap" class="w-6 h-6"></i>
           </div>
           <div>
-            <h3 class="text-base sm:text-lg font-bold text-white flex items-center gap-2">
-              <span id="modalName" class="text-white">---</span>
+            <div class="flex items-center gap-2.5">
+              <span id="modalRoll" class="text-2xl font-black font-mono text-white tracking-tight">---</span>
+              <span class="text-[11px] text-indigo-300 bg-indigo-500/20 px-2 py-0.5 rounded border border-indigo-500/30 font-semibold">৩য় সেমিস্টার</span>
+            </div>
+            <h3 class="text-sm sm:text-base font-bold text-slate-300 mt-0.5">
+              <span id="modalName" class="text-slate-200">---</span>
             </h3>
-            <p class="text-xs text-slate-400">রোল: <span id="modalRoll" class="text-indigo-400 font-mono font-bold">---</span> • ডিপ্লোমা ইন ইঞ্জিনিয়ারিং</p>
           </div>
         </div>
         <button onclick="closeModal()" class="w-8 h-8 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-400 hover:text-white flex items-center justify-center transition">
@@ -2109,17 +2112,28 @@
         return `
           <div class="print-card border ${cardBorder} rounded-2xl p-5 flex flex-col justify-between transition hover:shadow-xl hover:shadow-indigo-500/5">
             <div>
-              <div class="flex items-start justify-between gap-2">
-                <div>
-                  <div class="flex items-center gap-2 mb-1">
-                    <span class="text-xs font-black text-indigo-400 font-mono tracking-wider">${student.roll}</span>
+              <!-- CARD HEADER: LARGE ROLL NUMBER FIRST & STUDENT NAME -->
+              <div class="flex flex-col sm:flex-row sm:items-start justify-between gap-3">
+                <div class="min-w-0 flex-1">
+                  <!-- Large Prominent Roll Number & Rank Badge -->
+                  <div class="flex items-center gap-2.5 flex-wrap">
+                    <span class="text-2xl sm:text-3xl font-black font-mono text-white tracking-tight cursor-pointer hover:text-indigo-300 transition" onclick="openModal(${student.roll})" title="বিস্তারিত হিস্ট্রি দেখতে ক্লিক করুন">
+                      ${student.roll}
+                    </span>
                     ${rankBadge}
                   </div>
-                  <h3 class="text-base sm:text-lg font-bold text-white tracking-tight line-clamp-1">
-                    ${student.name}
-                  </h3>
+                  <!-- Student Name Underneath -->
+                  <div class="mt-1 flex items-center gap-1.5 text-slate-300">
+                    <i data-lucide="user" class="w-3.5 h-3.5 text-indigo-400 shrink-0"></i>
+                    <h3 class="text-sm sm:text-base font-bold text-slate-100 tracking-tight truncate">
+                      ${student.name}
+                    </h3>
+                  </div>
                 </div>
-                ${badgeHtml}
+                <!-- Status Badge -->
+                <div class="shrink-0 self-start sm:self-center">
+                  ${badgeHtml}
+                </div>
               </div>
 
               ${dropOutBanner}
@@ -2128,7 +2142,7 @@
             </div>
 
             <div class="mt-4 pt-3 border-t border-slate-800/60 flex items-center justify-between no-print text-xs">
-              <span class="text-[11px] text-slate-500">৩য় সেমিস্টার • ২০২২ রেগুলেশন</span>
+              <span class="text-[11px] text-slate-500 font-mono">রোল: <strong class="text-slate-400 font-bold">${student.roll}</strong> • ২০২২ রেগুলেশন</span>
               <button onclick="openModal(${student.roll})" class="font-semibold text-indigo-400 hover:text-indigo-300 flex items-center gap-1 transition px-2.5 py-1 rounded-lg hover:bg-indigo-500/10">
                 <span>পূর্ণ হিস্ট্রি</span>
                 <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
@@ -2199,8 +2213,8 @@
           <tr class="hover:bg-slate-800/50 transition">
             <td class="py-3 px-4 text-center text-slate-500 font-bold">${idx + 1}</td>
             <td class="py-3 px-4 cursor-pointer" onclick="openModal(${student.roll})">
-              <div class="font-bold text-white text-xs hover:text-indigo-400">${student.name}</div>
-              <div class="text-[11px] text-slate-400 font-mono">${student.roll}</div>
+              <div class="font-mono font-black text-white text-base hover:text-indigo-300 tracking-tight">${student.roll}</div>
+              <div class="text-xs font-semibold text-slate-300 truncate max-w-[200px]">${student.name}</div>
             </td>
             <td class="py-3 px-4 text-center">${sem1Text}</td>
             <td class="py-3 px-4 text-center">${sem2Text}</td>
@@ -2224,8 +2238,8 @@
       let modalHtml = `
         <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 flex items-center justify-between flex-wrap gap-2">
           <div>
-            <div class="text-sm font-bold text-white">${student.name}</div>
-            <div class="text-xs text-slate-400 mt-0.5">রোল: <strong class="text-indigo-400 font-mono">${student.roll}</strong> • ৩য় সেমিস্টার ফলাফল</div>
+            <div class="text-2xl font-black font-mono text-white tracking-tight">${student.roll}</div>
+            <div class="text-sm font-bold text-slate-300 mt-0.5">${student.name} • ৩য় সেমিস্টার ফলাফল</div>
           </div>
           <div>
             ${student.status === 'PASSED' 

@@ -30,6 +30,7 @@
       font-family: 'Hind Siliguri', 'Inter', sans-serif;
       background-color: #0b1120;
       color: #f1f5f9;
+      -webkit-tap-highlight-color: transparent;
     }
     @media print {
       body {
@@ -51,8 +52,8 @@
       }
     }
     ::-webkit-scrollbar {
-      width: 7px;
-      height: 7px;
+      width: 6px;
+      height: 6px;
     }
     ::-webkit-scrollbar-track {
       background: #0f172a;
@@ -64,200 +65,217 @@
     ::-webkit-scrollbar-thumb:hover {
       background: #475569;
     }
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+    .no-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+    @keyframes slideUp {
+      from { transform: translateY(100%); }
+      to { transform: translateY(0); }
+    }
+    .animate-slide-up {
+      animation: slideUp 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    }
   </style>
 </head>
 <body class="min-h-screen flex flex-col selection:bg-indigo-500 selection:text-white">
 
   <!-- TOP NOTICE BANNER -->
-  <div class="bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 border-b border-indigo-500/20 py-2 px-4 text-center text-xs text-indigo-200">
-    <div class="max-w-7xl mx-auto flex items-center justify-center gap-2 flex-wrap">
-      <span class="inline-flex items-center px-2 py-0.5 rounded text-[11px] font-bold bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">
-        <i data-lucide="award" class="w-3.5 h-3.5 mr-1 inline"></i> ৩য় সেমিস্টার মেধা তালিকা
+  <div class="bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 border-b border-indigo-500/20 py-2 px-3 text-center text-xs text-indigo-200">
+    <div class="max-w-7xl mx-auto flex items-center justify-center gap-1.5 sm:gap-2 flex-wrap">
+      <span class="inline-flex items-center px-2 py-0.5 rounded text-[10px] sm:text-[11px] font-bold bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">
+        <i data-lucide="award" class="w-3 h-3 sm:w-3.5 sm:h-3.5 mr-1 inline"></i> ৩য় সেমিস্টার মেধা তালিকা
       </span>
-      <span>ডিপ্লোমা ইন ইঞ্জিনিয়ারিং (রেগুলেশন ২০২২) • সেরা ফলাফল থেকে সর্বনিম্ন ক্রমানুসারে সাজানো অফিশিয়াল ক্লাস তালিকা</span>
+      <span class="text-[11px] sm:text-xs">ডিপ্লোমা ইন ইঞ্জিনিয়ারিং (২০২২ রেগুলেশন) • অফিশিয়াল ক্লাস তালিকা</span>
     </div>
   </div>
 
   <!-- MAIN HEADER -->
-  <header class="border-b border-slate-800 bg-slate-900/90 backdrop-blur sticky top-0 z-30">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
-      <div class="flex items-center gap-3">
-        <div class="w-11 h-11 rounded-xl bg-gradient-to-tr from-indigo-600 to-violet-600 flex items-center justify-center shadow-lg shadow-indigo-600/30">
-          <i data-lucide="graduation-cap" class="w-6 h-6 text-white"></i>
+  <header class="border-b border-slate-800 bg-slate-900/95 backdrop-blur sticky top-0 z-30">
+    <div class="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-2.5 sm:py-3.5 flex items-center justify-between gap-2">
+      <div class="flex items-center gap-2.5 sm:gap-3 min-w-0">
+        <div class="w-10 h-10 sm:w-11 sm:h-11 rounded-xl bg-gradient-to-tr from-indigo-600 to-violet-600 flex items-center justify-center shadow-lg shadow-indigo-600/30 shrink-0">
+          <i data-lucide="graduation-cap" class="w-5 h-5 sm:w-6 sm:h-6 text-white"></i>
         </div>
-        <div>
-          <h1 class="text-lg sm:text-2xl font-bold tracking-tight text-white flex items-center gap-2">
-            ক্লাস রেজাল্ট পোর্টাল
-            <span class="text-xs font-semibold bg-indigo-500/20 text-indigo-300 border border-indigo-500/30 px-2 py-0.5 rounded-full">৩য় সেমিস্টার</span>
+        <div class="min-w-0">
+          <h1 class="text-base sm:text-xl font-bold tracking-tight text-white flex items-center gap-1.5 truncate">
+            <span>ক্লাস রেজাল্ট পোর্টাল</span>
+            <span class="text-[10px] sm:text-xs font-semibold bg-indigo-500/20 text-indigo-300 border border-indigo-500/30 px-1.5 py-0.5 rounded-full shrink-0">৩য় সেমিস্টার</span>
           </h1>
-          <p class="text-xs text-slate-400">বাংলাদেশ কারিগরি শিক্ষা বোর্ড (BTEB) • মোট পরীক্ষার্থী: ২৭ জন</p>
+          <p class="text-[11px] sm:text-xs text-slate-400 truncate">BTEB • মোট পরীক্ষার্থী: ২৭ জন</p>
         </div>
       </div>
 
-      <div class="flex items-center gap-2 no-print">
+      <div class="flex items-center gap-1.5 sm:gap-2 shrink-0 no-print">
         <!-- View Toggle (Cards vs Table) -->
-        <div class="bg-slate-950 p-1 rounded-xl border border-slate-800 flex items-center gap-1">
-          <button onclick="setViewMode('cards')" id="btn-view-cards" class="px-2.5 py-1.5 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition bg-indigo-600 text-white">
-            <i data-lucide="layout-grid" class="w-3.5 h-3.5"></i>
-            <span class="hidden sm:inline">কার্ড ভিউ</span>
+        <div class="bg-slate-950 p-1 rounded-xl border border-slate-800 flex items-center gap-0.5 sm:gap-1">
+          <button onclick="setViewMode('cards')" id="btn-view-cards" class="px-2.5 py-1.5 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition bg-indigo-600 text-white active:scale-95" title="কার্ড ভিউ">
+            <i data-lucide="layout-grid" class="w-3.5 h-3.5 sm:w-4 sm:h-4"></i>
+            <span class="hidden md:inline">কার্ড ভিউ</span>
           </button>
-          <button onclick="setViewMode('table')" id="btn-view-table" class="px-2.5 py-1.5 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition text-slate-400 hover:text-slate-200">
-            <i data-lucide="table-2" class="w-3.5 h-3.5"></i>
-            <span class="hidden sm:inline">টেবিল ভিউ</span>
+          <button onclick="setViewMode('table')" id="btn-view-table" class="px-2.5 py-1.5 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition text-slate-400 hover:text-slate-200 active:scale-95" title="টেবিল ভিউ">
+            <i data-lucide="table-2" class="w-3.5 h-3.5 sm:w-4 sm:h-4"></i>
+            <span class="hidden md:inline">টেবিল ভিউ</span>
           </button>
         </div>
 
-        <button onclick="window.print()" class="px-3 py-2 text-xs font-medium bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 rounded-xl flex items-center gap-1.5 transition">
+        <button onclick="window.print()" class="p-2 sm:px-3 sm:py-2 text-xs font-medium bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 rounded-xl flex items-center gap-1.5 transition active:scale-95" title="প্রিন্ট / PDF">
           <i data-lucide="printer" class="w-4 h-4"></i>
-          <span class="hidden md:inline">প্রিন্ট / PDF</span>
+          <span class="hidden lg:inline">প্রিন্ট / PDF</span>
         </button>
       </div>
     </div>
   </header>
 
   <!-- MAIN BODY -->
-  <main class="flex-1 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-7 w-full">
+  <main class="flex-1 max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-5 sm:py-7 w-full">
 
     <!-- KPI STATS SUMMARY CARDS -->
-    <section class="mb-8">
-      <div class="flex items-center justify-between mb-4 flex-wrap gap-2">
-        <h2 class="text-base sm:text-lg font-bold text-slate-200 flex items-center gap-2">
-          <i data-lucide="bar-chart-3" class="w-5 h-5 text-indigo-400"></i>
-          ৩য় সেমিস্টার ফলাফল পরিসংখ্যান (সংশোধিত ও সঠিক)
+    <section class="mb-5 sm:mb-8">
+      <div class="flex items-center justify-between mb-3 sm:mb-4 flex-wrap gap-2">
+        <h2 class="text-sm sm:text-base font-bold text-slate-200 flex items-center gap-1.5">
+          <i data-lucide="bar-chart-3" class="w-4 h-4 sm:w-5 sm:h-5 text-indigo-400"></i>
+          <span>৩য় সেমিস্টার ফলাফল পরিসংখ্যান</span>
         </h2>
-        <span class="text-xs text-slate-400 bg-slate-800/80 px-2.5 py-1 rounded-lg border border-slate-700">
-          মোট পরীক্ষার্থী: <strong class="text-white" id="statTotal">২৭</strong> জন | পাস: <strong class="text-emerald-400" id="statPassed">১৪</strong> জন
+        <span class="text-[11px] sm:text-xs text-slate-400 bg-slate-800/80 px-2.5 py-1 rounded-lg border border-slate-700">
+          মোট: <strong class="text-white" id="statTotal">২৭</strong> জন | পাস: <strong class="text-emerald-400" id="statPassed">১৪</strong> জন
         </span>
       </div>
 
-      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 sm:gap-4">
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-2.5 sm:gap-4">
         <!-- 1. Passed -->
-        <div class="bg-slate-900/90 border border-emerald-500/30 rounded-2xl p-4 flex flex-col justify-between hover:border-emerald-500/60 transition cursor-pointer" onclick="setFilter('passed')">
+        <div class="bg-slate-900/90 border border-emerald-500/30 rounded-xl sm:rounded-2xl p-3 sm:p-4 flex flex-col justify-between hover:border-emerald-500/60 active:scale-[0.98] transition cursor-pointer select-none" onclick="setFilter('passed')">
           <div class="flex items-center justify-between text-emerald-400 mb-1">
-            <span class="text-xs font-semibold">পাস করেছে</span>
-            <div class="w-7 h-7 rounded-lg bg-emerald-500/10 flex items-center justify-center">
-              <i data-lucide="award" class="w-4 h-4"></i>
+            <span class="text-[11px] sm:text-xs font-semibold">পাস করেছে</span>
+            <div class="w-6 h-6 sm:w-7 sm:h-7 rounded-lg bg-emerald-500/10 flex items-center justify-center shrink-0">
+              <i data-lucide="award" class="w-3.5 h-3.5 sm:w-4 sm:h-4"></i>
             </div>
           </div>
           <div>
-            <div class="text-2xl font-black text-emerald-400" id="statPassedCard">১৪</div>
-            <p class="text-[11px] text-slate-400 mt-0.5">সর্বোচ্চ: <strong class="text-emerald-300">৩.৮৮</strong> | গড়: ৩.৪৮</p>
+            <div class="text-xl sm:text-2xl font-black text-emerald-400" id="statPassedCard">১৪</div>
+            <p class="text-[10px] sm:text-[11px] text-slate-400 mt-0.5 truncate">সর্বোচ্চ ৩.৮৮ • গড় ৩.৪৮</p>
           </div>
         </div>
 
         <!-- 2. 1 Subject Referred -->
-        <div class="bg-slate-900/90 border border-sky-500/30 rounded-2xl p-4 flex flex-col justify-between hover:border-sky-500/60 transition cursor-pointer" onclick="setFilter('filter-1sub')">
+        <div class="bg-slate-900/90 border border-sky-500/30 rounded-xl sm:rounded-2xl p-3 sm:p-4 flex flex-col justify-between hover:border-sky-500/60 active:scale-[0.98] transition cursor-pointer select-none" onclick="setFilter('filter-1sub')">
           <div class="flex items-center justify-between text-sky-400 mb-1">
-            <span class="text-xs font-semibold">১ বিষয়ে রেফার্ড</span>
-            <div class="w-7 h-7 rounded-lg bg-sky-500/10 flex items-center justify-center">
-              <i data-lucide="info" class="w-4 h-4"></i>
+            <span class="text-[11px] sm:text-xs font-semibold">১ বিষয়ে রেফার্ড</span>
+            <div class="w-6 h-6 sm:w-7 sm:h-7 rounded-lg bg-sky-500/10 flex items-center justify-center shrink-0">
+              <i data-lucide="info" class="w-3.5 h-3.5 sm:w-4 sm:h-4"></i>
             </div>
           </div>
           <div>
-            <div class="text-2xl font-black text-sky-400" id="stat1Sub">৫</div>
-            <p class="text-[11px] text-slate-400 mt-0.5">৩য় সেমিস্টার সাবজেক্ট</p>
+            <div class="text-xl sm:text-2xl font-black text-sky-400" id="stat1Sub">৫</div>
+            <p class="text-[10px] sm:text-[11px] text-slate-400 mt-0.5 truncate">৩য় সেমিস্টার সাবজেক্ট</p>
           </div>
         </div>
 
         <!-- 3. 2 Subjects Referred -->
-        <div class="bg-slate-900/90 border border-amber-500/30 rounded-2xl p-4 flex flex-col justify-between hover:border-amber-500/60 transition cursor-pointer" onclick="setFilter('filter-2sub')">
+        <div class="bg-slate-900/90 border border-amber-500/30 rounded-xl sm:rounded-2xl p-3 sm:p-4 flex flex-col justify-between hover:border-amber-500/60 active:scale-[0.98] transition cursor-pointer select-none" onclick="setFilter('filter-2sub')">
           <div class="flex items-center justify-between text-amber-400 mb-1">
-            <span class="text-xs font-semibold">২ বিষয়ে রেফার্ড</span>
-            <div class="w-7 h-7 rounded-lg bg-amber-500/10 flex items-center justify-center">
-              <i data-lucide="alert-triangle" class="w-4 h-4"></i>
+            <span class="text-[11px] sm:text-xs font-semibold">২ বিষয়ে রেফার্ড</span>
+            <div class="w-6 h-6 sm:w-7 sm:h-7 rounded-lg bg-amber-500/10 flex items-center justify-center shrink-0">
+              <i data-lucide="alert-triangle" class="w-3.5 h-3.5 sm:w-4 sm:h-4"></i>
             </div>
           </div>
           <div>
-            <div class="text-2xl font-black text-amber-400" id="stat2Sub">৩</div>
-            <p class="text-[11px] text-amber-300/80 mt-0.5">ক্লিক করে দেখুন</p>
+            <div class="text-xl sm:text-2xl font-black text-amber-400" id="stat2Sub">৩</div>
+            <p class="text-[10px] sm:text-[11px] text-amber-300/80 mt-0.5 truncate">ক্লিক করে দেখুন</p>
           </div>
         </div>
 
         <!-- 4. 3 Subjects Referred -->
-        <div class="bg-slate-900/90 border border-orange-500/30 rounded-2xl p-4 flex flex-col justify-between hover:border-orange-500/60 transition cursor-pointer" onclick="setFilter('filter-3sub')">
+        <div class="bg-slate-900/90 border border-orange-500/30 rounded-xl sm:rounded-2xl p-3 sm:p-4 flex flex-col justify-between hover:border-orange-500/60 active:scale-[0.98] transition cursor-pointer select-none" onclick="setFilter('filter-3sub')">
           <div class="flex items-center justify-between text-orange-400 mb-1">
-            <span class="text-xs font-semibold">৩ বিষয়ে রেফার্ড</span>
-            <div class="w-7 h-7 rounded-lg bg-orange-500/10 flex items-center justify-center">
-              <i data-lucide="alert-circle" class="w-4 h-4"></i>
+            <span class="text-[11px] sm:text-xs font-semibold">৩ বিষয়ে রেফার্ড</span>
+            <div class="w-6 h-6 sm:w-7 sm:h-7 rounded-lg bg-orange-500/10 flex items-center justify-center shrink-0">
+              <i data-lucide="alert-circle" class="w-3.5 h-3.5 sm:w-4 sm:h-4"></i>
             </div>
           </div>
           <div>
-            <div class="text-2xl font-black text-orange-400" id="stat3Sub">২</div>
-            <p class="text-[11px] text-orange-300/80 mt-0.5">ক্লিক করে দেখুন</p>
+            <div class="text-xl sm:text-2xl font-black text-orange-400" id="stat3Sub">২</div>
+            <p class="text-[10px] sm:text-[11px] text-orange-300/80 mt-0.5 truncate">ক্লিক করে দেখুন</p>
           </div>
         </div>
 
         <!-- 5. 4 Subjects Referred (Drop Out) -->
-        <div class="bg-slate-900/90 border border-rose-500/30 rounded-2xl p-4 flex flex-col justify-between hover:border-rose-500/60 transition cursor-pointer" onclick="setFilter('filter-4sub')">
+        <div class="bg-slate-900/90 border border-rose-500/30 rounded-xl sm:rounded-2xl p-3 sm:p-4 flex flex-col justify-between hover:border-rose-500/60 active:scale-[0.98] transition cursor-pointer select-none" onclick="setFilter('filter-4sub')">
           <div class="flex items-center justify-between text-rose-400 mb-1">
-            <span class="text-xs font-semibold">৪ বিষয়ে রেফার্ড</span>
-            <div class="w-7 h-7 rounded-lg bg-rose-500/10 flex items-center justify-center">
-              <i data-lucide="x-circle" class="w-4 h-4"></i>
+            <span class="text-[11px] sm:text-xs font-semibold">৪ বিষয়ে রেফার্ড</span>
+            <div class="w-6 h-6 sm:w-7 sm:h-7 rounded-lg bg-rose-500/10 flex items-center justify-center shrink-0">
+              <i data-lucide="x-circle" class="w-3.5 h-3.5 sm:w-4 sm:h-4"></i>
             </div>
           </div>
           <div>
-            <div class="text-2xl font-black text-rose-400" id="stat4Sub">১</div>
-            <p class="text-[11px] text-rose-300 font-semibold mt-0.5">ড্রপ আউট (Drop Out)</p>
+            <div class="text-xl sm:text-2xl font-black text-rose-400" id="stat4Sub">১</div>
+            <p class="text-[10px] sm:text-[11px] text-rose-300 font-semibold mt-0.5 truncate">ড্রপ আউট (Drop Out)</p>
           </div>
         </div>
 
         <!-- 6. Total Drop Out (>= 4 subjects in 3rd Sem) -->
-        <div class="bg-slate-900/90 border border-red-500/50 rounded-2xl p-4 flex flex-col justify-between hover:border-red-500/80 transition cursor-pointer bg-red-950/20" onclick="setFilter('filter-dropout')">
+        <div class="bg-slate-900/90 border border-red-500/50 rounded-xl sm:rounded-2xl p-3 sm:p-4 flex flex-col justify-between hover:border-red-500/80 active:scale-[0.98] transition cursor-pointer bg-red-950/20 select-none" onclick="setFilter('filter-dropout')">
           <div class="flex items-center justify-between text-red-400 mb-1">
-            <span class="text-xs font-black">মোট ড্রপ আউট</span>
-            <div class="w-7 h-7 rounded-lg bg-red-500/20 flex items-center justify-center">
-              <i data-lucide="ban" class="w-4 h-4"></i>
+            <span class="text-[11px] sm:text-xs font-black">মোট ড্রপ আউট</span>
+            <div class="w-6 h-6 sm:w-7 sm:h-7 rounded-lg bg-red-500/20 flex items-center justify-center shrink-0">
+              <i data-lucide="ban" class="w-3.5 h-3.5 sm:w-4 sm:h-4"></i>
             </div>
           </div>
           <div>
-            <div class="text-2xl font-black text-red-400" id="statDropOut">৩</div>
-            <p class="text-[11px] text-red-300 font-medium mt-0.5">৪ বা তার বেশি বিষয়</p>
+            <div class="text-xl sm:text-2xl font-black text-red-400" id="statDropOut">৩</div>
+            <p class="text-[10px] sm:text-[11px] text-red-300 font-medium mt-0.5 truncate">৪ বা তার বেশি বিষয়</p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- SEARCH & FILTER & SORTING BAR -->
-    <section class="mb-6 bg-slate-900/70 border border-slate-800 rounded-2xl p-4 sm:p-5 no-print space-y-4">
+    <!-- SEARCH & FILTER & SORTING BAR (Mobile Friendly) -->
+    <section class="mb-5 sm:mb-6 bg-slate-900/70 border border-slate-800 rounded-2xl p-3.5 sm:p-5 no-print space-y-3 sm:space-y-4">
       
       <!-- Search Input -->
       <div class="relative w-full">
-        <i data-lucide="search" class="w-5 h-5 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2"></i>
+        <i data-lucide="search" class="w-5 h-5 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2 pointer-events-none"></i>
         <input
-          type="text"
+          type="search"
+          enterkeyhint="search"
           id="rollSearchInput"
-          placeholder="রোল নম্বর অথবা নাম দিয়ে সার্চ করুন (যেমন: 214107, Mahim, Sakib, Hasanur)..."
-          class="w-full pl-11 pr-10 py-3 bg-slate-950/90 border border-slate-700/80 rounded-xl text-slate-100 placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 text-sm sm:text-base font-medium transition"
+          placeholder="রোল নম্বর বা নাম দিয়ে খুঁজুন (যেমন: 214107, Sakib, Mahim)..."
+          class="w-full pl-11 pr-10 py-2.5 sm:py-3 bg-slate-950/90 border border-slate-700/80 rounded-xl text-slate-100 placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 text-sm sm:text-base font-medium transition"
           autocomplete="off"
         />
-        <button id="clearSearchBtn" onclick="clearSearch()" class="hidden absolute right-3.5 top-1/2 -translate-y-1/2 text-slate-400 hover:text-white p-1">
+        <button id="clearSearchBtn" onclick="clearSearch()" class="hidden absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-white p-2 rounded-lg active:bg-slate-800 transition">
           <i data-lucide="x" class="w-4 h-4"></i>
         </button>
       </div>
 
-      <!-- Filters & Sorting Controls -->
-      <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-3 pt-3 border-t border-slate-800/80">
+      <!-- Filters & Sorting Controls (Mobile Horizontal Scrollable Pills) -->
+      <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-3 pt-2.5 sm:pt-3 border-t border-slate-800/80">
         
-        <!-- Filter Chips -->
-        <div class="flex items-center gap-1.5 flex-wrap overflow-x-auto pb-1 lg:pb-0">
-          <span class="text-xs text-slate-400 font-semibold mr-1 flex items-center gap-1">
-            <i data-lucide="filter" class="w-3.5 h-3.5 text-indigo-400"></i> ফিল্টার:
-          </span>
-          <button onclick="setFilter('all')" id="btn-all" class="filter-btn px-2.5 py-1 rounded-lg text-xs font-semibold bg-indigo-600 text-white transition">সবাই (২৭)</button>
-          <button onclick="setFilter('passed')" id="btn-passed" class="filter-btn px-2.5 py-1 rounded-lg text-xs font-semibold bg-slate-800 hover:bg-slate-700 text-emerald-400 transition">পাস (১৪)</button>
-          <button onclick="setFilter('filter-1sub')" id="btn-filter-1sub" class="filter-btn px-2.5 py-1 rounded-lg text-xs font-semibold bg-slate-800 hover:bg-slate-700 text-sky-400 transition">১ বিষয় (৫)</button>
-          <button onclick="setFilter('filter-2sub')" id="btn-filter-2sub" class="filter-btn px-2.5 py-1 rounded-lg text-xs font-semibold bg-slate-800 hover:bg-slate-700 text-amber-400 transition">২ বিষয় (৩)</button>
-          <button onclick="setFilter('filter-3sub')" id="btn-filter-3sub" class="filter-btn px-2.5 py-1 rounded-lg text-xs font-semibold bg-slate-800 hover:bg-slate-700 text-orange-400 transition">৩ বিষয় (২)</button>
-          <button onclick="setFilter('filter-4sub')" id="btn-filter-4sub" class="filter-btn px-2.5 py-1 rounded-lg text-xs font-semibold bg-slate-800 hover:bg-slate-700 text-rose-400 transition">৪ বিষয় (১)</button>
-          <button onclick="setFilter('filter-dropout')" id="btn-filter-dropout" class="filter-btn px-2.5 py-1 rounded-lg text-xs font-bold bg-slate-800 hover:bg-slate-700 text-red-400 border border-red-500/40 transition">ড্রপ আউট (৩)</button>
+        <!-- Filter Chips Carousel -->
+        <div class="overflow-x-auto no-scrollbar -mx-3.5 px-3.5 sm:mx-0 sm:px-0 py-0.5">
+          <div class="flex items-center gap-1.5 text-nowrap">
+            <span class="text-xs text-slate-400 font-semibold mr-1 flex items-center gap-1 shrink-0">
+              <i data-lucide="filter" class="w-3.5 h-3.5 text-indigo-400"></i> ফিল্টার:
+            </span>
+            <button onclick="setFilter('all')" id="btn-all" class="filter-btn px-3 py-1.5 rounded-lg text-xs font-semibold bg-indigo-600 text-white shrink-0 active:scale-95 transition">সবাই (২৭)</button>
+            <button onclick="setFilter('passed')" id="btn-passed" class="filter-btn px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-800 hover:bg-slate-700 text-emerald-400 shrink-0 active:scale-95 transition">পাস (১৪)</button>
+            <button onclick="setFilter('filter-1sub')" id="btn-filter-1sub" class="filter-btn px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-800 hover:bg-slate-700 text-sky-400 shrink-0 active:scale-95 transition">১ বিষয় (৫)</button>
+            <button onclick="setFilter('filter-2sub')" id="btn-filter-2sub" class="filter-btn px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-800 hover:bg-slate-700 text-amber-400 shrink-0 active:scale-95 transition">২ বিষয় (৩)</button>
+            <button onclick="setFilter('filter-3sub')" id="btn-filter-3sub" class="filter-btn px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-800 hover:bg-slate-700 text-orange-400 shrink-0 active:scale-95 transition">৩ বিষয় (২)</button>
+            <button onclick="setFilter('filter-4sub')" id="btn-filter-4sub" class="filter-btn px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-800 hover:bg-slate-700 text-rose-400 shrink-0 active:scale-95 transition">৪ বিষয় (১)</button>
+            <button onclick="setFilter('filter-dropout')" id="btn-filter-dropout" class="filter-btn px-3 py-1.5 rounded-lg text-xs font-bold bg-slate-800 hover:bg-slate-700 text-red-400 border border-red-500/40 shrink-0 active:scale-95 transition">ড্রপ আউট (৩)</button>
+          </div>
         </div>
 
-        <!-- Sorting Selector (Default: Best Result First) -->
-        <div class="flex items-center gap-2 self-start lg:self-auto">
-          <label for="sortSelect" class="text-xs text-slate-400 font-semibold whitespace-nowrap flex items-center gap-1">
+        <!-- Sorting Selector -->
+        <div class="flex items-center gap-2 w-full lg:w-auto">
+          <label for="sortSelect" class="text-xs text-slate-400 font-semibold whitespace-nowrap flex items-center gap-1 shrink-0">
             <i data-lucide="arrow-down-up" class="w-3.5 h-3.5 text-indigo-400"></i> সর্টিং:
           </label>
-          <select id="sortSelect" onchange="handleSortChange(this.value)" class="bg-slate-950 border border-slate-700 text-slate-200 text-xs font-medium rounded-xl px-3 py-1.5 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+          <select id="sortSelect" onchange="handleSortChange(this.value)" class="w-full sm:w-auto bg-slate-950 border border-slate-700 text-slate-200 text-xs font-medium rounded-xl px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500">
             <option value="best-first" selected>🌟 সেরা ফলাফল থেকে সর্বনিম্ন (ডিফল্ট)</option>
             <option value="roll-asc">রোল (ছোট থেকে বড় ↑)</option>
             <option value="roll-desc">রোল (বড় থেকে ছোট ↓)</option>
@@ -283,36 +301,45 @@
 
     <!-- VIEW 1: CARDS GRID VIEW -->
     <div id="cardsViewContainer">
-      <section id="studentsGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      <section id="studentsGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3.5 sm:gap-4">
         <!-- Rendered by JavaScript -->
       </section>
     </div>
 
-    <!-- VIEW 2: FULL TABLE VIEW (LIKE BTEB GROUP RESULTS) -->
+    <!-- VIEW 2: FULL TABLE VIEW (LIKE BTEB GROUP RESULTS - Mobile Optimized) -->
     <div id="tableViewContainer" class="hidden">
+      <!-- Mobile scroll hint banner -->
+      <div class="sm:hidden mb-2.5 px-3 py-2 bg-indigo-950/40 border border-indigo-500/30 rounded-xl text-xs text-indigo-200 flex items-center justify-between">
+        <span class="flex items-center gap-1.5">
+          <i data-lucide="arrow-left-right" class="w-3.5 h-3.5 text-indigo-400"></i>
+          <span>পুরো রেজাল্ট দেখতে ডানে স্ক্রল করুন</span>
+        </span>
+        <span class="text-[10px] text-slate-400 font-mono">৮টি কলাম</span>
+      </div>
+
       <div class="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden shadow-xl">
-        <div class="overflow-x-auto">
-          <table class="w-full text-left text-sm text-slate-300 border-collapse">
-            <thead class="bg-slate-950/90 text-xs font-bold text-slate-400 uppercase tracking-wider border-b border-slate-800">
+        <div class="overflow-x-auto relative">
+          <table class="w-full text-left text-sm text-slate-300 border-collapse min-w-[700px]">
+            <thead class="bg-slate-950/95 text-xs font-bold text-slate-400 uppercase tracking-wider border-b border-slate-800 sticky top-0 z-10">
               <tr>
-                <th class="py-3.5 px-4 text-center w-12">মেধা</th>
-                <th class="py-3.5 px-4 cursor-pointer hover:text-white" onclick="toggleSortBy('roll')">
+                <th class="py-3 px-3 text-center w-12 sticky left-0 bg-slate-950 z-20">মেধা</th>
+                <th class="py-3 px-3 cursor-pointer hover:text-white sticky left-12 bg-slate-950 z-20 border-r border-slate-800/80 min-w-[150px]" onclick="toggleSortBy('roll')">
                   <div class="flex items-center gap-1">
                     <span>রোল ও নাম</span>
                     <i data-lucide="arrow-down-up" class="w-3 h-3 text-indigo-400"></i>
                   </div>
                 </th>
-                <th class="py-3.5 px-4 text-center">১ম সেমিস্টার</th>
-                <th class="py-3.5 px-4 text-center">২য় সেমিস্টার</th>
-                <th class="py-3.5 px-4 text-center cursor-pointer hover:text-white" onclick="toggleSortBy('gpa')">
+                <th class="py-3 px-3 text-center min-w-[90px]">১ম সেমিস্টার</th>
+                <th class="py-3 px-3 text-center min-w-[90px]">২য় সেমিস্টার</th>
+                <th class="py-3 px-3 text-center cursor-pointer hover:text-white min-w-[100px]" onclick="toggleSortBy('gpa')">
                   <div class="flex items-center justify-center gap-1">
                     <span>৩য় সেমিস্টার</span>
                     <i data-lucide="arrow-down-up" class="w-3 h-3 text-indigo-400"></i>
                   </div>
                 </th>
-                <th class="py-3.5 px-4 text-center">৩য় সেমিস্টার রেফার্ড সাবজেক্ট</th>
-                <th class="py-3.5 px-4 text-center">পূর্ববর্তী ব্যাকলগ</th>
-                <th class="py-3.5 px-4 text-center">স্ট্যাটাস</th>
+                <th class="py-3 px-3 text-center min-w-[160px]">৩য় সেমিস্টার রেফার্ড সাবজেক্ট</th>
+                <th class="py-3 px-3 text-center min-w-[130px]">পূর্ববর্তী ব্যাকলগ</th>
+                <th class="py-3 px-3 text-center min-w-[90px]">স্ট্যাটাস</th>
               </tr>
             </thead>
             <tbody id="studentsTableBody" class="divide-y divide-slate-800/80 font-mono text-xs">
@@ -324,56 +351,73 @@
     </div>
 
     <!-- EMPTY STATE -->
-    <div id="emptyState" class="hidden text-center py-16 px-4 bg-slate-900/40 border border-dashed border-slate-800 rounded-2xl my-6">
-      <div class="w-16 h-16 rounded-2xl bg-slate-800/80 text-slate-400 flex items-center justify-center mx-auto mb-4">
-        <i data-lucide="search-x" class="w-8 h-8"></i>
+    <div id="emptyState" class="hidden text-center py-12 sm:py-16 px-4 bg-slate-900/40 border border-dashed border-slate-800 rounded-2xl my-6">
+      <div class="w-14 h-14 sm:w-16 sm:h-16 rounded-2xl bg-slate-800/80 text-slate-400 flex items-center justify-center mx-auto mb-3 sm:mb-4">
+        <i data-lucide="search-x" class="w-7 h-7 sm:w-8 sm:h-8"></i>
       </div>
       <h3 class="text-base font-bold text-slate-200 mb-1">কোনো রেজাল্ট পাওয়া যায়নি</h3>
       <p class="text-xs text-slate-400 max-w-sm mx-auto mb-4">আপনার দেওয়া রোল নম্বর বা নামটি এই ক্লাসের ৩য় সেমিস্টার তালিকায় নেই। সঠিক রোল বা নাম লিখে আবার খুঁজুন।</p>
-      <button onclick="clearSearch()" class="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl transition">
+      <button onclick="clearSearch()" class="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 active:scale-95 text-white text-xs font-bold rounded-xl transition">
         ফিল্টার রিসেট করুন
       </button>
     </div>
 
   </main>
 
-  <!-- MODAL FOR DETAILED HISTORY -->
-  <div id="historyModal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/85 backdrop-blur-sm hidden no-print">
-    <div class="bg-slate-900 border border-slate-800 rounded-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto shadow-2xl flex flex-col">
+  <!-- MODAL FOR DETAILED HISTORY (Mobile Bottom-Sheet on phone, Centered Dialog on desktop) -->
+  <div id="historyModal" class="fixed inset-0 z-50 flex items-end sm:items-center justify-center p-0 sm:p-4 bg-black/85 backdrop-blur-sm hidden no-print">
+    <div class="bg-slate-900 border-t sm:border border-slate-800 rounded-t-3xl sm:rounded-2xl max-w-2xl w-full max-h-[92vh] sm:max-h-[90vh] overflow-y-auto shadow-2xl flex flex-col animate-slide-up sm:animate-none">
+      <!-- Mobile Pull Indicator Bar -->
+      <div class="sm:hidden pt-2.5 pb-1 flex justify-center cursor-pointer" onclick="closeModal()">
+        <div class="w-12 h-1.5 bg-slate-700 hover:bg-slate-600 rounded-full"></div>
+      </div>
+
       <!-- Modal Header -->
-      <div class="p-5 border-b border-slate-800 flex items-center justify-between sticky top-0 bg-slate-900/95 backdrop-blur z-10">
-        <div class="flex items-center gap-3">
-          <div class="w-12 h-12 rounded-xl bg-indigo-500/20 text-indigo-400 flex items-center justify-center shrink-0">
-            <i data-lucide="graduation-cap" class="w-6 h-6"></i>
+      <div class="p-4 sm:p-5 border-b border-slate-800 flex items-center justify-between sticky top-0 bg-slate-900/95 backdrop-blur z-10">
+        <div class="flex items-center gap-3 min-w-0">
+          <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-indigo-500/20 text-indigo-400 flex items-center justify-center shrink-0">
+            <i data-lucide="graduation-cap" class="w-5 h-5 sm:w-6 sm:h-6"></i>
           </div>
-          <div>
-            <div class="flex items-center gap-2.5">
-              <span id="modalRoll" class="text-2xl font-black font-mono text-white tracking-tight">---</span>
-              <span class="text-[11px] text-indigo-300 bg-indigo-500/20 px-2 py-0.5 rounded border border-indigo-500/30 font-semibold">৩য় সেমিস্টার</span>
+          <div class="min-w-0">
+            <div class="flex items-center gap-2">
+              <span id="modalRoll" class="text-xl sm:text-2xl font-black font-mono text-white tracking-tight">---</span>
+              <span class="text-[10px] sm:text-[11px] text-indigo-300 bg-indigo-500/20 px-2 py-0.5 rounded border border-indigo-500/30 font-semibold shrink-0">৩য় সেমিস্টার</span>
             </div>
-            <h3 class="text-sm sm:text-base font-bold text-slate-300 mt-0.5">
+            <h3 class="text-xs sm:text-base font-bold text-slate-300 mt-0.5 truncate">
               <span id="modalName" class="text-slate-200">---</span>
             </h3>
           </div>
         </div>
-        <button onclick="closeModal()" class="w-8 h-8 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-400 hover:text-white flex items-center justify-center transition">
+        <button onclick="closeModal()" class="w-9 h-9 sm:w-8 sm:h-8 rounded-lg bg-slate-800 hover:bg-slate-700 active:scale-95 text-slate-400 hover:text-white flex items-center justify-center transition shrink-0 ml-2" aria-label="বন্ধ করুন">
           <i data-lucide="x" class="w-5 h-5"></i>
         </button>
       </div>
 
       <!-- Modal Body -->
-      <div class="p-5 space-y-4" id="modalContent">
+      <div class="p-4 sm:p-5 space-y-3.5 sm:space-y-4" id="modalContent">
         <!-- Rendered by JavaScript -->
       </div>
 
       <!-- Modal Footer -->
-      <div class="p-4 border-t border-slate-800 bg-slate-950/60 flex items-center justify-end">
-        <button onclick="closeModal()" class="px-4 py-2 bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-bold rounded-xl transition">
+      <div class="p-3.5 sm:p-4 border-t border-slate-800 bg-slate-950/60 flex items-center justify-between gap-2">
+        <span class="text-[11px] text-slate-500 hidden sm:inline">BTEB ফলাফল আর্কাইভ</span>
+        <button onclick="closeModal()" class="w-full sm:w-auto px-5 py-2.5 bg-slate-800 hover:bg-slate-700 active:scale-95 text-slate-200 text-xs font-bold rounded-xl transition text-center">
           বন্ধ করুন
         </button>
       </div>
     </div>
   </div>
+
+  <!-- FLOATING SCROLL TO TOP BUTTON (Mobile & Desktop) -->
+  <button
+    id="scrollTopBtn"
+    onclick="window.scrollTo({top: 0, behavior: 'smooth'})"
+    class="fixed bottom-5 right-5 z-40 w-11 h-11 rounded-full bg-indigo-600 hover:bg-indigo-500 text-white shadow-xl shadow-indigo-600/40 flex items-center justify-center transition-all duration-300 opacity-0 pointer-events-none active:scale-90"
+    title="উপরে যান"
+    aria-label="উপরে যান"
+  >
+    <i data-lucide="arrow-up" class="w-5 h-5"></i>
+  </button>
 
   <!-- FOOTER -->
   <footer class="border-t border-slate-800 bg-slate-950 py-6 mt-12 text-center text-xs text-slate-500">
@@ -2018,30 +2062,30 @@
         if (isPassed) {
           cardBorder = 'border-emerald-500/30 hover:border-emerald-500/60 bg-emerald-950/10';
           badgeHtml = `
-            <div class="flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-black bg-emerald-500/20 text-emerald-400 border border-emerald-500/40">
-              <i data-lucide="check-circle" class="w-3.5 h-3.5"></i>
-              <span>পাস — GPA ${student.sem3Gpa.toFixed(2)}</span>
+            <div class="flex items-center gap-1 sm:gap-1.5 px-2.5 sm:px-3 py-1 rounded-full text-[11px] sm:text-xs font-black bg-emerald-500/20 text-emerald-400 border border-emerald-500/40 whitespace-nowrap">
+              <i data-lucide="check-circle" class="w-3 h-3 sm:w-3.5 sm:h-3.5"></i>
+              <span>পাস • GPA ${student.sem3Gpa.toFixed(2)}</span>
             </div>
           `;
-          rankBadge = `<span class="px-2 py-0.5 rounded text-[10px] font-bold bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">মেধা ক্রম #${index + 1}</span>`;
+          rankBadge = `<span class="px-2 py-0.5 rounded text-[10px] font-bold bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 whitespace-nowrap">মেধা #${index + 1}</span>`;
         } else if (isDropOut) {
           cardBorder = 'border-rose-500/40 hover:border-rose-500/70 bg-rose-950/20';
           badgeHtml = `
-            <div class="flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-black bg-rose-500/20 text-rose-300 border border-rose-500/40">
-              <i data-lucide="ban" class="w-3.5 h-3.5 text-rose-400"></i>
+            <div class="flex items-center gap-1 sm:gap-1.5 px-2.5 sm:px-3 py-1 rounded-full text-[11px] sm:text-xs font-black bg-rose-500/20 text-rose-300 border border-rose-500/40 whitespace-nowrap">
+              <i data-lucide="ban" class="w-3 h-3 sm:w-3.5 sm:h-3.5 text-rose-400"></i>
               <span>ড্রপ আউট (${student.sem3FailedCount} বিষয়)</span>
             </div>
           `;
-          rankBadge = `<span class="px-2 py-0.5 rounded text-[10px] font-bold bg-rose-500/20 text-rose-300 border border-rose-500/30">ড্রপ আউট #${index + 1}</span>`;
+          rankBadge = `<span class="px-2 py-0.5 rounded text-[10px] font-bold bg-rose-500/20 text-rose-300 border border-rose-500/30 whitespace-nowrap">ড্রপ আউট #${index + 1}</span>`;
         } else {
           cardBorder = 'border-amber-500/30 hover:border-amber-500/60 bg-amber-950/10';
           badgeHtml = `
-            <div class="flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-amber-500/20 text-amber-300 border border-amber-500/30">
-              <i data-lucide="alert-triangle" class="w-3.5 h-3.5 text-amber-400"></i>
+            <div class="flex items-center gap-1 sm:gap-1.5 px-2.5 sm:px-3 py-1 rounded-full text-[11px] sm:text-xs font-bold bg-amber-500/20 text-amber-300 border border-amber-500/30 whitespace-nowrap">
+              <i data-lucide="alert-triangle" class="w-3 h-3 sm:w-3.5 sm:h-3.5 text-amber-400"></i>
               <span>রেফার্ড (${student.sem3FailedCount} বিষয়)</span>
             </div>
           `;
-          rankBadge = `<span class="px-2 py-0.5 rounded text-[10px] font-bold bg-amber-500/20 text-amber-300 border border-amber-500/30">রেফার্ড #${index + 1}</span>`;
+          rankBadge = `<span class="px-2 py-0.5 rounded text-[10px] font-bold bg-amber-500/20 text-amber-300 border border-amber-500/30 whitespace-nowrap">রেফার্ড #${index + 1}</span>`;
         }
 
         // Drop out highlight banner
@@ -2110,13 +2154,13 @@
         }
 
         return `
-          <div class="print-card border ${cardBorder} rounded-2xl p-5 flex flex-col justify-between transition hover:shadow-xl hover:shadow-indigo-500/5">
+          <div class="print-card border ${cardBorder} rounded-2xl p-4 sm:p-5 flex flex-col justify-between transition hover:shadow-xl hover:shadow-indigo-500/5 active:border-indigo-500/50">
             <div>
-              <!-- CARD HEADER: LARGE ROLL NUMBER FIRST & STUDENT NAME -->
-              <div class="flex flex-col sm:flex-row sm:items-start justify-between gap-3">
+              <!-- CARD HEADER: LARGE ROLL NUMBER FIRST & STUDENT NAME & STATUS -->
+              <div class="flex items-start justify-between gap-2.5">
                 <div class="min-w-0 flex-1">
                   <!-- Large Prominent Roll Number & Rank Badge -->
-                  <div class="flex items-center gap-2.5 flex-wrap">
+                  <div class="flex items-center gap-2 flex-wrap">
                     <span class="text-2xl sm:text-3xl font-black font-mono text-white tracking-tight cursor-pointer hover:text-indigo-300 transition" onclick="openModal(${student.roll})" title="বিস্তারিত হিস্ট্রি দেখতে ক্লিক করুন">
                       ${student.roll}
                     </span>
@@ -2131,7 +2175,7 @@
                   </div>
                 </div>
                 <!-- Status Badge -->
-                <div class="shrink-0 self-start sm:self-center">
+                <div class="shrink-0 text-right">
                   ${badgeHtml}
                 </div>
               </div>
@@ -2141,9 +2185,10 @@
               ${backlogsHtml}
             </div>
 
-            <div class="mt-4 pt-3 border-t border-slate-800/60 flex items-center justify-between no-print text-xs">
-              <span class="text-[11px] text-slate-500 font-mono">রোল: <strong class="text-slate-400 font-bold">${student.roll}</strong> • ২০২২ রেগুলেশন</span>
-              <button onclick="openModal(${student.roll})" class="font-semibold text-indigo-400 hover:text-indigo-300 flex items-center gap-1 transition px-2.5 py-1 rounded-lg hover:bg-indigo-500/10">
+            <!-- CARD FOOTER (Mobile Touch Friendly) -->
+            <div class="mt-3.5 pt-3 border-t border-slate-800/60 flex items-center justify-between no-print text-xs">
+              <span class="text-[11px] text-slate-400 font-mono">রোল: <strong class="text-slate-200 font-bold">${student.roll}</strong> • ২০২২</span>
+              <button onclick="openModal(${student.roll})" class="font-semibold text-indigo-400 hover:text-indigo-300 active:scale-95 flex items-center gap-1 transition px-3 py-1.5 rounded-lg bg-indigo-500/10 hover:bg-indigo-500/20">
                 <span>পূর্ণ হিস্ট্রি</span>
                 <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
               </button>
@@ -2211,17 +2256,17 @@
 
         return `
           <tr class="hover:bg-slate-800/50 transition">
-            <td class="py-3 px-4 text-center text-slate-500 font-bold">${idx + 1}</td>
-            <td class="py-3 px-4 cursor-pointer" onclick="openModal(${student.roll})">
+            <td class="py-3 px-3 text-center text-slate-500 font-bold sticky left-0 bg-slate-900 z-10">${idx + 1}</td>
+            <td class="py-3 px-3 cursor-pointer sticky left-12 bg-slate-900 z-10 border-r border-slate-800/80" onclick="openModal(${student.roll})">
               <div class="font-mono font-black text-white text-base hover:text-indigo-300 tracking-tight">${student.roll}</div>
-              <div class="text-xs font-semibold text-slate-300 truncate max-w-[200px]">${student.name}</div>
+              <div class="text-xs font-semibold text-slate-300 truncate max-w-[130px] sm:max-w-[200px]">${student.name}</div>
             </td>
-            <td class="py-3 px-4 text-center">${sem1Text}</td>
-            <td class="py-3 px-4 text-center">${sem2Text}</td>
-            <td class="py-3 px-4 text-center">${sem3Text}</td>
-            <td class="py-3 px-4 text-center">${sem3Subs}</td>
-            <td class="py-3 px-4 text-center">${backlogs}</td>
-            <td class="py-3 px-4 text-center">${statusBadge}</td>
+            <td class="py-3 px-3 text-center">${sem1Text}</td>
+            <td class="py-3 px-3 text-center">${sem2Text}</td>
+            <td class="py-3 px-3 text-center">${sem3Text}</td>
+            <td class="py-3 px-3 text-center">${sem3Subs}</td>
+            <td class="py-3 px-3 text-center">${backlogs}</td>
+            <td class="py-3 px-3 text-center">${statusBadge}</td>
           </tr>
         `;
       }).join('');
@@ -2236,22 +2281,22 @@
       const content = document.getElementById('modalContent');
 
       let modalHtml = `
-        <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 flex items-center justify-between flex-wrap gap-2">
+        <div class="bg-slate-950 p-3.5 sm:p-4 rounded-xl border border-slate-800 flex items-center justify-between flex-wrap gap-2">
           <div>
             <div class="text-2xl font-black font-mono text-white tracking-tight">${student.roll}</div>
-            <div class="text-sm font-bold text-slate-300 mt-0.5">${student.name} • ৩য় সেমিস্টার ফলাফল</div>
+            <div class="text-xs sm:text-sm font-bold text-slate-300 mt-0.5">${student.name} • ৩য় সেমিস্টার ফলাফল</div>
           </div>
           <div>
             ${student.status === 'PASSED' 
-                ? `<span class="px-3 py-1 rounded-full text-xs font-bold bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">৩য় সেমিস্টার পাস (GPA ${student.sem3Gpa.toFixed(2)})</span>`
+                ? `<span class="px-2.5 sm:px-3 py-1 rounded-full text-xs font-bold bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">৩য় সেমিস্টার পাস (GPA ${student.sem3Gpa.toFixed(2)})</span>`
                 : student.isDropOut 
-                  ? `<span class="px-3 py-1 rounded-full text-xs font-black bg-rose-600 text-white">ড্রপ আউট (${student.sem3FailedCount} বিষয়ে রেফার্ড)</span>`
-                  : `<span class="px-3 py-1 rounded-full text-xs font-bold bg-amber-500/20 text-amber-300 border border-amber-500/30">৩য় সেমিস্টার রেফার্ড (${student.sem3FailedCount} বিষয়)</span>`
+                  ? `<span class="px-2.5 sm:px-3 py-1 rounded-full text-xs font-black bg-rose-600 text-white">ড্রপ আউট (${student.sem3FailedCount} বিষয়ে রেফার্ড)</span>`
+                  : `<span class="px-2.5 sm:px-3 py-1 rounded-full text-xs font-bold bg-amber-500/20 text-amber-300 border border-amber-500/30">৩য় সেমিস্টার রেফার্ড (${student.sem3FailedCount} বিষয়)</span>`
             }
           </div>
         </div>
 
-        <div class="border border-slate-800 rounded-xl p-4 bg-slate-950/50 space-y-3">
+        <div class="border border-slate-800 rounded-xl p-3.5 sm:p-4 bg-slate-950/50 space-y-3">
           <h4 class="text-xs font-bold uppercase tracking-wider text-indigo-400 flex items-center gap-1.5">
             <i data-lucide="book-open" class="w-4 h-4"></i> ৩য় সেমিস্টার পরীক্ষা বিবরণ
           </h4>
@@ -2262,11 +2307,11 @@
           ` : `
             <div class="space-y-1.5">
               <div class="text-xs font-semibold text-rose-300">৩য় সেমিস্টারে অকৃতকার্য বিষয়সমূহ (${student.sem3FailedCount} টি):</div>
-              <div class="space-y-1">
+              <div class="space-y-1.5">
                 ${student.sem3FailedSubjects.map(sub => `
-                  <div class="text-xs bg-slate-900 border border-slate-800 rounded-lg p-2 text-slate-300 flex items-center justify-between font-mono">
-                    <span class="text-indigo-300 font-bold">${sub.subCode}</span>
-                    <span class="text-slate-200 font-sans font-medium">${sub.subName}</span>
+                  <div class="text-xs bg-slate-900 border border-slate-800 rounded-lg p-2.5 text-slate-300 flex items-center gap-2">
+                    <span class="text-indigo-300 font-mono font-bold bg-indigo-950/60 border border-indigo-500/30 px-2 py-0.5 rounded shrink-0">${sub.subCode}</span>
+                    <span class="text-slate-200 font-sans font-medium text-xs leading-snug">${sub.subName}</span>
                   </div>
                 `).join('')}
               </div>
@@ -2276,14 +2321,14 @@
           ${student.backlogSubjects && student.backlogSubjects.length > 0 ? `
             <div class="mt-3 pt-3 border-t border-slate-800 space-y-1.5">
               <div class="text-xs font-semibold text-amber-300">পূর্ববর্তী সেমিস্টার ব্যাকলগ (${student.backlogSubjects.length} টি):</div>
-              <div class="space-y-1">
+              <div class="space-y-1.5">
                 ${student.backlogSubjects.map(sub => `
-                  <div class="text-xs bg-slate-900 border border-amber-500/20 rounded-lg p-2 text-slate-300 flex items-center justify-between font-mono">
-                    <div>
-                      <span class="text-amber-400 font-bold mr-2">${sub.subCode}</span>
-                      <span class="text-slate-300 font-sans">${sub.subName}</span>
+                  <div class="text-xs bg-slate-900 border border-amber-500/20 rounded-lg p-2.5 text-slate-300 flex items-center justify-between gap-2">
+                    <div class="flex items-center gap-2 min-w-0">
+                      <span class="text-amber-400 font-mono font-bold bg-amber-950/60 border border-amber-500/30 px-2 py-0.5 rounded shrink-0">${sub.subCode}</span>
+                      <span class="text-slate-200 font-sans truncate text-xs">${sub.subName}</span>
                     </div>
-                    <span class="text-[10px] text-slate-400 bg-slate-800 px-1.5 py-0.5 rounded font-sans">${sub.originSemester === 1 ? '১ম' : '২য়'} সেমিস্টার</span>
+                    <span class="text-[10px] text-slate-400 bg-slate-800 px-2 py-0.5 rounded font-sans shrink-0">${sub.originSemester === 1 ? '১ম' : '২য়'} সেম</span>
                   </div>
                 `).join('')}
               </div>
@@ -2334,6 +2379,19 @@
     });
     document.getElementById('historyModal').addEventListener('click', (e) => {
       if (e.target.id === 'historyModal') closeModal();
+    });
+
+    // Floating Scroll-to-Top Button Listener
+    window.addEventListener('scroll', () => {
+      const btn = document.getElementById('scrollTopBtn');
+      if (!btn) return;
+      if (window.scrollY > 300) {
+        btn.classList.remove('opacity-0', 'pointer-events-none');
+        btn.classList.add('opacity-100');
+      } else {
+        btn.classList.add('opacity-0', 'pointer-events-none');
+        btn.classList.remove('opacity-100');
+      }
     });
   </script>
 </body>

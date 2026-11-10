@@ -23,6 +23,15 @@
 - [x] Redesigned table view: Roll number emphasized on top with name underneath.
 - [x] Redesigned modal: Roll number prioritized as primary heading.
 
-### Phase 5: Deployment & Hosting (Done)
+### Phase 5: Mobile-First Responsive UI/UX Overhaul (Done)
+- [x] Fluid header navigation with compact responsive typography and touch targets.
+- [x] 2-column mobile KPI stats cards with non-wrapping metrics and tactile tap animation.
+- [x] Swipeable edge-to-edge filter chips carousel for mobile screens.
+- [x] Full-width mobile sorting selector.
+- [x] Mobile bottom-sheet drawer modal with pull-down handle and full-width touch button.
+- [x] Sticky table columns for Roll and Name during horizontal scroll on mobile.
+- [x] Floating Back-to-Top smooth scrolling button.
+
+### Phase 6: Deployment & Hosting (Done)
 - [x] Local server running on daemon: `http://localhost:3000`.
 - [x] GitHub repository synced & GitHub Pages built: `https://mhmahim.me/diploma-3rd-sem-result-portal/`.

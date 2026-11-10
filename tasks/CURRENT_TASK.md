@@ -1,29 +1,22 @@
-# Active Task: Diploma 3rd Semester Result Portal - Large Roll Placement & High Visual Hierarchy
+# Active Task: Diploma 3rd Semester Result Portal - Mobile-First Responsive UI/UX Overhaul
 
 ## Status
 - **Current Phase**: Completed & Deployed
-- **Active Task**: Large Roll Typography, Prominent Placement & Roster Verification
+- **Active Task**: Mobile Layout Architecture, Bottom Sheet Modal, Swipeable Filters, and Sticky Columns
 
 ## Live Checklist
-- [x] Process official 40-student class roster provided by user.
-- [x] Cross-reference against BTEB 3rd semester results:
-  - Exactly 27 students have active 3rd semester results.
-  - Excluded the 13 students without 3rd semester results and any rolls outside the user's class list.
-- [x] Associate official student names with each roll number.
-- [x] Set default sorting to Best Result first (Merit Order):
-  - 14 Passed students sorted by highest GPA (3.88 down to 2.88).
-  - 5 students with 1 subject referred.
-  - 3 students with 2 subjects referred.
-  - 2 students with 3 subjects referred.
-  - 3 students with Drop Out (>= 4 subjects in 3rd sem).
-- [x] Refactor Card Header Visual Hierarchy:
-  - Roll number is now large and bold (`text-2xl sm:text-3xl font-black font-mono text-white`) placed at the front.
-  - Merit rank badge sits directly adjacent to roll number.
-  - Student name is placed neatly underneath the roll number.
-  - Result badge (GPA / Referred / Drop Out) wraps cleanly on right side.
-- [x] Update Table View & Modal:
-  - Table view now prioritizes large mono roll number first, with name underneath.
-  - Detail modal prominently highlights large roll number in header and body.
-- [x] Commit and push changes to GitHub (`ac33f5c`).
-- [x] GitHub Pages build confirmed (`status: built`).
-- [x] Local daemon running on port 3000 (`http://localhost:3000`).
+- [x] Process official 40-student class roster & verify exact 27 students with 3rd semester results.
+- [x] Enlarge roll numbers to prominent display (`text-2xl sm:text-3xl font-black font-mono text-white`).
+- [x] Mobile UI/UX Overhaul:
+  - Header: Fluid height, compact icon & text, no overflow, touch-friendly view toggle icons.
+  - KPI Stat Cards: 2-column mobile grid with non-wrapping typography, tactile press animation (`active:scale-[0.98]`).
+  - Filter Chips: Swipeable edge-to-edge horizontal pill carousel on mobile (`no-scrollbar overflow-x-auto text-nowrap`).
+  - Search Input: Mobile keyboard friendly (`type="search" enterkeyhint="search"`).
+  - Student Cards: Responsive card header (Roll + Rank on top-left, Status on top-right, Name underneath).
+  - Table View: Sticky Column 1 (মেধা) and Column 2 (রোল ও নাম) for frictionless horizontal scrolling on mobile.
+  - History Modal: Native Mobile Bottom Sheet Drawer on mobile (`items-end`, `rounded-t-3xl`, pull bar, full-width close button).
+  - Floating Back-to-Top Button: Smooth scroll to top when scrolled > 300px.
+- [x] Verified JavaScript syntax with `node -e`.
+- [x] Committed & pushed changes to GitHub (`e5c002f`).
+- [x] GitHub Pages build confirmed.
+- [x] Local server running on port 3000 (`http://localhost:3000`).
